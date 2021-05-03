@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="myForm">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="idData"/>
+        <xs:element minOccurs="0" ref="objtype"/>
+        <xs:element ref="bisf00000016"/>
+        <xs:element ref="adrzs"/>
+        <xs:element minOccurs="0" ref="f00000053"/>
+        <xs:element minOccurs="0" ref="hnr"/>
+        <xs:element minOccurs="0" ref="f00000016"/>
+        <xs:element minOccurs="0" ref="f00000084"/>
+        <xs:element minOccurs="0" ref="f00000054"/>
+        <xs:element minOccurs="0" ref="otname"/>
+        <xs:element minOccurs="0" ref="bzrname"/>
+        <xs:element minOccurs="0" ref="otnr"/>
+        <xs:element minOccurs="0" ref="bzrnr"/>
+        <xs:element minOccurs="0" ref="strnr"/>
+        <xs:element minOccurs="0" ref="f00000035"/>
+        <xs:element minOccurs="0" ref="land"/>
+        <xs:element minOccurs="0" ref="etrs89_x"/>
+        <xs:element minOccurs="0" ref="etrs89_y"/>
+        <xs:element minOccurs="0" ref="rbs_valid"/>
+        <xs:element minOccurs="0" ref="bezirk_nummer"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="intelliform-attributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="idData" type="EIdPersonalDataType"/>
+  <xs:element name="objtype">
+    <xs:annotation>
+      <xs:documentation>Titel: objtype
+Beschriftung: Objekttyp
+</xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union>
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="*STRASSE*">
+              <xs:annotation>
+                <xs:documentation>*STRASSE*</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="AUTOBAHN">
+              <xs:annotation>
+                <xs:documentation>AUTOBAHN</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="AUTOBAHNABSCHNITT">
+              <xs:annotation>
+                <xs:documentation>AUTOBAHNABSCHNITT</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="BAHNHOF">
+              <xs:annotation>
+                <xs:documentation>BAHNHOF</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="BRUECKE">
+              <xs:annotation>
+                <xs:documentation>BRUECKE</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="BRUECKE_IN_PARK">
+              <xs:annotation>
+                <xs:documentation>BRUECKE_IN_PARK</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="FLUGHAFEN">
+              <xs:annotation>
+                <xs:documentation>FLUGHAFEN</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="FORST">
+              <xs:annotation>
+                <xs:documentation>FORST</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="FORSTAMT">
+              <xs:annotation>
+                <xs:documentation>FORSTAMT</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="FUSS-/RADWEG">
+              <xs:annotation>
+                <xs:documentation>FUSS-/RADWEG</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="FUSSGAENGERBRUECKE">
+              <xs:annotation>
+                <xs:documentation>FUSSGAENGERBRUECKE</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="GEWAESSER">
+              <xs:annotation>
+                <xs:documentation>GEWAESSER</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="GRUENANLAGE">
+              <xs:annotation>
+                <xs:documentation>GRUENANLAGE</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="HALBINSEL">
+              <xs:annotation>
+                <xs:documentation>HALBINSEL</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="INSEL">
+              <xs:annotation>
+                <xs:documentation>INSEL</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="KLEINGARTENANLAGE">
+              <xs:annotation>
+                <xs:documentation>KLEINGARTENANLAGE</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="OBJEKT">
+              <xs:annotation>
+                <xs:documentation>OBJEKT</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="OERTL.BEGRIFF">
+              <xs:annotation>
+                <xs:documentation>OERTL.BEGRIFF</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="PARK">
+              <xs:annotation>
+                <xs:documentation>PARK</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="PARKPLATZ">
+              <xs:annotation>
+                <xs:documentation>PARKPLATZ</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="PLATZ">
+              <xs:annotation>
+                <xs:documentation>PLATZ</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="PLATZ_IN_FORST">
+              <xs:annotation>
+                <xs:documentation>PLATZ_IN_FORST</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="PRIVATSTRASSE">
+              <xs:annotation>
+                <xs:documentation>PRIVATSTRASSE</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="SCHLEUSE">
+              <xs:annotation>
+                <xs:documentation>SCHLEUSE</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="SIEDLUNG">
+              <xs:annotation>
+                <xs:documentation>SIEDLUNG</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="SPORTSTAETTE">
+              <xs:annotation>
+                <xs:documentation>SPORTSTAETTE</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="STADTBAHNBOGEN">
+              <xs:annotation>
+                <xs:documentation>STADTBAHNBOGEN</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="STRASSE">
+              <xs:annotation>
+                <xs:documentation>STRASSE</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="STRASSE_IN_FORST">
+              <xs:annotation>
+                <xs:documentation>STRASSE_IN_FORST</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="STRASSE_IN_KGA">
+              <xs:annotation>
+                <xs:documentation>STRASSE_IN_KGA</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="STRASSE_IN_PARK">
+              <xs:annotation>
+                <xs:documentation>STRASSE_IN_PARK</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="TUNNEL">
+              <xs:annotation>
+                <xs:documentation>TUNNEL</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="VERWALTUNGSWEG">
+              <xs:annotation>
+                <xs:documentation>VERWALTUNGSWEG</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="WALDWEG">
+              <xs:annotation>
+                <xs:documentation>WALDWEG</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="WASSERWERK">
+              <xs:annotation>
+                <xs:documentation>WASSERWERK</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="WOHNSCHIFF">
+              <xs:annotation>
+                <xs:documentation>WOHNSCHIFF</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="ZUFAHRT">
+              <xs:annotation>
+                <xs:documentation>ZUFAHRT</xs:documentation>
+              </xs:annotation>
+            </xs:enumeration>
+          </xs:restriction>
+        </xs:simpleType>
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:length value="0"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="bisf00000016" type="assistants-text">
+    <xs:annotation>
+      <xs:documentation>Titel: tohnr
+Beschriftung: Hausnummer (bis)
+</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="adrzs" type="assistants-text">
+    <xs:annotation>
+      <xs:documentation>Titel: adrzs
+Beschriftung: weiterer Adresshinweis
+</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="f00000053" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>Titel: F00000053
+Beschriftung: F00000053:
+</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="hnr" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>Titel: hnr
+Beschriftung: hnr:
+</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="f00000016" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>Titel: F00000016
+Beschriftung: F00000016:
+</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="f00000084" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>Titel: F00000084
+Beschriftung: F00000084:
+</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="f00000054" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>Titel: F00000054
+Beschriftung: F00000054:
+</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="otname" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>Titel: otname
+Beschriftung: otname:
+</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="bzrname" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>Titel: bzrname
+Beschriftung: bzrname:
+</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="otnr" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>Titel: otnr
+Beschriftung: otnr:
+</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="bzrnr" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>Titel: bzrnr
+Beschriftung: bzrnr:
+</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="strnr" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>Titel: strnr
+Beschriftung: strnr:
+</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="f00000035" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>Titel: F00000035
+Beschriftung: F00000035:
+</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="land" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>Titel: land
+Beschriftung: land:
+</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="etrs89_x" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>Titel: etrs89_x
+Beschriftung: etrs89_x:
+</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="etrs89_y" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>Titel: etrs89_y
+Beschriftung: etrs89_y:
+</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="rbs_valid" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>Titel: rbs_valid
+Beschriftung: rbs_valid:
+</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="bezirk_nummer" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>Titel: bezirk_nummer
+Beschriftung: bezirk_nummer:
+</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:attributeGroup name="intelliform-attributes">
+    <xs:anyAttribute namespace="http://xmlns.cit.de/intelliform/transaction http://xmlns.cit.de/intelliform/user" processContents="skip"/>
+  </xs:attributeGroup>
+  <xs:simpleType name="assistants-boolean">
+    <xs:restriction base="xs:boolean">
+      <xs:pattern value="true|false"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="assistants-date">
+    <xs:restriction base="xs:date">
+      <xs:pattern value="[0-9]{4}-[0-9]{2}-[0-9]{2}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="assistants-number">
+    <xs:restriction base="xs:decimal"/>
+  </xs:simpleType>
+  <xs:simpleType name="assistants-currency">
+    <xs:restriction base="xs:decimal"/>
+  </xs:simpleType>
+  <xs:attributeGroup name="assistants-currency">
+    <xs:attribute name="currency" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:pattern value="[A-Z]{3}"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:simpleType name="assistants-number-unit">
+    <xs:restriction base="xs:decimal"/>
+  </xs:simpleType>
+  <xs:attributeGroup name="assistants-number-unit">
+    <xs:attribute name="unit" use="required"/>
+  </xs:attributeGroup>
+  <xs:simpleType name="assistants-text">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="file">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="id" use="required"/>
+          <xs:attribute name="length" type="xs:long"/>
+          <xs:attribute name="content-type"/>
+          <xs:attribute name="description"/>
+          <xs:attribute name="pdf-page-count" type="xs:nonNegativeInteger"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="optional-assistants-boolean">
+    <xs:union memberTypes="assistants-boolean empty-string"/>
+  </xs:simpleType>
+  <xs:simpleType name="optional-assistants-date">
+    <xs:union memberTypes="assistants-date empty-string"/>
+  </xs:simpleType>
+  <xs:simpleType name="optional-assistants-number">
+    <xs:union memberTypes="assistants-number empty-string"/>
+  </xs:simpleType>
+  <xs:simpleType name="optional-assistants-number-unit">
+    <xs:union memberTypes="xs:decimal empty-string"/>
+  </xs:simpleType>
+  <xs:attributeGroup name="optional-assistants-number-unit">
+    <xs:attribute name="unit" use="required"/>
+  </xs:attributeGroup>
+  <xs:simpleType name="optional-assistants-currency">
+    <xs:union memberTypes="xs:decimal empty-string"/>
+  </xs:simpleType>
+  <xs:attributeGroup name="optional-assistants-currency">
+    <xs:attribute name="currency" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:pattern value="[A-Z]{3}"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:simpleType name="optional-assistants-text">
+    <xs:restriction base="assistants-text"/>
+  </xs:simpleType>
+  <xs:group name="optional-assistants-file">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="file"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="optional-assistants-file-multi">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="file"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:simpleType name="empty-string">
+    <xs:restriction base="xs:string">
+      <xs:length value="0"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="EIdPersonalDataType">
+    <xs:sequence minOccurs="0">
+      <xs:element minOccurs="0" ref="AcademicTitle"/>
+      <xs:element minOccurs="0" ref="AgeVerificationResult"/>
+      <xs:element minOccurs="0" ref="ArtisticName"/>
+      <xs:element ref="AuthenticationType"/>
+      <xs:element minOccurs="0" ref="CommunityIdVerificationResult"/>
+      <xs:element minOccurs="0" ref="DateOfBirth"/>
+      <xs:element minOccurs="0" ref="DocumentType"/>
+      <xs:element minOccurs="0" ref="DocumentValidityReferenceDate"/>
+      <xs:element minOccurs="0" ref="DocumentValidityStatus"/>
+      <xs:element minOccurs="0" ref="FamilyNames"/>
+      <xs:element minOccurs="0" ref="BirthName"/>
+      <xs:element minOccurs="0" ref="GivenNames"/>
+      <xs:element minOccurs="0" ref="IssuingState"/>
+      <xs:element minOccurs="0" ref="PlaceOfBirth"/>
+      <xs:element minOccurs="0" ref="PlaceOfResidence"/>
+      <xs:element minOccurs="0" ref="RestrictedID"/>
+      <xs:element minOccurs="0" ref="TransactionAttachmentReference"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AcademicTitle" type="assistants-text"/>
+  <xs:element name="AgeVerificationResult">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="assistants-boolean">
+          <xs:attribute name="value" use="required" type="xs:positiveInteger"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ArtisticName" type="assistants-text"/>
+  <xs:element name="AuthenticationType" type="assistants-text"/>
+  <xs:element name="CommunityIdVerificationResult">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="assistants-boolean">
+          <xs:attribute name="value" use="required"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DateOfBirth" type="assistants-date"/>
+  <xs:element name="DocumentType" type="EIdDocumentType"/>
+  <xs:element name="DocumentValidityReferenceDate" type="assistants-date"/>
+  <xs:element name="DocumentValidityStatus" type="EIdDocumentValidityStatusType"/>
+  <xs:element name="FamilyNames" type="assistants-text"/>
+  <xs:element name="BirthName" type="assistants-text"/>
+  <xs:element name="GivenNames" type="assistants-text"/>
+  <xs:element name="IssuingState" type="EIdIcaoCountryType"/>
+  <xs:element name="PlaceOfBirth">
+    <xs:complexType>
+      <xs:choice>
+        <xs:element ref="FreetextPlace"/>
+        <xs:group ref="EIdPlaceType"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FreetextPlace" type="assistants-text"/>
+  <xs:element name="PlaceOfResidence">
+    <xs:complexType>
+      <xs:group ref="EIdPlaceType"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RestrictedID" type="EIdRestrictedIdType"/>
+  <xs:element name="TransactionAttachmentReference" type="assistants-text"/>
+  <xs:group name="EIdPlaceType">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="City"/>
+      <xs:element minOccurs="0" ref="Country"/>
+      <xs:element minOccurs="0" ref="State"/>
+      <xs:element minOccurs="0" ref="Street"/>
+      <xs:element minOccurs="0" ref="Street_Name"/>
+      <xs:element minOccurs="0" ref="Street_Number"/>
+      <xs:element minOccurs="0" ref="Street_NumberSuffix"/>
+      <xs:element minOccurs="0" ref="ZipCode"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:element name="City" type="assistants-text"/>
+  <xs:element name="Country" type="EIdIcaoCountryType"/>
+  <xs:element name="State" type="assistants-text"/>
+  <xs:element name="Street" type="assistants-text"/>
+  <xs:element name="Street_Name" type="assistants-text"/>
+  <xs:element name="Street_Number" type="assistants-text"/>
+  <xs:element name="Street_NumberSuffix" type="assistants-text"/>
+  <xs:element name="ZipCode" type="assistants-text"/>
+  <xs:simpleType name="EIdIcaoCountryType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z ]{1,3}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="EIdDocumentType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z ]{2}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="EIdRestrictedIdType">
+    <xs:restriction base="xs:hexBinary"/>
+  </xs:simpleType>
+  <xs:simpleType name="EIdDocumentValidityStatusType">
+    <xs:restriction base="xs:token">
+      <xs:enumeration value="EeIdValid"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

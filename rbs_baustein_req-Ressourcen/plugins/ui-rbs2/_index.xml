@@ -1,0 +1,11 @@
+<plugin name="ui-rbs2" requires="jquery"
+        xmlns="urn:intelliform:composer-plugin:2012"
+		xmlns:cit="http://www.cit.de/ns/jsp"
+        xmlns:h="http://www.w3.org/1999/xhtml">
+    <head>
+        <h:script type="text/javascript" src="ui-rbs2.js"/>
+        <h:script type="text/javascript" src="bsnrbs.AutoSuggest_2.1.3.js"/>
+		<cit:script fileEncoding="utf-8" href="/WEB-INF/include/js/rbs_baustein_req.js"/>
+		<cit:script fileEncoding="utf-8" href="/WEB-INF/include/js/rbs_bez.js"/>
+   </head>
+</plugin>

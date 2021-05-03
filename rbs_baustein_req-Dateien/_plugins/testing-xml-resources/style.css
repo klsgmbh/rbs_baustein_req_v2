@@ -1,0 +1,93 @@
+.xml {
+    font-family: Consolas, Courier New, Courier, monospace;
+    font-size: 16px;
+    color: black;
+}
+
+.xml .element, .xml .mixed {
+    margin-left: 1em;
+}
+
+.xml .mixed > .element {
+    margin: 0;
+}
+
+.xml .tag .name {
+    color: #0a1c8c;
+    font-weight: bold;
+}
+
+.xml .tag .name .prefix {
+    color: #808080;
+}
+
+.xml .attr .name {
+    color: #1b39f5;
+}
+
+.xml .attr .value {
+    color: #008f2a;
+}
+
+.panel {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white; /* fallback for browsers that don't support rgba */
+    background: rgba(255, 255, 255, 0.98);
+    overflow: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    z-index: 200000;
+}
+
+.panel .xml {
+    position: static;
+}
+
+.open-panel {
+    cursor: pointer;
+}
+
+.panel.open {
+    visibility: visible;
+}
+
+.panel .close {
+    position: fixed;
+    top: 1rem;
+    right: 2rem;
+    cursor: pointer;
+}
+
+.panel .copy {
+    position: fixed;
+    top: 1rem;
+    right: 2.8rem;
+    cursor: pointer;
+
+}
+
+body.no-scroll {
+    overflow: hidden; /* http://stackoverflow.com/a/9280412 */
+}
+
+#south .xml span {
+    font-size: 16px;
+    padding-right: 0;
+}
+
+#south #testing-xml-resources span {
+    padding-right: 0;
+}
+
+#content #testing-xml-resources {
+    font-size: 0.875em;
+    border-top: 1px solid #898e91;
+    margin-top: 16px;
+    padding-top: 8px;
+}

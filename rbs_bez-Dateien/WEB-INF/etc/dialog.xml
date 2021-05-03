@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dialog name="rbs_bez" generate-roadmap="true">
+  <options>
+    <option name="readyingSubforms">false</option>
+  </options>
+  <page name="Bezirk" path="bezirk" id="bezirk" model-src="Bezirk.858">
+    <title>Bezirk</title>
+    <resource id="bezirke" location="js:{myForm.transaction ? 'vfs:///root/intelliForm-Mandanten/default/Ressourcen/xml/rbs-bez-liste-xml.xml' : '/WEB-INF/data/rbs-bez-liste-xml.xml' }"/>
+    <field name="beznum" id="beznum" type="choice" required="true" aux="true" read-only="false" repeated="false" live="true">
+      <label>Bezirk</label>
+      <title>beznum</title>
+      <option value="">---wählen Sie einen Bezirk aus ---</option>
+      <options src="urn:xmlid:bezirke" xpath-select="/*/rbs:rbs-bez" xpath-text="rbs:bezname" xpath-value="@beznr">
+        <namespace prefix="rbs">https://fbinter.stadt-berlin.de/rbs</namespace>
+        <sort>rbs:bezname</sort>
+      </options>
+    </field>
+    <field name="otnum" id="otnum" type="choice" required="false" aux="true" read-only="false" repeated="false" live="true">
+      <label>Ortsteil</label>
+      <title>otnum</title>
+      <option value="">---wählen Sie einen Ortsteil aus ---</option>
+      <options src="urn:xmlid:bezirke" xpath-select="//rbs:rbs-bez[@beznr=$selectedBezirk]/rbs:rbs-ot" xpath-text="rbs:otname" xpath-value="@otnr">
+        <param name="selectedBezirk">myForm.beznum</param>
+        <namespace prefix="rbs">https://fbinter.stadt-berlin.de/rbs</namespace>
+        <sort>rbs:otname</sort>
+      </options>
+    </field>
+    <field name="selectdistrict" id="selectdistrict" type="computed" required="false" read-only="false" value-expression="selectDistrict()">
+      <label label-style="prefix">selectDistrict:</label>
+      <title>selectDistrict</title>
+    </field>
+  </page>
+</dialog>

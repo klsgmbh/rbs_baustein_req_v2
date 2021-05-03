@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rbs-bez-liste>
+  <rbs-bez beznr='01'>
+    <bezname>Mitte</bezname>
+    <rbs-ot otnr='0101'>
+      <otname>Mitte</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0102'>
+      <otname>Moabit</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0103'>
+      <otname>Hansaviertel</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0104'>
+      <otname>Tiergarten</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0105'>
+      <otname>Wedding</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0106'>
+      <otname>Gesundbrunnen</otname>
+    </rbs-ot>
+  </rbs-bez>
+  <rbs-bez beznr='02'>
+    <bezname>Friedrichshain-Kreuzberg</bezname>
+    <rbs-ot otnr='0201'>
+      <otname>Friedrichshain</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0202'>
+      <otname>Kreuzberg</otname>
+    </rbs-ot>
+  </rbs-bez>
+  <rbs-bez beznr='03'>
+    <bezname>Pankow</bezname>
+    <rbs-ot otnr='0301'>
+      <otname>Prenzlauer Berg</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0302'>
+      <otname>Weißensee</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0303'>
+      <otname>Blankenburg</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0304'>
+      <otname>Heinersdorf</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0305'>
+      <otname>Karow</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0306'>
+      <otname>Stadtrandsiedlung Malchow</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0307'>
+      <otname>Pankow</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0308'>
+      <otname>Blankenfelde</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0309'>
+      <otname>Buch</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0310'>
+      <otname>Französisch Buchholz</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0311'>
+      <otname>Niederschönhausen</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0312'>
+      <otname>Rosenthal</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0313'>
+      <otname>Wilhelmsruh</otname>
+    </rbs-ot>
+  </rbs-bez>
+  <rbs-bez beznr='04'>
+    <bezname>Charlottenburg-Wilmersdorf</bezname>
+    <rbs-ot otnr='0401'>
+      <otname>Charlottenburg</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0402'>
+      <otname>Wilmersdorf</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0403'>
+      <otname>Schmargendorf</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0404'>
+      <otname>Grunewald</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0405'>
+      <otname>Westend</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0406'>
+      <otname>Charlottenburg-Nord</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0407'>
+      <otname>Halensee</otname>
+    </rbs-ot>
+  </rbs-bez>
+  <rbs-bez beznr='05'>
+    <bezname>Spandau</bezname>
+    <rbs-ot otnr='0501'>
+      <otname>Spandau</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0502'>
+      <otname>Haselhorst</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0503'>
+      <otname>Siemensstadt</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0504'>
+      <otname>Staaken</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0505'>
+      <otname>Gatow</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0506'>
+      <otname>Kladow</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0507'>
+      <otname>Hakenfelde</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0508'>
+      <otname>Falkenhagener Feld</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0509'>
+      <otname>Wilhelmstadt</otname>
+    </rbs-ot>
+  </rbs-bez>
+  <rbs-bez beznr='06'>
+    <bezname>Steglitz-Zehlendorf</bezname>
+    <rbs-ot otnr='0601'>
+      <otname>Steglitz</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0602'>
+      <otname>Lichterfelde</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0603'>
+      <otname>Lankwitz</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0604'>
+      <otname>Zehlendorf</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0605'>
+      <otname>Dahlem</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0606'>
+      <otname>Nikolassee</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0607'>
+      <otname>Wannsee</otname>
+    </rbs-ot>
+  </rbs-bez>
+  <rbs-bez beznr='07'>
+    <bezname>Tempelhof-Schöneberg</bezname>
+    <rbs-ot otnr='0701'>
+      <otname>Schöneberg</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0702'>
+      <otname>Friedenau</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0703'>
+      <otname>Tempelhof</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0704'>
+      <otname>Mariendorf</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0705'>
+      <otname>Marienfelde</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0706'>
+      <otname>Lichtenrade</otname>
+    </rbs-ot>
+  </rbs-bez>
+  <rbs-bez beznr='08'>
+    <bezname>Neukölln</bezname>
+    <rbs-ot otnr='0801'>
+      <otname>Neukölln</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0802'>
+      <otname>Britz</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0803'>
+      <otname>Buckow</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0804'>
+      <otname>Rudow</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0805'>
+      <otname>Gropiusstadt</otname>
+    </rbs-ot>
+  </rbs-bez>
+  <rbs-bez beznr='09'>
+    <bezname>Treptow-Köpenick</bezname>
+    <rbs-ot otnr='0901'>
+      <otname>Alt-Treptow</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0902'>
+      <otname>Plänterwald</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0903'>
+      <otname>Baumschulenweg</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0904'>
+      <otname>Johannisthal</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0905'>
+      <otname>Niederschöneweide</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0906'>
+      <otname>Altglienicke</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0907'>
+      <otname>Adlershof</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0908'>
+      <otname>Bohnsdorf</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0909'>
+      <otname>Oberschöneweide</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0910'>
+      <otname>Köpenick</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0911'>
+      <otname>Friedrichshagen</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0912'>
+      <otname>Rahnsdorf</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0913'>
+      <otname>Grünau</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0914'>
+      <otname>Müggelheim</otname>
+    </rbs-ot>
+    <rbs-ot otnr='0915'>
+      <otname>Schmöckwitz</otname>
+    </rbs-ot>
+  </rbs-bez>
+  <rbs-bez beznr='10'>
+    <bezname>Marzahn-Hellersdorf</bezname>
+    <rbs-ot otnr='1001'>
+      <otname>Marzahn</otname>
+    </rbs-ot>
+    <rbs-ot otnr='1002'>
+      <otname>Biesdorf</otname>
+    </rbs-ot>
+    <rbs-ot otnr='1003'>
+      <otname>Kaulsdorf</otname>
+    </rbs-ot>
+    <rbs-ot otnr='1004'>
+      <otname>Mahlsdorf</otname>
+    </rbs-ot>
+    <rbs-ot otnr='1005'>
+      <otname>Hellersdorf</otname>
+    </rbs-ot>
+  </rbs-bez>
+  <rbs-bez beznr='11'>
+    <bezname>Lichtenberg</bezname>
+    <rbs-ot otnr='1101'>
+      <otname>Friedrichsfelde</otname>
+    </rbs-ot>
+    <rbs-ot otnr='1102'>
+      <otname>Karlshorst</otname>
+    </rbs-ot>
+    <rbs-ot otnr='1103'>
+      <otname>Lichtenberg</otname>
+    </rbs-ot>
+    <rbs-ot otnr='1104'>
+      <otname>Falkenberg</otname>
+    </rbs-ot>
+    <rbs-ot otnr='1106'>
+      <otname>Malchow</otname>
+    </rbs-ot>
+    <rbs-ot otnr='1107'>
+      <otname>Wartenberg</otname>
+    </rbs-ot>
+    <rbs-ot otnr='1109'>
+      <otname>Neu-Hohenschönhausen</otname>
+    </rbs-ot>
+    <rbs-ot otnr='1110'>
+      <otname>Alt-Hohenschönhausen</otname>
+    </rbs-ot>
+    <rbs-ot otnr='1111'>
+      <otname>Fennpfuhl</otname>
+    </rbs-ot>
+    <rbs-ot otnr='1112'>
+      <otname>Rummelsburg</otname>
+    </rbs-ot>
+  </rbs-bez>
+  <rbs-bez beznr='12'>
+    <bezname>Reinickendorf</bezname>
+    <rbs-ot otnr='1201'>
+      <otname>Reinickendorf</otname>
+    </rbs-ot>
+    <rbs-ot otnr='1202'>
+      <otname>Tegel</otname>
+    </rbs-ot>
+    <rbs-ot otnr='1203'>
+      <otname>Konradshöhe</otname>
+    </rbs-ot>
+    <rbs-ot otnr='1204'>
+      <otname>Heiligensee</otname>
+    </rbs-ot>
+    <rbs-ot otnr='1205'>
+      <otname>Frohnau</otname>
+    </rbs-ot>
+    <rbs-ot otnr='1206'>
+      <otname>Hermsdorf</otname>
+    </rbs-ot>
+    <rbs-ot otnr='1207'>
+      <otname>Waidmannslust</otname>
+    </rbs-ot>
+    <rbs-ot otnr='1208'>
+      <otname>Lübars</otname>
+    </rbs-ot>
+    <rbs-ot otnr='1209'>
+      <otname>Wittenau</otname>
+    </rbs-ot>
+    <rbs-ot otnr='1210'>
+      <otname>Märkisches Viertel</otname>
+    </rbs-ot>
+    <rbs-ot otnr='1211'>
+      <otname>Borsigwalde</otname>
+    </rbs-ot>
+  </rbs-bez>
+</rbs-bez-liste>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dialog name="rbs_baustein_req" generate-roadmap="true">
+  <options>
+    <option name="readyingSubforms">false</option>
+    <option name="scriptEngine">rhino</option>
+  </options>
+  <page name="rbs" path="rbs" id="rbs" model-src="rbs.851" style-class="rbs">
+    <title>rbs</title>
+    <resource id="C00000009" location="js:{myForm.transaction ? 'vfs:///root/intelliForm-Mandanten/default/Ressourcen/xml/staat_2019-04-01.xml' : '/WEB-INF/data/staat_2019-04-01.xml' }" range="CONTEXT"/>
+    <resource id="rbsurl" location="js:{myForm.transaction ? 'vfs:///root/intelliForm-Mandanten/default/Ressourcen/xml/rbs_url.xml' : '/WEB-INF/data/rbs_url.xml' }" range="CONTEXT"/>
+    <field name="onlyberlin" id="onlyberlin" type="text" required="false" aux="true" read-only="false" style-class="2_hide" default-value-expression="onlyBerlin()">
+      <label label-style="prefix">onlyberlin:</label>
+      <title>onlyberlin</title>
+    </field>
+    <field name="urlrbsdata" id="urlrbsdata" type="text" required="false" aux="true" read-only="false" style-class="2_hide" default-value-expression="geturlrbsdata()">
+      <label label-style="prefix">urlrbsdata:</label>
+      <title>urlrbsdata</title>
+    </field>
+    <field name="urlrbsstrliste" id="urlrbsstrliste" type="text" required="false" aux="true" read-only="false" style-class="2_hide" default-value-expression="geturlrbsstrliste()">
+      <label label-style="prefix">urlrbsstrliste:</label>
+      <title>urlrbsstrliste</title>
+    </field>
+    <field name="objtype" id="objtype" type="choice" required="false" read-only="false" repeated="false" style-class="2_hide" control-style="combobox" default-value="'*STRASSE*" live="true">
+      <label>Objekttyp</label>
+      <title>objtype</title>
+      <option>*STRASSE*</option>
+      <option>AUTOBAHN</option>
+      <option>AUTOBAHNABSCHNITT</option>
+      <option>BAHNHOF</option>
+      <option>BRUECKE</option>
+      <option>BRUECKE_IN_PARK</option>
+      <option>FLUGHAFEN</option>
+      <option>FORST</option>
+      <option>FORSTAMT</option>
+      <option>FUSS-/RADWEG</option>
+      <option>FUSSGAENGERBRUECKE</option>
+      <option>GEWAESSER</option>
+      <option>GRUENANLAGE</option>
+      <option>HALBINSEL</option>
+      <option>INSEL</option>
+      <option>KLEINGARTENANLAGE</option>
+      <option>OBJEKT</option>
+      <option>OERTL.BEGRIFF</option>
+      <option>PARK</option>
+      <option>PARKPLATZ</option>
+      <option>PLATZ</option>
+      <option>PLATZ_IN_FORST</option>
+      <option>PRIVATSTRASSE</option>
+      <option>SCHLEUSE</option>
+      <option>SIEDLUNG</option>
+      <option>SPORTSTAETTE</option>
+      <option>STADTBAHNBOGEN</option>
+      <option>STRASSE</option>
+      <option>STRASSE_IN_FORST</option>
+      <option>STRASSE_IN_KGA</option>
+      <option>STRASSE_IN_PARK</option>
+      <option>TUNNEL</option>
+      <option>VERWALTUNGSWEG</option>
+      <option>WALDWEG</option>
+      <option>WASSERWERK</option>
+      <option>WOHNSCHIFF</option>
+      <option>ZUFAHRT</option>
+    </field>
+    <field name="F00000053h" id="f00000053h" type="text" required="true" aux="true" read-only="false">
+      <label label-style="prefix">Straße</label>
+      <title>strname</title>
+    </field>
+    <field name="hnrh" id="hnrh" type="text" required="false" aux="true" read-only="false" validation-expression="(/^\s*$/.test(value))||(myForm.objtype.includes(&quot;STRASSE&quot;) == true &amp;&amp; value.length == 0 ? false : true)" style-class="width-xs">
+      <label label-style="prefix">Hausnummer</label>
+      <title>hnrh</title>
+      <validation-message>Bitte wählen Sie eine Hausnummer aus!</validation-message>
+    </field>
+    <field name="F00000016h" id="f00000016h" type="text" required="false" aux="true" read-only="false" style-class="2_hide">
+      <label label-style="prefix">hausnr:</label>
+      <title>hausnr</title>
+    </field>
+    <field name="F00000084h" id="f00000084h" type="text" required="false" aux="true" read-only="false" style-class="2_hide">
+      <label label-style="prefix">hausnrz:</label>
+      <title>hausnrz</title>
+    </field>
+    <field name="bisf00000016" id="bisf00000016" type="text" required="false" read-only="false" style-class="width-xs">
+      <label label-style="prefix">Hausnummer (bis)</label>
+      <title>tohnr</title>
+    </field>
+    <field name="adrzs" id="adrzs" type="text" required="false" read-only="false">
+      <label label-style="prefix">weiterer Adresshinweis</label>
+      <title>adrzs</title>
+      <outro><![CDATA[<p><abbr title="zum Beispiel">z. B.</abbr> Hinterhof</p>]]></outro>
+    </field>
+    <field name="F00000054h" id="f00000054h" type="text" required="true" aux="true" read-only="false" style-class="width-xs">
+      <label label-style="prefix">Postleitzahl</label>
+      <title>plz</title>
+    </field>
+    <field name="otnameh" id="otnameh" type="text" required="false" aux="true" read-only="false" style-class="2_hide">
+      <label label-style="prefix">Ortsteil</label>
+      <title>otnameh</title>
+    </field>
+    <field name="bzrnameh" id="bzrnameh" type="text" required="false" aux="true" read-only="false" style-class="2_hide">
+      <label label-style="prefix">Bezirk</label>
+      <title>bzrnameh</title>
+    </field>
+    <field name="otnrh" id="otnrh" type="text" required="false" aux="true" read-only="false" style-class="2_hide">
+      <label label-style="prefix">otnrh:</label>
+      <title>otnrh</title>
+    </field>
+    <field name="beznrh" id="beznrh" type="text" required="false" aux="true" read-only="false" style-class="2_hide">
+      <label label-style="question">beznrh:</label>
+      <title>beznrh</title>
+    </field>
+    <field name="strnrh" id="strnrh" type="text" required="false" aux="true" read-only="false" style-class="2_hide">
+      <label label-style="question">strnrh:</label>
+      <title>strnrh</title>
+    </field>
+    <field name="F00000035h" id="f00000035h" type="text" required="true" aux="true" read-only="false" default-value-expression="'Berlin'">
+      <label label-style="prefix">Ort</label>
+      <title>Ort</title>
+    </field>
+    <field name="landh" id="landh" type="choice" required="false" aux="true" read-only="false" repeated="false" style-class="2_ro 2_hide_eid" default-value-expression="'000'">
+      <label label-style="prefix">Land</label>
+      <title>land</title>
+      <option value="">---bitte auswählen---</option>
+      <options src="urn:xmlid:C00000009" xpath-select="/*/SimpleCodeList/Row" xpath-text="Value[@ColumnRef=&quot;Staatsname_kurz&quot;]/SimpleValue" xpath-value="Value[@ColumnRef=&quot;DESTATIS_Schluessel_Staat&quot;]/SimpleValue"/>
+    </field>
+    <field name="etrs89_xh" id="etrs89_xh" type="text" required="false" aux="true" read-only="false" style-class="2_hide">
+      <label label-style="prefix">etrs89_xh:</label>
+      <title>etrs89_xh</title>
+    </field>
+    <field name="etrs89_yh" id="etrs89_yh" type="text" required="false" aux="true" read-only="false" style-class="2_hide">
+      <label label-style="prefix">etrs89_yh:</label>
+      <title>etrs89_yh</title>
+    </field>
+    <field name="f00000053" id="f00000053" type="computed" required="false" read-only="false" value-expression="myForm.F00000053h">
+      <label label-style="prefix">F00000053:</label>
+      <title>F00000053</title>
+    </field>
+    <field name="hnr" id="hnr" type="computed" required="false" read-only="false" value-expression="myForm.hnrh">
+      <label label-style="prefix">hnr:</label>
+      <title>hnr</title>
+    </field>
+    <field name="f00000016" id="f00000016" type="computed" required="false" read-only="false" value-expression="myForm.F00000016h">
+      <label label-style="prefix">F00000016:</label>
+      <title>F00000016</title>
+    </field>
+    <field name="f00000084" id="f00000084" type="computed" required="false" read-only="false" value-expression="myForm.F00000084h">
+      <label label-style="prefix">F00000084:</label>
+      <title>F00000084</title>
+    </field>
+    <field name="f00000054" id="f00000054" type="computed" required="false" read-only="false" value-expression="myForm.F00000054h">
+      <label label-style="prefix">F00000054:</label>
+      <title>F00000054</title>
+    </field>
+    <field name="otname" id="otname" type="computed" required="false" read-only="false" value-expression="myForm.otnameh">
+      <label label-style="prefix">otname:</label>
+      <title>otname</title>
+    </field>
+    <field name="bzrname" id="bzrname" type="computed" required="false" read-only="false" value-expression="myForm.bzrname">
+      <label label-style="prefix">bzrname:</label>
+      <title>bzrname</title>
+    </field>
+    <field name="otnr" id="otnr" type="computed" required="false" read-only="false" value-expression="myForm.otnrh">
+      <label label-style="prefix">otnr:</label>
+      <title>otnr</title>
+    </field>
+    <field name="bzrnr" id="bzrnr" type="computed" required="false" read-only="false" value-expression="myForm.beznrh">
+      <label label-style="prefix">bzrnr:</label>
+      <title>bzrnr</title>
+    </field>
+    <field name="strnr" id="strnr" type="computed" required="false" read-only="false" value-expression="myForm.strnrh">
+      <label label-style="prefix">strnr:</label>
+      <title>strnr</title>
+    </field>
+    <field name="f00000035" id="f00000035" type="computed" required="false" read-only="false" value-expression="myForm.F00000035h">
+      <label label-style="prefix">F00000035:</label>
+      <title>F00000035</title>
+    </field>
+    <field name="land" id="land" type="computed" required="false" read-only="false" value-expression="myForm.landh">
+      <label label-style="prefix">land:</label>
+      <title>land</title>
+    </field>
+    <field name="etrs89_x" id="etrs89_x" type="computed" required="false" read-only="false" value-expression="myForm.etrs89_xh">
+      <label label-style="prefix">etrs89_x:</label>
+      <title>etrs89_x</title>
+    </field>
+    <field name="etrs89_y" id="etrs89_y" type="computed" required="false" read-only="false" value-expression="myForm.etrs89_yh">
+      <label label-style="prefix">etrs89_y:</label>
+      <title>etrs89_y</title>
+    </field>
+    <field name="rbs_valid" id="rbs_valid" type="computed" required="false" read-only="false" value-expression="validateAddress()">
+      <label label-style="prefix">rbs_valid:</label>
+      <title>rbs_valid</title>
+    </field>
+    <field name="bezirk_nummer" id="bezirk_nummer" type="computed" required="false" read-only="false" value-expression="myForm.bzrnr">
+      <label label-style="prefix">bezirk_nummer:</label>
+      <title>bezirk_nummer</title>
+    </field>
+  </page>
+</dialog>

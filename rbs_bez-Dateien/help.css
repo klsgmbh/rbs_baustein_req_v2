@@ -1,0 +1,68 @@
+/* $Id: help.css 17450 2009-03-24 16:31:37Z jschwarze $ */
+/* TODO: Seitenbreite begrenzen */
+
+body {
+    font-family: "Lucida Grande", Calibri, Arial, sans-serif;
+    font-size: 12pt;
+}
+
+h1, h2 {
+    font-family: Cambria, Times New Roman, serif;
+    color: #365f91;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 120%;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 100%;
+}
+
+#_main {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+div.field-block {
+    margin-left: -7px;
+    padding: 7px;
+    border: 1px solid white;
+}
+
+div.field-block:target {
+    border: 1px solid #afe41b;
+    background-color: #dfff86;
+}
+
+.footer {
+    border-top: 1px solid #365f91;
+    padding-top: 1ex;
+    font-size: 80%;
+}
+
+#_print {
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding: 3px;
+    background: white;
+    border: 1px solid #eee;
+}
+
+#_print a:link, #_print a:visited {
+    color: blue;
+}
+
+@media print {
+  #_print { display: none; }
+  div.field-block:target {
+    border: 1px solid white;
+    background-color: white;
+  }
+}

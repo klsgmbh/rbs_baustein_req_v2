@@ -1,0 +1,521 @@
+/*
+------------------------------------
+Default CSS for cit intelliForm Server
+Copyright cit GmbH (www.cit.de)
+Filename: default.css
+RCSID: $Id: default.css 34640 2016-02-23 14:34:15Z jschwarze $
+------------------------------------
+*/
+
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 100.01%;
+    font-family: Tahoma, Lucida Sans Unicode, Lucida Sans, Lucida, sans-serif;
+    height: 100.01%; /* vertical Scrollbar */
+}
+
+body {
+    font-size: 0.625em; /* approx. 10px */
+    font-family: Tahoma, Lucida Sans Unicode, Lucida Sans, Lucida, sans-serif;
+    color: #000000;
+}
+
+input, select, textarea {
+    font-family: Tahoma, Lucida Sans Unicode, Lucida Sans, Lucida, sans-serif;
+    font-size: inherit;
+}
+
+th, td {
+    padding: 0.25em;
+    font-size: 100%;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
+h3 {
+    font-size: 1em;
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+}
+
+a {
+    color: #002974;
+    font-weight: bold;
+}
+
+fieldset {
+    border: solid #F5F5F5;
+    padding-top: 10px;
+    margin: 5px 0 0;
+
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 20px;
+}
+
+fieldset > p {
+    margin-left: 3px;
+}
+
+* html fieldset p {
+    margin-left: 10px;
+}
+
+* html legend, *+html legend {
+/*<=IE6, IE7*/
+    margin-bottom: 10px;
+}
+
+abbr {
+    border-bottom: 0;
+}
+
+label, .label {
+    width: 15em;
+    float: left;
+}
+
+.calendar .label {
+    width: auto;
+    float: none;
+}
+
+* html label {
+    padding-top: 0.3em;
+}
+
+.short-label {
+    width: auto;
+    padding-right: 5px;
+}
+
+#wizard-body  .pseudoLabel label {
+    float: none;
+    width: auto;
+    display: inline;
+}
+
+.pseudoLabel input {
+    vertical-align: text-top;
+}
+
+* .pseudoLabel input {
+    vertical-align: middle;
+}
+
+#wizard-body .choice-inline label, input {
+    width: auto;
+    float: none;
+}
+
+input.input-huge {
+    width: 25em;
+}
+
+select.input-huge {
+    width: 25.4em;
+}
+
+* html input.input-huge, * html select.input-huge {
+    width: 23em;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+/**
+	Hauptbereich
+**/
+#main, #south, #north {
+    border-left: 1px solid #CDCDCD;
+    border-right: 1px solid #CDCDCD;
+}
+
+#north {
+    border-top: 1px solid #CDCDCD;
+}
+
+#wizard {
+    font-size: 1.2em;
+    border-right: 2px dotted #CDCDCD;
+    padding-left: 10px;
+}
+
+#wizard-body {
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+#wizard-body p {
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+#wizard-body legend {
+    font-weight: bold;
+    color: #000000;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: normal;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.block {
+    border: 1px solid #CDCDCD;
+    background-color: #F5F5F5;
+    padding: 5px 5px;
+    margin-bottom: 5px;
+}
+
+/*
+    Titelzeile
+*/
+#logo {
+    text-align: right;
+}
+
+#formName {
+    background-color: #F5F5F5;
+    padding: 5px 0 5px 10px;
+}
+
+#formName h1 {
+    text-align: left;
+    font-size: 1.5em;
+    font-family: Tahoma, Lucida Sans Unicode, Lucida Sans, Lucida, sans-serif;
+    padding: 0;
+}
+
+#formName-big h1 {
+    text-align: right;
+    color: black;
+    font-size: 70%;
+    font-family: Tahoma, Lucida Sans Unicode, Lucida Sans, Lucida, sans-serif;
+    padding: 0;
+}
+
+#customer-logo {
+    display: none;
+}
+
+/**
+    Button-Leiste
+**/
+
+#wizard-buttons-right input, #wizard-buttons-left input {
+    font-size: 1.1em;
+}
+
+#wizard-buttons-right input {
+    margin-left: 5px;
+}
+
+/**
+    Marginalspalte
+**/
+
+#east div {
+    font-size: 1.2em;
+}
+
+.box h3 {
+    margin-top: 0.2em;
+    margin-bottom: 0.1em;
+}
+
+.box p {
+    margin: 0;
+}
+
+.box {
+    border-top: 10px solid #F5F5F5;
+    margin-top: 1em;
+    padding-top: 8px;
+}
+
+.box img {
+    margin-right: 2px;
+}
+
+/**
+	Fusszeile
+**/
+
+#south {
+    padding-top: 10px;
+}
+
+.footer {
+    margin: 0;
+    padding: 2px 2px 2px 10px;
+    font-size: 1.2em;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #CDCDCD;
+}
+
+#south span, #south-big span {
+    font-size: 0.9em;
+    padding-right: 1ex;
+}
+
+/**
+    Validierung
+**/
+
+.errorBlock, p.invalidInfo {
+    border: 1px solid #CC0000;
+    background-color: #FFCCCC;
+    padding: 5px 5px;
+    margin-bottom: 5px;
+}
+
+p.verifyInfo {
+    border: 1px solid #00CC00;
+    background-color: #CCFFCC;
+    padding: 5px 5px;
+    margin-bottom: 5px;
+}
+.invalidInfo img {
+    vertical-align: middle;
+}
+
+.required img {
+    vertical-align: middle;
+    padding-bottom: 4px;
+}
+
+.required {
+    font-weight: bold;
+}
+
+label.invalid {
+    color: #FF3333;
+}
+
+input.invalid, select.invalid, textarea.invalid {
+    background-color: #BFBFBF;
+    border: 1px solid #FF3333;
+}
+
+p.invalidInfo {
+    padding: 2px;
+    font-size: 100%;
+}
+
+p.invalidInfo img {
+    vertical-align: middle;
+}
+
+.invalid-field-text {
+    color: #FF3333;
+}
+
+.invalid-field-mark {
+    display: none;
+}
+
+.x-assistants-nowrap input.invalid {
+    margin-left: 15em;
+}
+
+.pseudoLabel .x-assistants-nowrap input.invalid {
+    margin-left: 0;
+}
+
+* html .x-assistants-nowrap input.invalid {
+    margin-left: 15.25em;
+}
+
+.errorText {
+    display: block;
+    clear: both;
+    margin-bottom: 1ex;
+    font-weight: bold;
+    color: red;
+}
+
+/**
+    Tabellen
+**/
+
+#wizard-body table, #wizard-body table input {
+    font-size: 1em;
+}
+
+table .x-assistants-nowrap input.invalid {
+    margin-left: 0;
+}
+
+#wizard-body table label, #wizard-body table .label {
+    width: auto;
+    float: none;
+    padding-top: 0.1em;
+}
+
+/**
+    Buttons als Link
+**/
+
+.button-link {
+    border: 0;
+    color: #002974;
+    font-weight: normal;
+    background-color: #FFFFFF;
+    overflow: visible;
+    padding: 0;
+}
+
+/**
+    Versteckter zusätzlicher Text
+**/
+.hidden {
+    position: absolute;
+    left: -1000px;
+    top: -1000px;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    display: inline;
+    font-size: 1px;
+}
+
+/**
+    Kalender Auswahl Dialog
+**/
+
+div.calendar, div.calendar table {
+    font-size: 120%;
+}
+
+/**
+    Rollenbeschreibung Benutzerdialog
+**/
+#wizard-body p.role-description {
+    margin-top: 10px;
+}
+
+/*
+ *	Dialogverlauf
+ */
+
+/* Mit allen Ebenen */
+
+.roadmap ul {
+    padding: 0;
+}
+
+.roadmap li {
+    list-style-type: none;
+    padding: 0;
+}
+
+.roadmap li.past, .roadmap li.present-perfect {
+    color: green;
+}
+
+.roadmap li.present {
+    color: green;
+}
+
+.roadmap li.future {
+    color: #242E8D;
+}
+
+.roadmap ul.collapsed {
+    display: none;
+}
+
+/*
+ * Automatische Symbole in der Roadmap
+ */
+
+.roadmap .indicator {
+    display: block;
+    float: left;
+}
+
+.roadmap .item {
+    display: inline !important;
+    float: none !important;
+    width: 135px;
+    padding-left: 5px;
+}
+
+.roadmap .go-button {
+}
+
+.roadmap p {
+    clear: both;
+}
+
+.roadmap .indicator-closed {
+    display: none;
+}
+
+/* Roadmap 2013 */
+
+.roadmap-2013 ul.collapsed {
+    display: none;
+}
+
+.roadmap-2013 li.present ul {
+    display: none;
+}
+
+.roadmap-2013 li.unvisited .item {
+    font-weight: bold;
+}
+
+.roadmap-2013 span.clickable {
+    cursor: pointer;
+}
+
+.roadmap-2013 span.clickable:hover { /* in IE9, :hover works for A elements only / could work with <meta http-equiv="X-UA-Compatible" content="IE=9"> :( */
+    text-decoration: underline;
+}
+
+.roadmap-2030 ul { /* reset old ul settings from before */
+    margin-left: 0;
+    padding-left: 40px; /* default in most browsers */
+}
+.action-overlay {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #fff;
+    opacity: 0.7;
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=70)';
+    filter: alpha(opacity = 70);
+    z-index: 200000;
+    height: 100%;
+}
+
+div#spinner {
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: url("/intelliform/icons/spinner.gif") center center no-repeat;
+}
+
+img#progress-image {
+    position: absolute; bottom: 0; top: 0; right: 0; left: 0; margin: auto;
+}
+

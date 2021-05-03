@@ -1,0 +1,1238 @@
+<ObjectBase MaxID="905" ShowDiagrams="True" ShowGenericDiagrams="True" EditDiagramType="True" ShowObjects="True" EditObjects="True" ShowRelations="True" EditRelations="True" TimeSaved="26.04.2021 15:36:07" GUILanguage="German" PWD="" ShowAttributes="True" EditAttributes="True" ShowDatatypes="True" EditDatatypes="True" ShowMethods="True" ShowStates="True" Version="4.3.0.4385 (5000)" notstr="NOT " isstr="" Template="cit_intelliForm_dialog.vst" BPMNMode="1" currentnsp="German" SLUses="uses hum.resource" SLUsesPhys="uses phys.resource" SLProc="" SLResource="" SLPhysResource="PhysResource" SLPerson="Person" SLActivity="" SLSystem="" SLRoot="" SLControl="" SLInfoType="" SLSeqType="Sequence Flow" SLInvUses="" STTriggers="triggers" STTriggeredBy="triggeredBy" STContains="contains" SLBelongsTo="" SLEntryPoint="EntryPoint" SLIntEntryPoint="InternalEntryPoint" SLExitPoint="ExitPoint" SLIntExitPoint="InternalExitPoint" SLBuffer="Buffer" SLStores="store to" SLReads="read from" SLOrgUnit="OrgUnit" SLPosition="Position" SLInformation="Information" forder="0" vsd="E:\KLSAG\BDA\Bausteine\rbs_baustein_req_v2\rbs_bez.vsdx" CheckSaveXML="True" SLDecision="Decision" SLEvent="Event" menuspec="C:\ProgramData\SemTalk\menu_citIntelliform.xml" BreakStr="" ValueTypes="" RefreshExtObOnStart="False" OpenStencils="" ShowTransactions="0" ShowRefinements="True" UnderlineAttachments="0" ShowPaperClip="1" UpdateDir="" XMLFiles="" SharepointSite="" SharepointDataRecordSet="" SharepointListname="/Docs/Documents" SharepointListid="" SharepointDocListName="" SharepointMetaname="Topic" DispForm="DispForm.aspx?ID=" USEBPMN="1" xsd="0" xsddepth="0" HTMLDir="" isSwimlanePosVariable="True" SwimlanePosLeftMargin="6" SwimlanePosTopMargin="19" SwimlaneHeight="168" SwimlaneWidth="43" isSwimlaneHeightVariable="True" DispFormCaption="Sharepoint" VisioVersion="16,0" SharepointGoodlist="Docs;vdw" SharepointBadlist="HTML;XML" externDef="" bottomuprelations="" SyncAll="" externalfile="" SPMapping="C:\Program Files (x86)\Semtation GmbH\SemTalk4\sharepointmapping.xml" bReadMetaData="" bWriteMetaData="" SPAttr="" UnderlineRefinements="" ShowDiagramContent="True" ignoreorder="">
+  <SystemRelation name="definitionOf" created="07.01.2009 15:15:06" createdBy=" Jochen Schwarze" changed="07.01.2009 15:15:06" changedBy=" Jochen&#xD;&#xA;  Schwarze" namespace="" expand="0" />
+  <SystemRelation name="subClassOf_" created="07.01.2009 15:15:06" createdBy=" Jochen Schwarze" changed="07.11.2012 16:17:36" changedBy="Peter" namespace="" SPClassView="" SPClassViewName="" />
+  <SystemRelation name="hasDomain" created="07.01.2009 15:15:06" createdBy=" Jochen Schwarze" changed="07.01.2009 15:15:06" changedBy=" Jochen&#xD;&#xA;  Schwarze" namespace="" label1="has Domain" label2="is Domain of" expand="1" />
+  <SystemRelation name="hasRange" created="07.01.2009 15:15:06" createdBy=" Jochen Schwarze" changed="07.01.2009 15:15:06" changedBy=" Jochen Schwarze" namespace="" label1="has Range" label2="is Range of" expand="1" />
+  <SystemRelation name="instanceOf" created="07.01.2009 15:15:06" createdBy=" Jochen Schwarze" changed="07.01.2009 15:15:06" changedBy=" Jochen&#xD;&#xA;  Schwarze" namespace="" label1="Instance of" label2="Has Instance" expand="1" />
+  <Class name="FieldSet" created="07.01.2009 15:55:31" createdBy=" Jochen Schwarze" changed="16.10.2017 15:25:34" changedBy="Edgardo Moreira" ID="36" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" LocalInstDialog="1" LocalClassDialog="1" OnceOnly="1" BottomUp="1" RefinementOfClass="0" Hide="0" CheckBottomupSubclasses="0" color="" linepattern="1" lineweight="" ShowLabel="1" ShowAname="0" CheckGeneral="1" CheckAttributes="1" CheckAssociations="1" CheckSynonyms="0" CheckLayout="0" CheckAudit="1" CheckEditInst="1" CheckRemoveInst="1" CheckExpandInst="1" CheckBrowseInst="1" CheckRefineInst="1" CheckDetachInst="1" ShowClassLabel="0" ShowCAname="0" CheckGeneralClass="1" CheckAttributesClass="1" CheckMethodsClass="0" CheckAssociationsClass="1" CheckSynonymsClass="0" CheckStatesClass="0" CheckAuditClass="1" CheckRefinementClass="0" CheckSharepoint="0" CheckDSN="0" Image="" UseImage="0" UseGraphics="1" SPPrefix="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SharepointGoodlist="" SharepointBadlist="" SPInstListName="" SPClassListName="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPRefinement="" SPExpObj="" SPOverrides="" SPClassView="" SPClassViewName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" SPReference="" SharepointGoodSite="" bLookup="" CheckMethods="" CheckStates="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Attribute name="SummaryExpression" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="" nohtml="1" />
+    <Relation ID="136" type="Property" other="Rule" text="HasRule" class="HasRule" name="HasRule.136" created="22.01.2009 15:52:29" createdBy=" Jochen&#xD;&#xA;    Schwarze" changed="22.01.2009 15:52:29" changedBy=" Jochen Schwarze">
+    </Relation>
+    <Attribute name="RoadmapTitle" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="" nohtml="1" />
+    <Attribute name="SetType" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="" nohtml="1" />
+    <Attribute name="ChoiceCascade" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="0" values="" nohtml="1" />
+    <Relation ID="502" type="subClassOf_" other="ComplexNode" text="subClassOf_" class="subClassOf_" name="subClassOf_.502" created="07.11.2012&#xD;&#xA;    15:59:41" createdBy="Peter" changed="07.11.2012 15:59:41" changedBy="Peter">
+    </Relation>
+    <Relation ID="519" type="Property" other="XmlResource" text="HasResource" class="HasResource" name="HasResource.519" created="07.11.2012 17:15:42" createdBy="Peter" changed="07.11.2012 17:15:42" changedBy="Peter">
+    </Relation>
+    <Synonym name="Satz" namespace="German" />
+    <Label name="UserNumber{ 0" />
+    <Label name="Class{ 1" />
+    <Attribute name="EnablePrefill" />
+    <Attribute name="StyleClass" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" namespace="" group="" comment="" min="" max="" defaultvalue="" facet_German="" values="firstcol_extrawide; firstcol_wide; firstcol_medium; firstcol_narrow" nohtml="1" />
+    <comment><![CDATA[]]></comment>
+    <InvRelation ID="860" type="subClassOf_" other="Fi#Bezirk" text="subClassOf_" />
+  </Class>
+  <AttributeType name="Title" created="07.01.2009 16:00:40" createdBy=" Jochen Schwarze" changed="06.03.2013 16:38:18" changedBy="Jochen Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="">
+    <Synonym name="Titel" namespace="German" />
+  </AttributeType>
+  <AttributeType name="Intro" created="07.01.2009 16:00:48" createdBy=" Jochen Schwarze" changed="06.03.2013 16:38:14" changedBy="Jochen Schwarze" namespace="" ReadOnly="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ContextBrowsing="" doubleclick="" syncvisio="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="">
+    <Synonym name="Intro" namespace="German" />
+  </AttributeType>
+  <RelationType name="Relation" created="07.01.2009 16:11:20" createdBy=" Jochen Schwarze" changed="26.10.2020 14:06:31" changedBy="Edgardo Moreira" namespace="" fromtype="Instance" totype="Instance" LocalInstDialog="1" CheckGeneral="1" CheckAttributes="1" CheckAssociations="1" CheckAudit="1" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" cyclic="1" symmetric="" transitiv="" unique="" HideInClassDiagram="" aggregate="" uniquemodel="1" ShowLabel="1" ShowAname="0" CheckSynonyms="0" CheckLayout="0" CheckEditInst="0" CheckRemoveInst="0" CheckExpandInst="0" CheckBrowseInst="0" CheckRefineInst="0" CheckDetachInst="0" LocalClassDialog="1" OnceOnly="0" BottomUp="0" RefinementOfClass="0" Hide="0" CheckBottomupSubclasses="0" color="" linepattern="1" lineweight="" composition="" ShowClassLabel="0" ShowCAname="0" CheckGeneralClass="1" CheckAttributesClass="1" CheckMethodsClass="0" CheckAssociationsClass="1" CheckSynonymsClass="0" CheckStatesClass="0" CheckAuditClass="1" CheckRefinementClass="0" CheckSharepoint="0" CheckDSN="0" Image="" UseImage="0" UseGraphics="1" SPPrefix="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SharepointGoodlist="" SharepointBadlist="" SPClassView="" SPClassViewName="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodSite="" invname="inv&#xD;&#xA;  Relation" bLookup="">
+    <Synonym name="Relation" namespace="German" />
+    <Attribute name="Multiplicity" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="1" values="1; 0..1; 0..*; 1..*; 0" nohtml="1" />
+    <Attribute name="RelationType" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="Association; Aggregation; Composition" nohtml="1" />
+    <Attribute name="Condition" />
+    <Attribute name="UserNumber" />
+    <Attribute name="Scope" />
+    <Label name="Scope{ Group" />
+    <Label name="Multiplicity{ Group" />
+    <Attribute name="MaxCount" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Integer" islist="0" defaultvalue="" values="" nohtml="1" />
+    <Attribute name="FixedCount" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="0" values="" nohtml="1" />
+    <Attribute name="SummaryExpression" />
+    <Attribute name="RoadmapTitle" />
+    <Attribute name="Title" />
+    <Attribute name="Intro" />
+    <Attribute name="ValidationExpression" />
+    <Attribute name="ValidationMessage" />
+    <Attribute name="MinCount" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Integer" islist="0" defaultvalue="" values="" nohtml="1" />
+    <Attribute name="InitialRowCount" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Integer" islist="0" defaultvalue="" values="" nohtml="1" />
+    <Attribute name="RowIncrement" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Integer" islist="0" defaultvalue="" values="" nohtml="1" />
+    <Attribute name="Outro" />
+    <Attribute name="ConditionExpression" />
+    <Attribute name="EnablePrefill" />
+    <comment><![CDATA[]]></comment>
+  </RelationType>
+  <AttributeType name="Multiplicity" created="07.01.2009 16:12:13" createdBy=" Jochen Schwarze" changed="16.10.2017 13:50:37" changedBy="Edgardo Moreira" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="0..*" values="1; 0..1; 0..*; 1..*; 0" SPClassView="" SPClassViewName="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" bLookup="" CTName="" SPExpObj="" SPReference="" SharepointGoodSite="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Synonym name="Multiplizität" namespace="German" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <Class name="InputField" created="07.01.2009 16:18:28" createdBy=" Jochen Schwarze" changed="31.07.2017 11:01:51" changedBy="Schulung" ID="46" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" LocalInstDialog="1" LocalClassDialog="1" OnceOnly="1" BottomUp="1" RefinementOfClass="0" Hide="0" CheckBottomupSubclasses="0" color="" linepattern="1" lineweight="" CheckGeneral="1" CheckAttributes="1" CheckMethods="" CheckAssociations="1" CheckStates="" CheckLayout="0" CheckAudit="1" ShowLabel="1" ShowAname="0" CheckSynonyms="0" ShowClassLabel="0" ShowCAname="0" CheckGeneralClass="1" CheckAttributesClass="1" CheckMethodsClass="0" CheckAssociationsClass="1" CheckSynonymsClass="0" CheckStatesClass="0" CheckAuditClass="1" CheckRefinementClass="0" CheckSharepoint="0" CheckDSN="0" Image="" UseImage="0" UseGraphics="1" SPPrefix="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SharepointGoodlist="" SharepointBadlist="" SPInstListName="" SPClassListName="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPRefinement="" SPExpObj="" SPOverrides="" SPClassView="" SPClassViewName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" SPReference="" SharepointGoodSite="" bLookup="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <InvRelation ID="72" type="subClassOf_" other="TextField" text="subClassOf_">
+    </InvRelation>
+    <InvRelation ID="73" type="subClassOf_" other="DateField" text="subClassOf_">
+    </InvRelation>
+    <InvRelation ID="74" type="subClassOf_" other="BooleanField" text="subClassOf_">
+    </InvRelation>
+    <InvRelation ID="75" type="subClassOf_" other="ChoiceField" text="subClassOf_">
+    </InvRelation>
+    <InvRelation ID="83" type="subClassOf_" other="NumberField" text="subClassOf_">
+    </InvRelation>
+    <Attribute name="Label" />
+    <Attribute name="FieldName" />
+    <Attribute name="Required" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="0" values="" nohtml="1" />
+    <Attribute name="ValidationPattern" />
+    <Attribute name="ValidationExpression" />
+    <Attribute name="ValidationMessage" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="" nohtml="1" />
+    <Attribute name="Title" />
+    <Attribute name="DefaultValue" />
+    <Attribute name="DefaultValueExpression" />
+    <Attribute name="SampleValue" />
+    <Attribute name="SampleValueExpression" />
+    <InvRelation ID="166" type="subClassOf_" other="ComputedField" text="subClassOf_">
+    </InvRelation>
+    <Attribute name="Intro" />
+    <Attribute name="LabelStyle" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="Question; Prefix; Suffix" nohtml="1" />
+    <Attribute name="StyleClass" />
+    <InvRelation ID="238" type="subClassOf_" other="FileField" text="subClassOf_">
+    </InvRelation>
+    <Attribute name="ReadOnly" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="0" facet_German="0" values="" nohtml="1" />
+    <InvRelation ID="247" type="subClassOf_" other="IdField" text="subClassOf_">
+    </InvRelation>
+    <Attribute name="Outro" />
+    <InvRelation ID="321" type="Property" other="FileField" text="HasMetaField">
+    </InvRelation>
+    <Relation ID="495" type="subClassOf_" other="Node" text="subClassOf_" class="subClassOf_" name="subClassOf_.495" created="07.11.2012 14:18:44" createdBy="Peter" changed="07.11.2012 14:18:44" changedBy="Peter">
+    </Relation>
+    <Label name="UserNumber{ 0" />
+    <Label name="Class{ 1" />
+    <Relation ID="664" type="Property" other="Rule" text="HasRule" class="HasRule" name="HasRule.664" created="25.07.2014 09:23:06" createdBy="Jochen Schwarze" changed="25.07.2014 09:23:06" changedBy="Jochen Schwarze">
+    </Relation>
+    <Synonym name="Eingabefeld" namespace="German" />
+    <Attribute name="AuxField" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="0" values="" nohtml="1" />
+    <Attribute name="EnablePrefill" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="1" values="" nohtml="1" />
+    <comment><![CDATA[]]></comment>
+  </Class>
+  <Class name="TextField" created="07.01.2009 16:18:50" createdBy=" Jochen Schwarze" changed="03.02.2020 10:29:07" changedBy="Edgardo Moreira" ID="50" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" LocalInstDialog="1" LocalClassDialog="1" OnceOnly="1" BottomUp="1" RefinementOfClass="0" Hide="" CheckBottomupSubclasses="" Image="" UseImage="0" color="" linepattern="1" lineweight="" CheckGeneral="1" CheckAttributes="1" CheckMethods="" CheckAssociations="1" CheckStates="" CheckLayout="0" CheckAudit="1" ShowLabel="1" ShowAname="0" CheckSynonyms="" ShowClassLabel="0" ShowCAname="0" CheckGeneralClass="1" CheckAttributesClass="1" CheckMethodsClass="" CheckAssociationsClass="1" CheckSynonymsClass="" CheckStatesClass="" CheckAuditClass="1" CheckRefinementClass="" CheckSharepoint="" CheckDSN="" UseGraphics="1" SPInstListName="" SPClassListName="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" SPClassView="" SPClassViewName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" bLookup="" SPReference="" SharepointGoodSite="" Refineable="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Relation ID="72" type="subClassOf_" other="InputField" text="subClassOf_" class="subClassOf_" name="subClassOf_.72" created="07.01.2009 16:26:30" createdBy=" Jochen Schwarze" changed="07.01.2009 16:26:30" changedBy=" Jochen Schwarze">
+    </Relation>
+    <Attribute name="MaxLength" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Integer" islist="0" defaultvalue="" values="" nohtml="1" />
+    <InvRelation ID="129" type="subClassOf_" other="TextArea" text="subClassOf_">
+    </InvRelation>
+    <Attribute name="TrackValue" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="" nohtml="1" />
+    <Attribute name="HideInput" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="0" values="" nohtml="1" />
+    <Synonym name="Textfeld" namespace="German" />
+    <Label name="UserNumber{ 0" />
+    <Label name="Class{ 1" />
+    <Attribute name="Placeholder" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" />
+    <Attribute name="StyleClass" namespace="" group="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" facet_German="" values="inline-feld-STR_HNR; inline-feld-PLZ_ORT; inline-feld-VOR_NACH; inline-feld-VOR_RUFNUMMER; inline-feld-LKZ_VOR_RUFNUMMER; width-xs; width-s; width-l; width-xl; narrow; wide; html5-input-type-email; html5-input-type-tel; html5-input-type-time; html5-input-type-url" nohtml="1" />
+    <Attribute name="ValidationExpression" namespace="" group="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" facet_German="" values="/* E-Mail-Adresse mit MX-Prüfung */ assistants.validate.checkEmailAddress(value, true); /* E-Mail-Adresse ohne MX-Prüfung */ assistants.validate.checkEmailAddress(value, false)" nohtml="1" />
+    <Attribute name="ValidationPattern" namespace="" group="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" facet_German="" values="(?# Deutsches KFZ-Kennzeichen, z.B. ES-IF 2006 oder S-1000, Bindestrich ist Pflicht, Leerzeichen vor Zahl ist optional) [A-Z]{1,3}-([A-Z]{1,2} *)?[1-9][0-9]{0,3}H?; (?# Internationale Kontonummer, IBAN) [A-Z]{2}[0-9]{2}( *[0-9]{4}){4} *[0-9]{2}; (?# Telefonnummer, DIN 5008)(\+|0)[0-9]+( *[0-9]+){1,2}(-[0-9]+)?; (?# Telefonnummer, Umgangsform) ([0-9\-\/\(\)\+ ]+); (?# Personalausweisnummer, deutsch)[0-9]{10}D?; (?# DE-Mail Adresse) [a-z0-9\-\+\#_]+(\.[a-z0-9\-\+\#_]+)*@([a-z0-9\-]+\.)+de-mail\.de; (?# Deutsche PLZ) ([0]{1}[1-9]{1}|[1-9]{1}[0-9]{1})[0-9]{3}" nohtml="1" />
+    <Attribute name="ValidationMessage" namespace="" group="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" facet_German="" values="Bitte geben Sie eine deutsche PLZ ein.; Bitte geben Sie eine De-Mail-Adresse ein, diese endet auf de-mail.de." nohtml="1" />
+    <Attribute name="Autocomplete" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" values="additional-name; address-level1; address-level2; address-level3; address-level4; address-line1; address-line2; address-line3; bday; bday-day; bday-month; bday-year; cc-additional-name; cc-csc; cc-exp; cc-exp-month; cc-exp-year; cc-family-name; cc-given-name; cc-name; cc-number; cc-type; country; country-name; current-password; email; family-name; given-name; honorific-prefix; honorific-suffix; impp; language; name; new-password; nickname; organization; organization-title; photo; postal-code; sex; street-address; tel; tel-area-code; tel-country-code; tel-extension; tel-local; tel-local-prefix; tel-local-suffix; tel-national; transaction-amount; transaction-currency; url; username" namespace="" group="" comment="" min="" max="" defaultvalue="" nohtml="1" facet_German="" />
+    <comment><![CDATA[]]></comment>
+  </Class>
+  <Class name="DateField" created="07.01.2009 16:19:06" createdBy=" Jochen Schwarze" changed="03.02.2020 10:29:23" changedBy="Edgardo Moreira" ID="54" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" OnceOnly="1" BottomUp="1" RefinementOfClass="0" CheckGeneral="1" CheckAttributes="1" CheckMethods="" CheckAssociations="1" CheckStates="" CheckLayout="0" CheckAudit="1" LocalInstDialog="1" ShowLabel="1" ShowAname="0" CheckSynonyms="0" LocalClassDialog="1" ShowClassLabel="0" ShowCAname="0" CheckGeneralClass="1" CheckAttributesClass="1" CheckMethodsClass="0" CheckAssociationsClass="1" CheckSynonymsClass="0" CheckStatesClass="0" CheckAuditClass="1" CheckRefinementClass="0" CheckSharepoint="0" CheckDSN="0" Hide="0" CheckBottomupSubclasses="0" Image="" UseImage="0" UseGraphics="1" color="" linepattern="1" lineweight="" SPClassView="" SPClassViewName="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Relation ID="73" type="subClassOf_" other="InputField" text="subClassOf_" class="subClassOf_" name="subClassOf_.73" created="07.01.2009 16:26:32" createdBy=" Jochen Schwarze" changed="07.01.2009 16:26:32" changedBy=" Jochen Schwarze">
+    </Relation>
+    <Attribute name="DefaultValueToday" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="0" values="" nohtml="1" />
+    <Synonym name="Datumsfeld" namespace="German" />
+    <Label name="UserNumber{ 0" />
+    <Label name="Class{ 1" />
+    <Attribute name="Placeholder" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="" nohtml="1" />
+    <Attribute name="Autocomplete" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" values="additional-name; address-level1; address-level2; address-level3; address-level4; address-line1; address-line2; address-line3; bday; bday-day; bday-month; bday-year; cc-additional-name; cc-csc; cc-exp; cc-exp-month; cc-exp-year; cc-family-name; cc-given-name; cc-name; cc-number; cc-type; country; country-name; current-password; email; family-name; given-name; honorific-prefix; honorific-suffix; impp; language; name; new-password; nickname; organization; organization-title; photo; postal-code; sex; street-address; tel; tel-area-code; tel-country-code; tel-extension; tel-local; tel-local-prefix; tel-local-suffix; tel-national; transaction-amount; transaction-currency; url; username" namespace="" group="" comment="" min="" max="" defaultvalue="" facet_German="" nohtml="1" />
+    <comment><![CDATA[]]></comment>
+  </Class>
+  <Class name="BooleanField" created="07.01.2009 16:20:05" createdBy=" Jochen Schwarze" changed="20.01.2020 14:54:46" changedBy="Edgardo Moreira" ID="58" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" OnceOnly="1" BottomUp="1" RefinementOfClass="0" CheckGeneral="1" CheckAttributes="1" CheckMethods="" CheckAssociations="1" CheckStates="" CheckLayout="0" CheckAudit="1" LocalInstDialog="1" ShowLabel="1" ShowAname="0" CheckSynonyms="0" LocalClassDialog="1" ShowClassLabel="0" ShowCAname="0" CheckGeneralClass="1" CheckAttributesClass="1" CheckMethodsClass="0" CheckAssociationsClass="1" CheckSynonymsClass="0" CheckStatesClass="0" CheckAuditClass="1" CheckRefinementClass="0" CheckSharepoint="0" CheckDSN="0" Hide="0" CheckBottomupSubclasses="0" Image="" UseImage="0" UseGraphics="1" color="" linepattern="1" lineweight="" SPClassView="" SPClassViewName="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Relation ID="74" type="subClassOf_" other="InputField" text="subClassOf_" class="subClassOf_" name="subClassOf_.74" created="07.01.2009 16:26:35" createdBy=" Jochen Schwarze" changed="07.01.2009 16:26:35" changedBy=" Jochen Schwarze">
+    </Relation>
+    <Attribute name="ControlStyle" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="CheckBox; RadioButton" nohtml="1" />
+    <Synonym name="Ja-/Nein-Feld" namespace="German" />
+    <Label name="UserNumber{ 0" />
+    <Label name="Class{ 1" />
+    <Attribute name="StyleClass" namespace="" group="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" facet_German="" values="leftalign" nohtml="1" />
+    <Attribute name="live" valuetype="http://www.semtalk.com/datatype#Boolean" defaultvalue="0" islist="0" />
+    <comment><![CDATA[]]></comment>
+  </Class>
+  <Class name="ChoiceField" created="07.01.2009 16:20:41" createdBy=" Jochen Schwarze" changed="03.02.2020 10:29:36" changedBy="Edgardo Moreira" ID="60" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" OnceOnly="1" BottomUp="1" RefinementOfClass="0" CheckGeneral="1" CheckAttributes="1" CheckMethods="" CheckAssociations="1" CheckStates="" CheckLayout="0" CheckAudit="1" LocalInstDialog="1" ShowLabel="1" ShowAname="0" CheckSynonyms="0" LocalClassDialog="1" ShowClassLabel="0" ShowCAname="0" CheckGeneralClass="1" CheckAttributesClass="1" CheckMethodsClass="0" CheckAssociationsClass="1" CheckSynonymsClass="0" CheckStatesClass="0" CheckAuditClass="1" CheckRefinementClass="0" CheckSharepoint="0" CheckDSN="0" Hide="0" CheckBottomupSubclasses="0" Image="" UseImage="0" UseGraphics="1" color="" linepattern="1" lineweight="" SPPrefix="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SharepointGoodlist="" SharepointBadlist="" SPInstListName="" SPClassListName="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPRefinement="" SPExpObj="" SPOverrides="" SPClassView="" SPClassViewName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" SPReference="" SharepointGoodSite="" bLookup="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Relation ID="75" type="subClassOf_" other="InputField" text="subClassOf_" class="subClassOf_" name="subClassOf_.75" created="07.01.2009 16:26:37" createdBy=" Jochen Schwarze" changed="07.01.2009 16:26:37" changedBy=" Jochen Schwarze">
+    </Relation>
+    <Attribute name="OptionsList" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="1" defaultvalue="" values="" nohtml="1" group="" facet_German="" />
+    <Attribute name="OptionsFileLocation" />
+    <Attribute name="ControlStyle" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="ComboBox; RadioButton; ListBox; TextBox; TextBoxLive" nohtml="1" />
+    <Attribute name="LoopOptions" />
+    <Attribute name="DatabaseConnection" />
+    <Attribute name="DatabaseQuery" />
+    <Attribute name="DatabaseQueryParameters" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="1" defaultvalue="" values="" nohtml="1" />
+    <Attribute name="XPathQuerySelect" />
+    <Attribute name="XPathQueryText" />
+    <Attribute name="XPathQueryValue" />
+    <Attribute name="XPathQueryGroup" />
+    <Attribute name="XPathQueryParameters" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="1" defaultvalue="" values="" nohtml="1" />
+    <Attribute name="XPathQueryNamespaces" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="1" defaultvalue="" values="" nohtml="1" />
+    <Attribute name="XPathQuerySorts" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="1" defaultvalue="" values="" nohtml="1" />
+    <Attribute name="TrackValue" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" />
+    <Attribute name="ListLimit" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Integer" islist="0" defaultvalue="" values="" nohtml="1" />
+    <Label name="UserNumber{ 0" />
+    <Label name="Class{ 1" />
+    <Attribute name="Repeated" valuetype="http://www.semtalk.com/datatype#Boolean" defaultvalue="0" islist="0" namespace="" comment="" min="" max="" facet_German="0" values="" nohtml="1" />
+    <Attribute name="ChoiceMultipleAllowOtherValue" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="0" facet_German="0" values="" nohtml="1" />
+    <Attribute name="ChoiceMultipleRememberOtherValues" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="0" facet_German="0" values="" nohtml="1" />
+    <Synonym name="Auswahlfeld" namespace="German" />
+    <Attribute name="live" namespace="" group="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="0" values="" nohtml="1" />
+    <Attribute name="Autocomplete" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" values="additional-name; address-level1; address-level2; address-level3; address-level4; address-line1; address-line2; address-line3; bday; bday-day; bday-month; bday-year; cc-additional-name; cc-csc; cc-exp; cc-exp-month; cc-exp-year; cc-family-name; cc-given-name; cc-name; cc-number; cc-type; country; country-name; current-password; email; family-name; given-name; honorific-prefix; honorific-suffix; impp; language; name; new-password; nickname; organization; organization-title; photo; postal-code; sex; street-address; tel; tel-area-code; tel-country-code; tel-extension; tel-local; tel-local-prefix; tel-local-suffix; tel-national; transaction-amount; transaction-currency; url; username" namespace="" group="" comment="" min="" max="" defaultvalue="" facet_German="" nohtml="1" />
+    <comment><![CDATA[]]></comment>
+    <InvRelation ID="870" type="subClassOf_" other="Ch#beznum" text="subClassOf_" />
+    <InvRelation ID="872" type="subClassOf_" other="Ch#otname" text="subClassOf_" />
+    <InvRelation ID="876" type="subClassOf_" other="Ch#otnum" text="subClassOf_" />
+  </Class>
+  <Class name="Node" created="07.01.2009 16:24:16" createdBy=" Jochen Schwarze" changed="28.07.2017 18:00:45" changedBy="Schulung" ID="66" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" LocalInstDialog="1" ShowLabel="1" ShowAname="0" CheckGeneral="1" CheckAttributes="1" CheckAssociations="1" CheckSynonyms="0" CheckLayout="0" CheckAudit="1" CheckEditInst="1" CheckRemoveInst="1" CheckExpandInst="1" CheckBrowseInst="1" CheckRefineInst="1" CheckDetachInst="1" LocalClassDialog="1" OnceOnly="1" BottomUp="1" RefinementOfClass="0" Hide="0" CheckBottomupSubclasses="0" color="" linepattern="1" lineweight="" SPClassView="" SPClassViewName="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" ShowClassLabel="0" ShowCAname="0" Image="" UseImage="0" UseGraphics="1">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Attribute name="PageBreakBefore" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="0" values="" nohtml="1" />
+    <Attribute name="UserNumber" />
+    <Relation ID="372" type="subClassOf_" other="DialogmodellElement" text="subClassOf_" class="subClassOf_" name="subClassOf_.372" created="06.11.2012&#xD;&#xA;    21:33:05" createdBy="Peter" changed="06.11.2012 21:33:05" changedBy="Peter">
+    </Relation>
+    <InvRelation ID="495" type="subClassOf_" other="InputField" text="subClassOf_">
+    </InvRelation>
+    <InvRelation ID="497" type="subClassOf_" other="InfoBox" text="subClassOf_">
+    </InvRelation>
+    <InvRelation ID="508" type="subClassOf_" other="ComplexNode" text="subClassOf_">
+    </InvRelation>
+    <InvRelation ID="515" type="Property" other="ComplexNode" text="Relation">
+    </InvRelation>
+    <comment><![CDATA[]]></comment>
+    <Synonym name="Knoten" namespace="German" />
+    <Label name="UserNumber{ 0" />
+    <Label name="Class{ 1" />
+  </Class>
+  <Class name="NumberField" created="07.01.2009 16:28:25" createdBy=" Jochen Schwarze" changed="16.10.2017 15:26:14" changedBy="Edgardo Moreira" ID="82" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" OnceOnly="1" BottomUp="1" RefinementOfClass="0" CheckGeneral="1" CheckAttributes="1" CheckMethods="" CheckAssociations="1" CheckStates="" CheckLayout="0" CheckAudit="1" LocalInstDialog="1" ShowLabel="1" ShowAname="0" CheckSynonyms="0" LocalClassDialog="1" ShowClassLabel="0" ShowCAname="0" CheckGeneralClass="1" CheckAttributesClass="1" CheckMethodsClass="0" CheckAssociationsClass="1" CheckSynonymsClass="0" CheckStatesClass="0" CheckAuditClass="1" CheckRefinementClass="0" CheckSharepoint="0" CheckDSN="0" Hide="0" CheckBottomupSubclasses="0" Image="" UseImage="0" UseGraphics="1" color="" linepattern="1" lineweight="" SPPrefix="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SharepointGoodlist="" SharepointBadlist="" SPInstListName="" SPClassListName="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPRefinement="" SPExpObj="" SPOverrides="" SPClassView="" SPClassViewName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" bLookup="" SPReference="" SharepointGoodSite="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Relation ID="83" type="subClassOf_" other="InputField" text="subClassOf_" class="subClassOf_" name="subClassOf_.83" created="07.01.2009 16:28:36" createdBy=" Jochen Schwarze" changed="07.01.2009 16:28:36" changedBy=" Jochen Schwarze">
+    </Relation>
+    <InvRelation ID="173" type="subClassOf_" other="NumberUnitField" text="subClassOf_">
+    </InvRelation>
+    <Attribute name="NumberFormat" />
+    <Attribute name="TrackValue" />
+    <Synonym name="Zahlenfeld" namespace="German" />
+    <Label name="UserNumber{ 0" />
+    <Label name="Class{ 1" />
+    <Attribute name="Placeholder" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" />
+    <comment><![CDATA[]]></comment>
+  </Class>
+  <AttributeType name="Label" created="07.01.2009 16:36:45" createdBy=" Jochen Schwarze" changed="07.02.2020 14:54:48" changedBy="Edgardo Moreira" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="das XML-File&#xD;&#xA;  bitte selektieren" values="">
+    <Synonym name="Beschriftung" namespace="German" />
+  </AttributeType>
+  <AttributeType name="PageBreakBefore" created="07.01.2009 16:55:10" createdBy=" Jochen Schwarze" changed="2/13/2009 12:55:31 PM" changedBy="Christian&#xD;&#xA;  Fillies" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="1">
+    <Synonym name="Seitenumbruch oberhalb" namespace="German" />
+  </AttributeType>
+  <AttributeType name="FieldName" created="07.01.2009 17:07:47" createdBy=" Jochen Schwarze" changed="31.07.2017 11:49:51" changedBy="Schulung" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="npa" values="">
+    <Synonym name="Datensatzname" namespace="German" />
+  </AttributeType>
+  <AttributeType name="UserNumber" created="07.01.2009 17:20:07" createdBy=" Jochen Schwarze" changed="31.07.2017 11:05:07" changedBy="Schulung" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="2" values="">
+    <Synonym name="Gliederungsnummer" namespace="German" />
+  </AttributeType>
+  <AttributeType name="RelationType" created="08.01.2009 16:32:01" createdBy=" Jochen Schwarze" changed="31.07.2017 11:17:29" changedBy="Schulung" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" min="" max="Association; Aggregation;&#xD;&#xA;  Composition" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="Association" values="Association; Aggregation; Composition">
+    <Synonym name="Typ" namespace="German" />
+  </AttributeType>
+  <AttributeType name="OptionsList" created="09.01.2009 17:07:46" createdBy=" Jochen Schwarze" changed="07.02.2020 14:44:38" changedBy="Edgardo Moreira" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" defaultvalue="| ---wählen Sie einen Bezirk aus ---" values="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="1">
+    <Synonym name="Werteliste" namespace="German" />
+  </AttributeType>
+  <AttributeType name="SummaryExpression" created="13.01.2009 09:51:55" createdBy=" Jochen Schwarze" changed="05/05/2009 14:59:35" changedBy="Edgardo&#xD;&#xA;  Moreira" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="">
+    <Synonym name="Tabellarische Kurzfassung" namespace="German" />
+  </AttributeType>
+  <AttributeType name="Condition" created="13.01.2009 11:41:11" createdBy=" Jochen Schwarze" changed="06.03.2013 16:31:48" changedBy="Jochen Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" SPClassView="" SPClassViewName="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Synonym name="Bedingung" namespace="German" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="VariantCondition" created="23.11.2012 04:31:02" createdBy="Peter" changed="25.11.2012 23:50:52" changedBy="Peter" namespace="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="" ContextBrowsing="" doubleclick="" syncvisio="" ReadOnly="1">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <comment><![CDATA[]]></comment>
+    <Synonym name="Bedingung Variantenabhängigkeit" namespace="German" />
+  </AttributeType>
+  <AttributeType name="Required" created="16.01.2009 12:22:32" createdBy=" Jochen Schwarze" changed="07.02.2020 14:55:02" changedBy="Edgardo Moreira" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" values="">
+    <Synonym name="Pflichtfeld" namespace="German" />
+  </AttributeType>
+  <Class name="Attachment" created="16.01.2009 12:39:43" createdBy=" Jochen Schwarze" changed="15.02.2012 18:05:15" changedBy="Jochen Schwarze" ID="121" namespace="" readonly="1" ReadOnly="1" SPClassView="" SPClassViewName="">
+    <Synonym name="Attachment" namespace="German" />
+  </Class>
+  <AttributeType name="OptionsFileLocation" created="16.01.2009 14:13:19" createdBy=" Jochen Schwarze" changed="07.02.2020 14:22:20" changedBy="Edgardo Moreira" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" values="">
+    <Synonym name="Werteliste (extern)" namespace="German" comment="" />
+  </AttributeType>
+  <AttributeType name="ControlStyle" created="16.01.2009 14:58:16" createdBy=" Jochen Schwarze" changed="16.01.2009 15:07:04" changedBy=" Jochen&#xD;&#xA;  Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Kontrollelement" namespace="German" comment="" />
+  </AttributeType>
+  <AttributeType name="ValidationPattern" created="16.01.2009 17:04:26" createdBy=" Jochen Schwarze" changed="16.10.2017 14:14:06" changedBy="Edgardo Moreira" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="(?# Deutsches KFZ-Kennzeichen, z.B. ES-IF 2006 oder S-1000, Bindestrich ist Pflicht, Leerzeichen vor Zahl ist optional) [A-Z]{1,3}-([A-Z]{1,2} *)?[1-9][0-9]{0,3}H?; (?# Internationale Kontonummer, IBAN) [A-Z]{2}[0-9]{2}( *[0-9]{4}){4} *[0-9]{2}; (?# Telefonnummer, DIN 5008)(/+|0)[0-9]+( *[0-9]+){1,2}(-[0-9]+)?; (?# Telefonnummer, Umgangsform) ([0-9/-///(/)/+ ]+); (?# Personalausweisnummer, deutsch)[0-9]{10}D?; (?# DE-Mail Adresse) [a-z0-9/-/+/#_]+(/.[a-z0-9/-/+/#_]+)*@([a-z0-9/-]+/.)+de-mail/.de; (?# Deutsche PLZ) ([0]{1}[1-9]{1}|[1-9]{1}[0-9]{1})[0-9]{3}" SPClassView="" SPClassViewName="">
+    <Synonym name="Prüfmuster" namespace="German" comment="" />
+  </AttributeType>
+  <AttributeType name="ValidationExpression" created="16.01.2009 17:04:31" createdBy=" Jochen Schwarze" changed="16.10.2017 13:50:23" changedBy="Edgardo Moreira" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="/* E-Mail-Adresse ohne MX-Prüfung */ assistants.validate.checkEmailAddress(value, false)" values="/* E-Mail-Adresse mit MX-Prüfung */ assistants.validate.checkEmailAddress(value, true); /* E-Mail-Adresse ohne MX-Prüfung */ assistants.validate.checkEmailAddress(value, false)" SPClassView="" SPClassViewName="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" bLookup="" CTName="" SPExpObj="" SPReference="" SharepointGoodSite="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Synonym name="Prüfausdruck" namespace="German" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="ValidationMessage" created="16.01.2009 17:07:40" createdBy=" Jochen Schwarze" changed="16.10.2017 15:05:50" changedBy="Edgardo Moreira" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="Bitte geben Sie eine deutsche PLZ ein.; Bitte geben Sie eine De-Mail-Adresse ein, diese endet auf de-mail.de." SPClassView="" SPClassViewName="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" bLookup="" CTName="" SPExpObj="" SPReference="" SharepointGoodSite="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Synonym name="Prüfmeldung" namespace="German" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="MaxLength" created="22.01.2009 11:58:32" createdBy=" Jochen Schwarze" changed="22.01.2009 11:59:42" changedBy=" Jochen Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Maximale Zeichenzahl" namespace="German" comment="" />
+  </AttributeType>
+  <Class name="TextArea" created="22.01.2009 12:00:01" createdBy=" Jochen Schwarze" changed="25.07.2014 10:31:24" changedBy="Jochen Schwarze" ID="128" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" OnceOnly="1" BottomUp="1" RefinementOfClass="0" CheckGeneral="1" CheckAttributes="1" CheckMethods="" CheckAssociations="1" CheckStates="" CheckLayout="0" CheckAudit="1" LocalInstDialog="1" ShowLabel="1" ShowAname="0" CheckSynonyms="0" LocalClassDialog="1" ShowClassLabel="0" ShowCAname="0" CheckGeneralClass="1" CheckAttributesClass="1" CheckMethodsClass="0" CheckAssociationsClass="1" CheckSynonymsClass="0" CheckStatesClass="0" CheckAuditClass="1" CheckRefinementClass="0" CheckSharepoint="0" CheckDSN="0" Hide="0" CheckBottomupSubclasses="0" Image="" UseImage="0" UseGraphics="1" color="" linepattern="1" lineweight="" SPClassView="" SPClassViewName="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Relation ID="129" type="subClassOf_" other="TextField" text="subClassOf_" class="subClassOf_" name="subClassOf_.129" created="22.01.2009 12:00:11" createdBy=" Jochen Schwarze" changed="22.01.2009 12:00:11" changedBy=" Jochen Schwarze">
+    </Relation>
+    <Attribute name="RowCount" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Integer" islist="0" defaultvalue="" values="" nohtml="1" />
+    <Attribute name="ColumnCount" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Integer" islist="0" defaultvalue="" values="" nohtml="1" />
+    <comment><![CDATA[]]></comment>
+    <Synonym name="Textbereich" namespace="German" />
+    <Label name="UserNumber{ 0" />
+    <Label name="Class{ 1" />
+  </Class>
+  <AttributeType name="RowCount" created="22.01.2009 12:05:48" createdBy=" Jochen Schwarze" changed="15.02.2012 17:34:02" changedBy="Jochen Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" SPClassView="" SPClassViewName="">
+    <Synonym name="Anzahl Zeilen" namespace="German" comment="" />
+  </AttributeType>
+  <AttributeType name="ColumnCount" created="22.01.2009 12:05:52" createdBy=" Jochen Schwarze" changed="22.01.2009 12:06:46" changedBy=" Jochen&#xD;&#xA;  Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Anzahl Spalten" namespace="German" comment="" />
+  </AttributeType>
+  <Class name="Rule" created="22.01.2009 15:50:56" createdBy=" Jochen Schwarze" changed="25.07.2014 10:51:59" changedBy="Jochen Schwarze" ID="135" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" OnceOnly="1" BottomUp="1" RefinementOfClass="0" CheckGeneral="1" CheckAttributes="1" CheckMethods="" CheckAssociations="1" CheckStates="" CheckLayout="0" CheckAudit="1" LocalInstDialog="1" ShowLabel="1" ShowAname="0" CheckSynonyms="0" LocalClassDialog="1" ShowClassLabel="0" ShowCAname="0" CheckGeneralClass="1" CheckAttributesClass="1" CheckMethodsClass="0" CheckAssociationsClass="1" CheckSynonymsClass="0" CheckStatesClass="0" CheckAuditClass="1" CheckRefinementClass="0" CheckSharepoint="0" CheckDSN="0" Hide="0" CheckBottomupSubclasses="0" Image="" UseImage="0" UseGraphics="1" color="" linepattern="1" lineweight="" SPPrefix="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SharepointGoodlist="" SharepointBadlist="" CTID="" CTScope="" CTSite="" CTGroup="" SPRefinement="" SPOverrides="" SPClassView="" SPClassViewName="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" bLookup="" CTName="" SPExpObj="" SPReference="" SharepointGoodSite="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Attribute name="ValidationMessage" />
+    <InvRelation ID="136" type="Property" other="FieldSet" text="HasRule">
+    </InvRelation>
+    <Attribute name="ValidationExpression" />
+    <Label name="Class{ Group" />
+    <Attribute name="UserNumber" />
+    <Synonym name="Rule" namespace="English" comment="" />
+    <Relation ID="520" type="subClassOf_" other="DialogmodellElement" text="subClassOf_" class="subClassOf_" name="subClassOf_.520" created="07.11.2012&#xD;&#xA;    17:18:07" createdBy="Peter" changed="07.11.2012 17:18:07" changedBy="Peter">
+    </Relation>
+    <Attribute name="ValidationMode" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="streng; locker" nohtml="1" />
+    <InvRelation ID="664" type="Property" other="InputField" text="HasRule">
+    </InvRelation>
+    <Synonym name="Regel" namespace="German" />
+    <Attribute name="StyleClass" valuetype="http://www.semtalk.com/datatype#Symbol" defaultvalue="" islist="0" namespace="" comment="" min="" max="" values="" nohtml="1" />
+    <comment><![CDATA[]]></comment>
+  </Class>
+  <RelationType name="HasRule" created="22.01.2009 15:52:29" createdBy=" Jochen Schwarze" changed="22.11.2012 12:44:34" changedBy="Peter" namespace="" fromtype="Instance" totype="Instance" LocalInstDialog="1" CheckGeneral="1" CheckAttributes="1" CheckAssociations="1" CheckAudit="1" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" cyclic="" symmetric="" transitiv="" unique="" HideInClassDiagram="" aggregate="" uniquemodel="" ShowLabel="0" ShowAname="0" CheckSynonyms="0" CheckLayout="0" LocalClassDialog="1" ShowClassLabel="0" ShowCAname="0" CheckGeneralClass="1" CheckAttributesClass="1" CheckMethodsClass="0" CheckAssociationsClass="1" CheckSynonymsClass="0" CheckStatesClass="0" CheckAuditClass="1" CheckRefinementClass="0" CheckSharepoint="0" CheckDSN="0" OnceOnly="0" BottomUp="0" RefinementOfClass="0" Hide="0" CheckBottomupSubclasses="0" Image="" UseImage="0" UseGraphics="1" color="192,192,192" linepattern="1" lineweight="" composition="" SPClassView="" SPClassViewName="">
+    <Synonym name="wird geprüft mit" namespace="German" comment="" />
+  </RelationType>
+  <RelationType name="HasOption" created="28.01.2009 11:00:30" createdBy=" Jochen Schwarze" changed="22.11.2012 12:44:46" changedBy="Peter" namespace="" fromtype="Instance" totype="Instance" LocalInstDialog="1" CheckGeneral="1" CheckAttributes="1" CheckAssociations="1" CheckAudit="1" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" cyclic="" symmetric="" transitiv="" unique="" HideInClassDiagram="" aggregate="" uniquemodel="" SPClassView="" SPClassViewName="">
+    <Label name="Class" />
+    <Synonym name="umfasst" namespace="German" comment="" />
+  </RelationType>
+  <AttributeType name="Value" created="28.01.2009 18:39:27" createdBy=" Jochen Schwarze" changed="28.01.2009 18:40:17" changedBy=" Jochen Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Datensatzwert" namespace="German" comment="" />
+  </AttributeType>
+  <AttributeType name="LoopOptions" created="05.02.2009 17:43:15" createdBy=" Jochen Schwarze" changed="05.02.2009 18:12:12" changedBy=" Jochen&#xD;&#xA;  Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Schleifenwerte" namespace="German" comment="" />
+  </AttributeType>
+  <AttributeType name="DefaultValue" created="10.02.2009 14:56:41" createdBy=" Jochen Schwarze" changed="10.02.2009 14:57:19" changedBy=" Jochen&#xD;&#xA;  Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Vorgabewert" namespace="German" comment="" />
+  </AttributeType>
+  <AttributeType name="DefaultValueExpression" created="10.02.2009 14:56:47" createdBy=" Jochen Schwarze" changed="10.02.2009 14:57:34" changedBy="&#xD;&#xA;  Jochen Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Vorgabewert (berechnet)" namespace="German" comment="" />
+  </AttributeType>
+  <AttributeType name="SampleValue" created="10.02.2009 14:56:50" createdBy=" Jochen Schwarze" changed="10.02.2009 14:57:45" changedBy=" Jochen&#xD;&#xA;  Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Beispielwert" namespace="German" comment="" />
+  </AttributeType>
+  <AttributeType name="SampleValueExpression" created="10.02.2009 14:56:54" createdBy=" Jochen Schwarze" changed="10.02.2009 14:57:59" changedBy="&#xD;&#xA;  Jochen Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Beispielwert (berechnet)" namespace="German" comment="" />
+  </AttributeType>
+  <AttributeType name="DefaultValueToday" created="10.02.2009 15:11:56" createdBy=" Jochen Schwarze" changed="10.02.2009 15:12:39" changedBy=" Jochen&#xD;&#xA;  Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Mit Tagesdatum vorbelegen" namespace="German" comment="" />
+  </AttributeType>
+  <AttributeType name="Scope" created="11.02.2009 10:40:52" createdBy=" Jochen Schwarze" changed="07.11.2012 18:25:04" changedBy="Peter" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="haeder" values="">
+    <Synonym name="Namensraum (Scope)" namespace="German" />
+  </AttributeType>
+  <Class name="ComputedField" created="11.02.2009 13:54:13" createdBy=" Jochen Schwarze" changed="16.10.2017 15:27:45" changedBy="Edgardo Moreira" ID="165" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" OnceOnly="1" BottomUp="1" RefinementOfClass="0" CheckGeneral="1" CheckAttributes="1" CheckMethods="" CheckAssociations="1" CheckStates="" CheckLayout="0" CheckAudit="1" LocalInstDialog="1" ShowLabel="1" ShowAname="0" CheckSynonyms="0" LocalClassDialog="1" ShowClassLabel="0" ShowCAname="0" CheckGeneralClass="1" CheckAttributesClass="1" CheckMethodsClass="0" CheckAssociationsClass="1" CheckSynonymsClass="0" CheckStatesClass="0" CheckAuditClass="1" CheckRefinementClass="0" CheckSharepoint="0" CheckDSN="0" Hide="0" CheckBottomupSubclasses="0" Image="" UseImage="0" UseGraphics="1" color="" linepattern="1" lineweight="" SPClassView="" SPClassViewName="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Relation ID="166" type="subClassOf_" other="InputField" text="subClassOf_" class="subClassOf_" name="subClassOf_.166" created="11.02.2009&#xD;&#xA;    13:54:31" createdBy=" Jochen Schwarze" changed="11.02.2009 13:54:31" changedBy=" Jochen Schwarze">
+    </Relation>
+    <Attribute name="ValueExpression" namespace="" group="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" facet_German="" values="myForm[&quot;AUFWAHLISTENFELD/@label&quot;]; myForm[&quot;auswahlvalue/@label&quot;]" nohtml="1" />
+    <Label name="UserNumber{ 0" />
+    <Label name="Class{ 1" />
+    <Synonym name="Berechnetes Feld" namespace="German" />
+    <comment><![CDATA[]]></comment>
+    <InvRelation ID="887" type="subClassOf_" other="Co#selectDistrict" text="subClassOf_" />
+    <InvRelation ID="895" type="subClassOf_" other="Co#resetbez" text="subClassOf_" />
+  </Class>
+  <AttributeType name="ValueExpression" created="11.02.2009 13:55:02" createdBy=" Jochen Schwarze" changed="26.10.2020 14:07:04" changedBy="Edgardo Moreira" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="myForm[AUFWAHLISTENFELD/@label]; myForm[auswahlvalue/@label]">
+    <Synonym name="Wert (berechnet)" namespace="German" comment="" />
+  </AttributeType>
+  <Class name="NumberUnitField" created="12.02.2009 18:01:58" createdBy=" Jochen Schwarze" changed="16.10.2017 15:26:23" changedBy="Edgardo Moreira" ID="170" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" OnceOnly="1" BottomUp="1" RefinementOfClass="0" CheckGeneral="1" CheckAttributes="1" CheckMethods="" CheckAssociations="1" CheckStates="" CheckLayout="0" CheckAudit="1" LocalInstDialog="1" ShowLabel="1" ShowAname="0" CheckSynonyms="0" LocalClassDialog="1" ShowClassLabel="0" ShowCAname="0" CheckGeneralClass="1" CheckAttributesClass="1" CheckMethodsClass="0" CheckAssociationsClass="1" CheckSynonymsClass="0" CheckStatesClass="0" CheckAuditClass="1" CheckRefinementClass="0" CheckSharepoint="0" CheckDSN="0" Hide="0" CheckBottomupSubclasses="0" Image="" UseImage="0" UseGraphics="1" color="" linepattern="1" lineweight="" SPClassView="" SPClassViewName="">
+    <Relation ID="173" type="subClassOf_" other="NumberField" text="subClassOf_" class="subClassOf_" name="subClassOf_.173" created="12.02.2009&#xD;&#xA;    18:02:40" createdBy=" Jochen Schwarze" changed="12.02.2009 18:02:40" changedBy=" Jochen Schwarze">
+    </Relation>
+    <InvRelation ID="174" type="subClassOf_" other="CurrencyField" text="subClassOf_">
+    </InvRelation>
+    <Synonym name="Maßfeld" namespace="German" />
+    <Attribute name="Units" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="1" defaultvalue="" values="" nohtml="1" />
+    <Label name="UserNumber{ 0" />
+    <Label name="Class{ 1" />
+  </Class>
+  <Class name="CurrencyField" created="12.02.2009 18:02:09" createdBy=" Jochen Schwarze" changed="16.10.2017 15:26:08" changedBy="Edgardo Moreira" ID="172" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" OnceOnly="1" BottomUp="1" RefinementOfClass="0" CheckGeneral="1" CheckAttributes="1" CheckMethods="" CheckAssociations="1" CheckStates="" CheckLayout="0" CheckAudit="1" LocalInstDialog="1" ShowLabel="1" ShowAname="0" CheckSynonyms="0" LocalClassDialog="1" ShowClassLabel="0" ShowCAname="0" CheckGeneralClass="1" CheckAttributesClass="1" CheckMethodsClass="0" CheckAssociationsClass="1" CheckSynonymsClass="0" CheckStatesClass="0" CheckAuditClass="1" CheckRefinementClass="0" CheckSharepoint="0" CheckDSN="0" Hide="0" CheckBottomupSubclasses="0" Image="" UseImage="0" UseGraphics="1" color="" linepattern="1" lineweight="" SPClassView="" SPClassViewName="">
+    <Relation ID="174" type="subClassOf_" other="NumberUnitField" text="subClassOf_" class="subClassOf_" name="subClassOf_.174" created="12.02.2009&#xD;&#xA;    18:02:47" createdBy=" Jochen Schwarze" changed="12.02.2009 18:02:47" changedBy=" Jochen Schwarze">
+    </Relation>
+    <Synonym name="Währungsfeld" namespace="German" />
+    <Label name="UserNumber{ 0" />
+    <Label name="Class{ 1" />
+  </Class>
+  <AttributeType name="Units" created="12.02.2009 18:31:01" createdBy=" Jochen Schwarze" changed="12.02.2009 18:32:06" changedBy=" Jochen Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Einheit(en)" namespace="German" comment="" />
+  </AttributeType>
+  <DiagramType name="Dialogmodell" created="2/13/2009 12:09:13 PM" createdBy="Christian Fillies" changed="29.06.2016 17:00:37" changedBy="Edgardo Moreira" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" prefix="" type="Instance" stencil="cit_intelliform_dialog.vss" root="DialogmodellElement" UMLShape="0" auto="1" UseInheritanceRelations="1" UseAllRelationsOfSubclasses="" CheckInstances="" NewSLRoot="" CheckEdit="1" CheckInsert="1" CheckFind="1" CheckGoUp="1" CheckRefresh="1" ReadOnly="" ContextBrowsing="" doubleclick="" SPPrefix="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SharepointGoodlist="" SharepointBadlist="" SPInstListName="" SPClassListName="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPRefinement="" SPExpObj="" SPOverrides="" SPClassView="" SPClassViewName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" SPReference="" SharepointGoodSite="" bLookup="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Synonym name="Dialogmodell" namespace="German" />
+    <Relation ID="196" type="SystemRelation" other="Dialogmodell" text="ValidRefinement" class="ValidRefinement" name="ValidRefinement.196" created="2/13/2009 12:17:43 PM" createdBy="Christian Fillies" changed="2/13/2009 12:17:43 PM" changedBy="Christian Fillies" />
+    <InvRelation ID="196" type="SystemRelation" other="Dialogmodell" text="ValidRefinement" />
+    <Attribute name="Title" />
+    <Attribute name="GenerateRoadmap" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="1" values="" />
+    <Attribute name="Version" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Date" islist="0" defaultvalue="28.01.2015" values="" facet_German="28.01.2015" />
+    <Attribute name="OptionRefining" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="1" values="" />
+    <Attribute name="OptionTrackingChanges" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="0" values="" />
+    <Attribute name="AllowedInputCharset" namespace="" comment="" min="" max="ISO-8859-1; ISO-8859-15; US-ASCII; windows-1252" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="ISO-8859-1; ISO-8859-15; US-ASCII; Windows-1252" />
+    <Attribute name="ResourceFolders" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="1" defaultvalue="" values="" />
+    <Attribute name="OptionReadyingSubforms" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="0" values="" />
+    <Attribute name="ModelVersion" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="" />
+    <Relation ID="354" type="SystemRelation" other="subtask" text="HiddenRelation" class="HiddenRelation" name="HiddenRelation.354" created="19.07.2012&#xD;&#xA;    14:38:36" createdBy="EdgMoreira" changed="19.07.2012 14:38:36" changedBy="EdgMoreira" />
+    <Attribute name="RequiredComposerVersion" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="2015" values="" facet_German="2015" />
+    <Attribute name="PageStructure" namespace="" comment="" min="" max="HTML4; HTML5" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="HTML4; HTML5" facet_German="" />
+    <Attribute name="Plugins" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" />
+    <Attribute name="StyleClass" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" />
+    <comment><![CDATA[]]></comment>
+  </DiagramType>
+  <Class name="DialogmodellElement" created="2/13/2009 12:11:00 PM" createdBy="Christian Fillies" changed="12.11.2012 09:58:02" changedBy="Peter" ID="193" namespace="" ReadOnly="1" LocalInstDialog="1" ShowLabel="1" ShowAname="0" CheckGeneral="1" CheckAttributes="1" CheckAssociations="1" CheckSynonyms="0" CheckLayout="0" CheckAudit="1" LocalClassDialog="1" ShowClassLabel="0" ShowCAname="0" CheckGeneralClass="1" CheckAttributesClass="1" CheckMethodsClass="0" CheckAssociationsClass="1" CheckSynonymsClass="0" CheckStatesClass="0" CheckAuditClass="1" CheckRefinementClass="0" CheckSharepoint="0" CheckDSN="0" OnceOnly="0" BottomUp="0" RefinementOfClass="0" Hide="1" CheckBottomupSubclasses="0" Image="" UseImage="0" UseGraphics="1" color="" linepattern="1" lineweight="" Refineable="0" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ContextBrowsing="" doubleclick="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Synonym name="DialogmodellElement" namespace="German" />
+    <InvRelation ID="372" type="subClassOf_" other="Node" text="subClassOf_">
+    </InvRelation>
+    <InvRelation ID="520" type="subClassOf_" other="Rule" text="subClassOf_">
+    </InvRelation>
+    <InvRelation ID="521" type="subClassOf_" other="XmlResource" text="subClassOf_">
+    </InvRelation>
+    <InvRelation ID="522" type="subClassOf_" other="WebserviceMethod" text="subClassOf_">
+    </InvRelation>
+    <comment><![CDATA[]]></comment>
+    <InvRelation ID="646" type="subClassOf_" other="Swimlane" text="subClassOf_" />
+  </Class>
+  <AttributeType name="DatabaseConnection" created="30.04.2009 13:41:51" createdBy=" Jochen Schwarze" changed="30.04.2009 13:45:24" changedBy=" Jochen&#xD;&#xA;  Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Datenbankverbindung" namespace="German" comment="" />
+  </AttributeType>
+  <AttributeType name="DatabaseQuery" created="30.04.2009 13:42:09" createdBy=" Jochen Schwarze" changed="30.04.2009 13:45:00" changedBy=" Jochen&#xD;&#xA;  Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Datenbankabfrage" namespace="German" comment="" />
+  </AttributeType>
+  <AttributeType name="DatabaseQueryParameters" created="30.04.2009 13:42:18" createdBy=" Jochen Schwarze" changed="30.04.2009 13:44:44" changedBy="&#xD;&#xA;  Jochen Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Datenbankabfrageparameter" namespace="German" comment="" />
+  </AttributeType>
+  <AttributeType name="GenerateRoadmap" created="30.04.2009 13:54:26" createdBy=" Jochen Schwarze" changed="30.04.2009 13:54:57" changedBy=" Jochen&#xD;&#xA;  Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Dialog-Roadmap erzeugen" namespace="German" comment="" />
+  </AttributeType>
+  <AttributeType name="MaxCount" created="30.04.2009 13:57:03" createdBy=" Jochen Schwarze" changed="15.02.2012 17:32:56" changedBy="Jochen Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" min="" max="" valuetype="http://www.semtalk.com/datatype#Integer" islist="0" defaultvalue="5" values="" SPClassView="" SPClassViewName="">
+    <Synonym name="Maximale Anzahl" namespace="German" />
+  </AttributeType>
+  <AttributeType name="FixedCount" created="30.04.2009 13:57:24" createdBy=" Jochen Schwarze" changed="28.02.2012 10:56:37" changedBy="Jochen Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" syncvisio="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" SPClassView="" SPClassViewName="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" CTName="" SPExpObj="" SPReference="" SharepointGoodSite="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <comment><![CDATA[]]></comment>
+    <Synonym name="Anzahl ist fest" namespace="German" />
+  </AttributeType>
+  <AttributeType name="RoadmapTitle" created="30.04.2009 14:19:31" createdBy=" Jochen Schwarze" changed="06.03.2013 16:39:10" changedBy="Jochen&#xD;&#xA;  Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="">
+    <Synonym name="Titel für Dialog-Roadmap" namespace="German" />
+  </AttributeType>
+  <AttributeType name="Gliederungsnummer" created="17.08.2009 16:55:04" createdBy=" Jochen Schwarze" changed="17.08.2009 16:55:04" changedBy=" Jochen&#xD;&#xA;  Schwarze" namespace="">
+    <Synonym name="Gliederungsnummer" namespace="German" />
+  </AttributeType>
+  <AttributeType name="XPathQuerySelect" created="17.08.2009 16:58:03" createdBy=" Jochen Schwarze" changed="07.02.2020 14:07:30" changedBy="Edgardo Moreira" namespace="" values="" />
+  <AttributeType name="XPathQueryText" created="17.08.2009 16:58:09" createdBy=" Jochen Schwarze" changed="11.03.2021 01:56:32" changedBy="Edgardo Moreira" namespace="" values="" />
+  <AttributeType name="XPathQueryValue" created="17.08.2009 16:58:13" createdBy=" Jochen Schwarze" changed="11.03.2021 01:56:47" changedBy="Edgardo Moreira" namespace="" values="" />
+  <AttributeType name="XPathQueryGroup" created="17.08.2009 16:58:18" createdBy=" Jochen Schwarze" changed="17.08.2009 16:58:18" changedBy=" Jochen&#xD;&#xA;  Schwarze" namespace="" />
+  <AttributeType name="XPathQueryParameters" created="17.08.2009 16:58:23" createdBy=" Jochen Schwarze" changed="11.03.2021 01:55:00" changedBy="Edgardo Moreira" namespace="" defaultvalue="rbs | https://fbinter.stadt-berlin.de/rbs" values="" />
+  <AttributeType name="XPathQueryNamespaces" created="17.08.2009 16:58:28" createdBy=" Jochen Schwarze" changed="11.03.2021 01:58:03" changedBy="Edgardo Moreira" namespace="" defaultvalue="rbs | https://fbinter.stadt-berlin.de/rbs" values="" />
+  <AttributeType name="XPathQuerySorts" created="17.08.2009 16:58:33" createdBy=" Jochen Schwarze" changed="07.02.2020 14:50:15" changedBy="Edgardo Moreira" namespace="" defaultvalue="otname" values="" />
+  <AttributeType name="NumberFormat" created="17.08.2009 17:04:40" createdBy=" Jochen Schwarze" changed="17.08.2009 17:11:58" changedBy=" Jochen&#xD;&#xA;  Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" SPPrefix="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Zahlenformat" namespace="German" comment="" />
+  </AttributeType>
+  <AttributeType name="LabelStyle" created="17.08.2009 17:12:50" createdBy=" Jochen Schwarze" changed="17.08.2009 17:43:50" changedBy=" Jochen&#xD;&#xA;  Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" SPPrefix="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Beschriftungsposition" namespace="German" comment="" />
+  </AttributeType>
+  <AttributeType name="StyleClass" created="17.08.2009 17:20:45" createdBy=" Jochen Schwarze" changed="16.10.2017 14:55:31" changedBy="Edgardo Moreira" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPCTFilter="" SPPrefix="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="inline-feld-STR_HNR; inline-feld-PLZ_ORT; inline-feld-VOR_NACH; inline-feld-VOR_RUFNUMMER; inline-feld-LKZ_VOR_RUFNUMMER; width-xs; width-s; width-l; width-xl; narrow; wide; html5-input-type-email; firstcol_extrawide" SPClassView="" SPClassViewName="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" bLookup="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodSite="">
+    <Synonym name="Layout-Klasse" namespace="German" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="Version" created="17.08.2009 17:55:27" createdBy=" Jochen Schwarze" changed="03.06.2015 11:06:06" changedBy="Edgardo Moreira Barahona" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Date" islist="0" defaultvalue="25.07.2014" values="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Synonym name="Version Metamodell" namespace="German" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <Class name="FileField" created="24.01.2010 23:18:33" createdBy="Edgardo Moreira" changed="16.10.2017 15:27:39" changedBy="Edgardo Moreira" ID="237" namespace="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" OnceOnly="1" BottomUp="1" RefinementOfClass="0" CheckGeneral="1" CheckAttributes="1" CheckMethods="" CheckAssociations="1" CheckStates="" CheckLayout="0" CheckAudit="1" LocalInstDialog="1" ShowLabel="1" ShowAname="0" CheckSynonyms="0" Refineable="0" LocalClassDialog="1" ShowClassLabel="0" ShowCAname="0" CheckGeneralClass="1" CheckAttributesClass="1" CheckMethodsClass="0" CheckAssociationsClass="1" CheckSynonymsClass="0" CheckStatesClass="0" CheckAuditClass="1" CheckRefinementClass="0" CheckSharepoint="0" CheckDSN="0" Hide="0" CheckBottomupSubclasses="0" Image="" UseImage="0" UseGraphics="1" color="" linepattern="1" lineweight="" SPInstListName="" SPClassListName="" CTName="" SPClassView="" SPClassViewName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" bLookup="" SPReference="" SharepointGoodSite="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Synonym name="FileField" namespace="English" />
+    <Relation ID="238" type="subClassOf_" other="InputField" text="subClassOf_" class="subClassOf_" name="subClassOf_.238" created="24.01.2010&#xD;&#xA;    23:18:33" createdBy="Edgardo Moreira" changed="24.01.2010 23:18:33" changedBy="Edgardo Moreira">
+    </Relation>
+    <Attribute name="Repeated" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="0" values="" nohtml="1" facet_German="0" />
+    <Attribute name="TrackValue" />
+    <Relation ID="321" type="Property" other="InputField" text="HasMetaField" class="HasMetaField" name="HasMetaField.321" created="28.02.2012&#xD;&#xA;    11:01:54" createdBy="Jochen Schwarze" changed="28.02.2012 11:01:54" changedBy="Jochen Schwarze">
+    </Relation>
+    <comment><![CDATA[]]></comment>
+    <Synonym name="Dateifeld" namespace="German" />
+    <Label name="UserNumber{ 0" />
+    <Label name="Class{ 1" />
+  </Class>
+  <AttributeType name="Repeated" created="24.01.2010 23:21:19" createdBy="Edgardo Moreira" changed="06.03.2013 16:21:55" changedBy="Jochen Schwarze" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="0" values="" SPInstList="" SPClassList="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Mehrfach" namespace="German" comment="" />
+  </AttributeType>
+  <AttributeType name="ReadOnly" created="04.11.2010 09:49:51" createdBy="Jochen Schwarze" changed="04.11.2010 09:51:48" changedBy="Jochen Schwarze" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="1" values="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Schreibschutz" namespace="German" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="OptionRefining" created="04.11.2010 09:58:32" createdBy="Jochen Schwarze" changed="04.11.2010 09:59:46" changedBy="Jochen&#xD;&#xA;  Schwarze" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="1" values="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="XML-Datensatz nachbearbeiten" namespace="German" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="OptionTrackingChanges" created="04.11.2010 09:58:37" createdBy="Jochen Schwarze" changed="04.11.2010 10:31:29" changedBy="Jochen&#xD;&#xA;  Schwarze" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="1" values="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <comment><![CDATA[]]></comment>
+    <Synonym name="Änderungen im XML-Datensatz nachverfolgen" namespace="German" />
+  </AttributeType>
+  <AttributeType name="SetType" created="04.11.2010 10:01:44" createdBy="Jochen Schwarze" changed="06.03.2013 16:39:13" changedBy="Jochen Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Satztyp" namespace="German" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="TrackValue" created="04.11.2010 15:04:27" createdBy="Jochen Schwarze" changed="18.02.2011 14:19:19" changedBy="Jochen Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Bezugswert zur Änderungsverfolgung" namespace="German" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <Class name="IdField" created="17.02.2011 16:35:24" createdBy="Jochen Schwarze" changed="16.10.2017 15:27:36" changedBy="Edgardo Moreira" ID="246" namespace="" OnceOnly="1" BottomUp="1" RefinementOfClass="0" CheckGeneral="1" CheckAttributes="1" CheckMethods="" CheckAssociations="1" CheckStates="" CheckLayout="0" CheckAudit="1" LocalInstDialog="1" ShowLabel="1" ShowAname="0" CheckSynonyms="0" Refineable="0" LocalClassDialog="1" ShowClassLabel="0" ShowCAname="0" CheckGeneralClass="1" CheckAttributesClass="1" CheckMethodsClass="0" CheckAssociationsClass="1" CheckSynonymsClass="0" CheckStatesClass="0" CheckAuditClass="1" CheckRefinementClass="0" CheckSharepoint="0" CheckDSN="0" Hide="0" CheckBottomupSubclasses="0" Image="" UseImage="0" UseGraphics="1" color="" linepattern="1" lineweight="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" SPClassView="" SPClassViewName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" SPReference="" SharepointGoodSite="" bLookup="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Relation ID="247" type="subClassOf_" other="InputField" text="subClassOf_" class="subClassOf_" name="subClassOf_.247" created="17.02.2011&#xD;&#xA;    16:35:24" createdBy="Jochen Schwarze" changed="17.02.2011 16:35:24" changedBy="Jochen Schwarze">
+    </Relation>
+    <Attribute name="RequestAcademicTitle" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="nein" values="ja; nein; freiwillig; erforderlich" nohtml="1" facet_German="nein" />
+    <Attribute name="RequestArtisticName" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="nein" facet_German="nein" values="ja; nein; freiwillig; erforderlich" nohtml="1" />
+    <Attribute name="RequestDateOfBirth" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="nein" facet_German="nein" values="ja; nein; freiwillig; erforderlich" nohtml="1" />
+    <Attribute name="RequestFamilyNames" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="nein" facet_German="nein" values="ja; nein; freiwillig; erforderlich" nohtml="1" />
+    <Attribute name="RequestGivenNames" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="nein" facet_German="nein" values="ja; nein; freiwillig; erforderlich" nohtml="1" />
+    <Attribute name="RequestPlaceOfBirth" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="nein" facet_German="nein" values="ja; nein; freiwillig; erforderlich" nohtml="1" />
+    <Attribute name="RequestPlaceOfResidence" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="nein" facet_German="nein" values="ja; nein; freiwillig; erforderlich" nohtml="1" />
+    <Attribute name="RequestAgeVerification" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="nein" values="ja; nein; freiwillig; erforderlich" nohtml="1" />
+    <Attribute name="RequestPlaceVerification" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="nein" values="ja; nein; freiwillig; erforderlich" nohtml="1" />
+    <Attribute name="RequestAgeVerificationValue" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Integer" islist="0" defaultvalue="" values="" nohtml="1" facet_German="" />
+    <Attribute name="RequestPlaceVerificationValue" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="" nohtml="1" />
+    <Attribute name="RequestRestrictedId" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="nein" values="ja; nein; freiwillig; erforderlich" nohtml="1" facet_German="nein" />
+    <Attribute name="RequestDocumentType" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="nein" values="ja; nein; freiwillig; erforderlich" nohtml="1" facet_German="nein" />
+    <Attribute name="RequestIssuingState" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="nein" facet_German="" values="ja; nein; freiwillig; erforderlich" nohtml="1" />
+    <Synonym name="ID-Feld" namespace="German" />
+    <Label name="UserNumber{ 0" />
+    <Label name="Class{ 1" />
+    <Attribute name="RequestBirthName" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" namespace="" group="" comment="" min="" max="" defaultvalue="nein" values="ja; nein; freiwillig; erforderlich" nohtml="1" />
+    <comment><![CDATA[]]></comment>
+  </Class>
+  <AttributeType name="RequestAcademicTitle" created="17.02.2011 16:40:28" createdBy="Jochen Schwarze" changed="15.02.2012 17:28:31" changedBy="Jochen&#xD;&#xA;  Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="nein" values="ja; nein; freiwillig; erforderlich" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" SPClassView="" SPClassViewName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" SPReference="" SharepointGoodSite="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <comment><![CDATA[]]></comment>
+    <Synonym name="Anfragen: Doktorgrad (DG7)" namespace="German" />
+  </AttributeType>
+  <AttributeType name="RequestArtisticName" created="17.02.2011 16:41:08" createdBy="Jochen Schwarze" changed="03.06.2015 11:01:12" changedBy="Edgardo Moreira Barahona" namespace="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="nein" values="ja; nein; freiwillig; erforderlich" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" SPClassView="" SPClassViewName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" SPReference="" SharepointGoodSite="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <comment><![CDATA[]]></comment>
+    <Synonym name="Anfragen: Ordensname/Künstlername (DG6)" namespace="German" />
+  </AttributeType>
+  <AttributeType name="RequestDateOfBirth" created="17.02.2011 16:41:20" createdBy="Jochen Schwarze" changed="15.02.2012 17:25:53" changedBy="Jochen&#xD;&#xA;  Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="nein" values="ja; nein; freiwillig; erforderlich" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" SPClassView="" SPClassViewName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" SPReference="" SharepointGoodSite="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <comment><![CDATA[]]></comment>
+    <Synonym name="Anfragen: Geburtsdatum (DG8)" namespace="German" />
+  </AttributeType>
+  <AttributeType name="RequestGivenNames" created="17.02.2011 16:41:40" createdBy="Jochen Schwarze" changed="03.06.2015 10:58:31" changedBy="Edgardo Moreira Barahona" namespace="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="nein" values="ja; nein; freiwillig; erforderlich" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" SPClassView="" SPClassViewName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" SPReference="" SharepointGoodSite="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <comment><![CDATA[]]></comment>
+    <Synonym name="Anfragen: Vornamen (DG4)" namespace="German" />
+  </AttributeType>
+  <AttributeType name="RequestFamilyNames" created="17.02.2011 16:41:47" createdBy="Jochen Schwarze" changed="15.02.2012 17:29:15" changedBy="Jochen&#xD;&#xA;  Schwarze" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="nein" values="ja; nein; freiwillig;&#xD;&#xA;  erforderlich" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" SPClassView="" SPClassViewName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" SPReference="" SharepointGoodSite="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <comment><![CDATA[]]></comment>
+    <Synonym name="Anfragen: Familiennamen (DG5)" namespace="German" />
+  </AttributeType>
+  <AttributeType name="RequestPlaceOfBirth" created="17.02.2011 16:42:13" createdBy="Jochen Schwarze" changed="15.02.2012 17:26:14" changedBy="Jochen&#xD;&#xA;  Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="nein" values="ja; nein; freiwillig; erforderlich" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" SPClassView="" SPClassViewName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" SPReference="" SharepointGoodSite="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <comment><![CDATA[]]></comment>
+    <Synonym name="Anfragen: Geburtsort (DG9)" namespace="German" />
+  </AttributeType>
+  <AttributeType name="RequestPlaceOfResidence" created="17.02.2011 16:42:23" createdBy="Jochen Schwarze" changed="15.02.2012 17:26:21" changedBy="Jochen Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="nein" values="ja; nein; freiwillig; erforderlich" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" SPClassView="" SPClassViewName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" SPReference="" SharepointGoodSite="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <comment><![CDATA[]]></comment>
+    <Synonym name="Anfragen: Wohnort (DG17)" namespace="German" />
+  </AttributeType>
+  <AttributeType name="RequestAgeVerification" created="17.02.2011 18:31:40" createdBy="Jochen Schwarze" changed="15.02.2012 17:24:38" changedBy="Jochen Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="nein" values="ja; nein; freiwillig; erforderlich" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" SPClassView="" SPClassViewName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" SPReference="" SharepointGoodSite="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <comment><![CDATA[]]></comment>
+    <Synonym name="Anfragen: Überprüfung des Alters" namespace="German" />
+  </AttributeType>
+  <AttributeType name="RequestPlaceVerification" created="17.02.2011 18:31:51" createdBy="Jochen Schwarze" changed="15.02.2012 17:24:19" changedBy="Jochen Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="nein" values="ja; nein; freiwillig; erforderlich" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" SPClassView="" SPClassViewName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" SPReference="" SharepointGoodSite="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <comment><![CDATA[]]></comment>
+    <Synonym name="Anfragen: Überprüfung des Wohnorts" namespace="German" />
+  </AttributeType>
+  <AttributeType name="RequestAgeVerificationValue" created="17.02.2011 18:50:18" createdBy="Jochen Schwarze" changed="14.03.2011 15:22:21" changedBy="Jochen Schwarze" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Integer" islist="0" defaultvalue="18" values="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" SPClassView="" SPClassViewName="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Synonym name="Vergleichsalter" namespace="German" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="RequestPlaceVerificationValue" created="17.02.2011 18:50:30" createdBy="Jochen Schwarze" changed="03.06.2015 11:01:03" changedBy="Edgardo Moreira Barahona" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="08111000" values="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" SPClassView="" SPClassViewName="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Synonym name="Vergleichswohnort (AGS)" namespace="German" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <Class name="WebserviceMethod" created="18.02.2011 09:06:53" createdBy="Jochen Schwarze" changed="25.07.2014 10:30:01" changedBy="Jochen Schwarze" ID="255" namespace="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" OnceOnly="1" BottomUp="1" RefinementOfClass="0" CheckGeneral="1" CheckAttributes="1" CheckMethods="" CheckAssociations="1" CheckStates="" CheckLayout="0" CheckAudit="1" LocalInstDialog="1" ShowLabel="1" ShowAname="0" CheckSynonyms="0" Refineable="0" LocalClassDialog="1" ShowClassLabel="0" ShowCAname="0" CheckGeneralClass="1" CheckAttributesClass="1" CheckMethodsClass="0" CheckAssociationsClass="1" CheckSynonymsClass="0" CheckStatesClass="0" CheckAuditClass="1" CheckRefinementClass="0" CheckSharepoint="0" CheckDSN="0" Hide="0" CheckBottomupSubclasses="0" Image="" UseImage="0" UseGraphics="1" color="" linepattern="1" lineweight="" SPClassView="" SPClassViewName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" bLookup="" SPReference="" SharepointGoodSite="">
+    <Definition name="English">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Attribute name="WebserviceConnection" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" />
+    <Attribute name="RequestTemplate" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" />
+    <Attribute name="ResponseTemplate" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" />
+    <Attribute name="FaultTemplate" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" facet_German="" values="" nohtml="1" />
+    <Relation ID="522" type="subClassOf_" other="DialogmodellElement" text="subClassOf_" class="subClassOf_" name="subClassOf_.522" created="07.11.2012&#xD;&#xA;    17:18:28" createdBy="Peter" changed="07.11.2012 17:18:28" changedBy="Peter">
+    </Relation>
+    <comment><![CDATA[]]></comment>
+    <Synonym name="Webservice-Methode" namespace="German" />
+    <Label name="Class{ Group" />
+  </Class>
+  <Class name="XmlResource" created="18.02.2011 09:32:05" createdBy="Jochen Schwarze" changed="28.01.2015 14:05:07" changedBy="Edgardo Moreira Barahona" ID="259" namespace="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" SPClassView="" SPClassViewName="" OnceOnly="1" BottomUp="1" RefinementOfClass="0" CheckGeneral="1" CheckAttributes="1" CheckMethods="" CheckAssociations="1" CheckStates="" CheckLayout="0" CheckAudit="1" LocalInstDialog="1" ShowLabel="1" ShowAname="0" CheckSynonyms="0" Refineable="0" LocalClassDialog="1" ShowClassLabel="0" ShowCAname="0" CheckGeneralClass="1" CheckAttributesClass="1" CheckMethodsClass="0" CheckAssociationsClass="1" CheckSynonymsClass="0" CheckStatesClass="0" CheckAuditClass="1" CheckRefinementClass="0" CheckSharepoint="0" CheckDSN="0" Hide="0" CheckBottomupSubclasses="0" Image="" UseImage="0" UseGraphics="1" color="" linepattern="1" lineweight="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" bLookup="" SPReference="" SharepointGoodSite="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Attribute name="ValueExpression" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" facet_German="" values="" nohtml="1" />
+    <Attribute name="ResourceRange" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="REQUEST; SESSION; CONTEXT" nohtml="1" />
+    <Attribute name="CacheMode" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="NONE; NONE_LAZY; SESSION; CONTEXT" nohtml="1" />
+    <Attribute name="Location" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" />
+    <Attribute name="UserNumber" valuetype="http://www.semtalk.com/datatype#Symbol" defaultvalue="" islist="0" namespace="" comment="" min="" max="" values="" nohtml="1" />
+    <InvRelation ID="519" type="Property" other="FieldSet" text="HasResource">
+    </InvRelation>
+    <Relation ID="521" type="subClassOf_" other="DialogmodellElement" text="subClassOf_" class="subClassOf_" name="subClassOf_.521" created="07.11.2012&#xD;&#xA;    17:18:15" createdBy="Peter" changed="07.11.2012 17:18:15" changedBy="Peter">
+    </Relation>
+    <Label name="Class{ Group" />
+    <Attribute name="XsltScript" />
+    <comment><![CDATA[]]></comment>
+    <Synonym name="XML-Ressource" namespace="German" />
+    <InvRelation ID="866" type="subClassOf_" other="Xm#bezirke" text="subClassOf_" />
+  </Class>
+  <AttributeType name="ConnectionId" created="18.02.2011 09:33:10" createdBy="Jochen Schwarze" changed="18.02.2011 09:33:10" changedBy="Jochen&#xD;&#xA;  Schwarze" namespace="" />
+  <AttributeType name="RequestTemplate" created="18.02.2011 09:33:23" createdBy="Jochen Schwarze" changed="14.03.2011 15:23:47" changedBy="Jochen&#xD;&#xA;  Schwarze" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="todo1" values="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" SPClassView="" SPClassViewName="">
+    <Synonym name="Anfrage-Schablone" namespace="German" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="ResponseTemplate" created="18.02.2011 09:33:28" createdBy="Jochen Schwarze" changed="18.02.2011 11:16:27" changedBy="Jochen&#xD;&#xA;  Schwarze" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="todo2" values="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Antwort-Schablone" namespace="German" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="Location" created="18.02.2011 09:39:17" createdBy="Jochen Schwarze" changed="07.02.2020 13:59:24" changedBy="Edgardo Moreira" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="http://www.heise.de/newsticker/heise-atom.xml" values="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" SPClassView="" SPClassViewName="">
+    <Synonym name="Adresse (URL)" namespace="German" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="Range" created="18.02.2011 09:40:25" createdBy="Jochen Schwarze" changed="18.02.2011 09:40:25" changedBy="Jochen Schwarze" namespace="" />
+  <AttributeType name="CacheMode" created="18.02.2011 09:40:48" createdBy="Jochen Schwarze" changed="07.02.2020 12:25:00" changedBy="Edgardo Moreira" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="CONTEXT" values="NONE; NONE_LAZY; SESSION; CONTEXT" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Caching" namespace="German" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="ResourceRange" created="18.02.2011 09:44:16" createdBy="Jochen Schwarze" changed="18.02.2011 11:57:12" changedBy="Jochen&#xD;&#xA;  Schwarze" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="CONTEXT" values="REQUEST; SESSION;&#xD;&#xA;  CONTEXT" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Gültigkeit/Reichweite" namespace="German" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="WebserviceConnection" created="18.02.2011 09:49:06" createdBy="Jochen Schwarze" changed="18.02.2011 11:16:18" changedBy="Jochen&#xD;&#xA;  Schwarze" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="DfgKontoService" values="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Webservice-Verbindung" namespace="German" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="FaultTemplate" created="18.02.2011 10:27:15" createdBy="Jochen Schwarze" changed="18.02.2011 11:16:31" changedBy="Jochen&#xD;&#xA;  Schwarze" namespace="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="todo3" values="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Definition name="English">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Synonym name="FaultTemplate" namespace="English" />
+    <Synonym name="Fehler-Schablone" namespace="German" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="AllowedInputCharset" created="18.02.2011 14:11:49" createdBy="Jochen Schwarze" changed="18.02.2011 14:21:14" changedBy="Jochen&#xD;&#xA;  Schwarze" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="ISO-8859-1; ISO-8859-15;&#xD;&#xA;  US-ASCII; Windows-1252" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Erlaubter Zeichensatz für Texteingaben" namespace="German" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="ResourceFolders" created="18.02.2011 14:18:15" createdBy="Jochen Schwarze" changed="25.07.2014 10:49:11" changedBy="Jochen Schwarze" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="1" defaultvalue="" values="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" SPClassView="" SPClassViewName="" SPInstView="" SPInstViewName="" SPExport="" SPImport="" bLookup="" SPReference="" SharepointGoodSite="">
+    <Synonym name="Ressourcen-Ordner" namespace="German" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="HideInput" created="18.02.2011 14:18:59" createdBy="Jochen Schwarze" changed="18.02.2011 14:19:58" changedBy="Jochen Schwarze" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="1" values="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstListID="" SPClassListID="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Eingabe verbergen (Kennwortfeld)" namespace="German" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <Class name="InfoBox" created="14.03.2011 12:53:02" createdBy="Jochen Schwarze" changed="16.10.2017 15:26:05" changedBy="Edgardo Moreira" ID="297" namespace="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" OnceOnly="1" BottomUp="1" RefinementOfClass="0" CheckGeneral="1" CheckAttributes="1" CheckMethods="" CheckAssociations="1" CheckStates="" CheckLayout="0" CheckAudit="1" LocalInstDialog="1" ShowLabel="1" ShowAname="0" CheckSynonyms="0" Refineable="0" LocalClassDialog="1" ShowClassLabel="0" ShowCAname="0" CheckGeneralClass="1" CheckAttributesClass="1" CheckMethodsClass="0" CheckAssociationsClass="1" CheckSynonymsClass="0" CheckStatesClass="0" CheckAuditClass="1" CheckRefinementClass="0" CheckSharepoint="0" CheckDSN="0" Hide="0" CheckBottomupSubclasses="0" Image="" UseImage="0" UseGraphics="1" color="" linepattern="1" lineweight="" bLookup="" SharepointGoodSite="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Attribute name="StyleClass" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="" nohtml="1" />
+    <Attribute name="DisplayText" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="" nohtml="1" />
+    <Attribute name="Title" valuetype="http://www.semtalk.com/datatype#Symbol" defaultvalue="" islist="0" namespace="" comment="" min="" max="" values="" nohtml="1" />
+    <Relation ID="497" type="subClassOf_" other="Node" text="subClassOf_" class="subClassOf_" name="subClassOf_.497" created="07.11.2012 14:19:03" createdBy="Peter" changed="07.11.2012 14:19:03" changedBy="Peter">
+    </Relation>
+    <Synonym name="Infokasten" namespace="German" />
+    <Label name="UserNumber{ 0" />
+    <Label name="Class{ 1" />
+    <Attribute name="RenderAsHtml" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="0" values="" nohtml="1" />
+    <comment><![CDATA[]]></comment>
+  </Class>
+  <AttributeType name="DisplayText" created="14.03.2011 12:55:35" createdBy="Jochen Schwarze" changed="07.11.2012 18:43:38" changedBy="Peter" namespace="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="im trg As String = ob.RelationTarget(rel)" values="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Synonym name="Anzeigetext" namespace="German" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="RequestRestrictedId" created="14.03.2011 15:18:07" createdBy="Jochen Schwarze" changed="15.02.2012 17:26:37" changedBy="Jochen&#xD;&#xA;  Schwarze" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="nein" values="ja; nein; freiwillig;&#xD;&#xA;  erforderlich" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" SharepointGoodSite="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <comment><![CDATA[]]></comment>
+    <Synonym name="Anfragen: Pseudonym" namespace="German" />
+  </AttributeType>
+  <AttributeType name="RequestDocumentType" created="14.03.2011 15:18:20" createdBy="Jochen Schwarze" changed="15.02.2012 17:26:43" changedBy="Jochen&#xD;&#xA;  Schwarze" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="nein" values="ja; nein; freiwillig;&#xD;&#xA;  erforderlich" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="" SharepointGoodSite="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <comment><![CDATA[]]></comment>
+    <Synonym name="Anfragen: Dokumenttyp (DG1)" namespace="German" />
+  </AttributeType>
+  <Diagram name="rbs_bez" class="Dialogmodell" created="15.03.2011 11:52:31" createdBy="Jochen Schwarze" changed="26.04.2021 15:36:08" changedBy="Edgardo Moreira" id="4" type="Instance" comment="" stencil="cit_intelliform_dialog.vss" relation="" prefix="" root="DialogmodellElement" UMLShape="0" auto="1" vid="1">
+    <Attribute name="Version" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="16.11.2017" facet_German="03.06.2015" values="" />
+    <Attribute name="PageStructure" namespace="" comment="" min="" max="HTML4; HTML5" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="HTML5" facet_German="HTML5" values="HTML4; HTML5" />
+  </Diagram>
+  <AttributeType name="ListLimit" created="15.02.2012 17:09:35" createdBy="Jochen Schwarze" changed="28.02.2012 10:57:02" changedBy="Jochen Schwarze" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Integer" islist="0" defaultvalue="" values="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <comment><![CDATA[]]></comment>
+    <Synonym name="Limit für Darstellung als Listenfeld" namespace="German" />
+  </AttributeType>
+  <AttributeType name="ChoiceCascade" created="15.02.2012 17:16:05" createdBy="Jochen Schwarze" changed="15.02.2012 17:17:05" changedBy="Jochen&#xD;&#xA;  Schwarze" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="1" values="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Definition name="English">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Synonym name="Auswahlkaskade" namespace="German" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="OptionReadyingSubforms" created="15.02.2012 17:18:37" createdBy="Jochen Schwarze" changed="13.12.2012 04:05:22" changedBy="Peter" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="1" values="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" syncvisio="" bLookup="">
+    <Definition name="English">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Synonym name="OptionReadyingSubforms" namespace="English" />
+    <Synonym name="Auf unfertige Formularbereiche prüfen" namespace="German" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="RequestIssuingState" created="15.02.2012 17:23:57" createdBy="Jochen Schwarze" changed="15.02.2012 17:29:38" changedBy="Jochen&#xD;&#xA;  Schwarze" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="nein" values="ja; nein; freiwillig;&#xD;&#xA;  erforderlich" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Anfragen: Ausgebender Staat (DG2)" namespace="German" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="MinCount" created="15.02.2012 17:31:36" createdBy="Jochen Schwarze" changed="28.02.2012 10:58:30" changedBy="Jochen Schwarze" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Integer" islist="0" defaultvalue="" values="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <comment><![CDATA[]]></comment>
+    <Synonym name="Minimale Anzahl Zeilen" namespace="German" />
+  </AttributeType>
+  <AttributeType name="InitialRowCount" created="15.02.2012 17:31:41" createdBy="Jochen Schwarze" changed="28.02.2012 10:58:38" changedBy="Jochen&#xD;&#xA;  Schwarze" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Integer" islist="0" defaultvalue="" values="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <comment><![CDATA[]]></comment>
+    <Synonym name="Anfängliche Anzahl Zeilen" namespace="German" />
+  </AttributeType>
+  <AttributeType name="RowIncrement" created="15.02.2012 17:31:53" createdBy="Jochen Schwarze" changed="28.02.2012 10:57:14" changedBy="Jochen&#xD;&#xA;  Schwarze" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Integer" islist="0" defaultvalue="" values="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <comment><![CDATA[]]></comment>
+    <Synonym name="Erhöhung Anzahl Zeilen" namespace="German" />
+  </AttributeType>
+  <AttributeType name="Outro" created="15.02.2012 18:03:25" createdBy="Jochen Schwarze" changed="23.02.2012 15:26:19" changedBy="Jochen Schwarze" namespace="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="ModelVersion" created="23.02.2012 15:56:37" createdBy="Jochen Schwarze" changed="23.02.2012 16:00:35" changedBy="Jochen&#xD;&#xA;  Schwarze" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Modellversion" namespace="German" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <RelationType name="HasMetaField" created="28.02.2012 11:01:54" createdBy="Jochen Schwarze" changed="22.11.2012 12:44:53" changedBy="Peter" namespace="" fromtype="Instance" totype="Instance" LocalInstDialog="1" CheckGeneral="1" CheckAttributes="1" CheckAssociations="1" CheckAudit="1" composition="" aggregate="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" invname="inv HasMetaField" ReadOnly="1" ContextBrowsing="" doubleclick="" cyclic="" symmetric="" transitiv="" unique="" HideInClassDiagram="" uniquemodel="" ShowLabel="0" ShowAname="0" CheckSynonyms="0" CheckLayout="0" Refineable="0" LocalClassDialog="1" ShowClassLabel="0" ShowCAname="0" CheckGeneralClass="1" CheckAttributesClass="1" CheckMethodsClass="0" CheckAssociationsClass="1" CheckSynonymsClass="0" CheckStatesClass="0" CheckAuditClass="1" CheckRefinementClass="0" CheckSharepoint="0" CheckDSN="0" OnceOnly="0" BottomUp="0" RefinementOfClass="0" Hide="0" CheckBottomupSubclasses="0" Image="" UseImage="0" UseGraphics="1" color="" linepattern="1" lineweight="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Attribute name="UserNumber" valuetype="http://www.semtalk.com/datatype#Symbol" defaultvalue="" islist="0" namespace="" comment="" min="" max="" values="" nohtml="1" />
+    <comment><![CDATA[]]></comment>
+    <Synonym name="hat Metadaten-Eingabefeld" namespace="German" />
+    <Label name="Class" />
+  </RelationType>
+  <RelationType name="triggeredBy" created="02.07.2012 18:08:29" createdBy="EdgMoreira" changed="02.07.2012 18:08:29" changedBy="EdgMoreira" namespace="" fromtype="Instance" totype="Instance" LocalInstDialog="1" CheckGeneral="1" CheckAttributes="1" CheckAssociations="1" CheckAudit="1">
+    <Label name="Class" />
+  </RelationType>
+  <RelationType name="displays" created="02.07.2012 18:08:29" createdBy="EdgMoreira" changed="02.07.2012 18:08:29" changedBy="EdgMoreira" namespace="" fromtype="Instance" totype="Instance" LocalInstDialog="1" CheckGeneral="1" CheckAttributes="1" CheckAssociations="1" CheckAudit="1">
+    <Label name="Class" />
+  </RelationType>
+  <Class name="SubFieldSet" created="19.07.2012 14:38:36" createdBy="EdgMoreira" changed="16.10.2017 15:25:45" changedBy="Edgardo Moreira" ID="343" namespace="" OnceOnly="1" BottomUp="1" Refineable="1" ReadOnly="1" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ContextBrowsing="" doubleclick="" LocalInstDialog="1" ShowLabel="1" ShowAname="0" LocalClassDialog="1" ShowClassLabel="0" ShowCAname="0" Image="" UseImage="0" UseGraphics="1" color="" linepattern="1" lineweight="" RefinementOfClass="0" CheckGeneral="1" CheckAttributes="1" CheckMethods="" CheckAssociations="1" CheckStates="" CheckLayout="0" CheckAudit="1">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Synonym name="SubFieldSet" namespace="German" />
+    <Relation ID="347" type="Property" other="SubFieldSet" text="subtask" class="subtask" name="subtask.347" created="19.07.2012 14:38:36" createdBy="EdgMoreira" changed="19.07.2012 14:38:36" changedBy="EdgMoreira">
+    </Relation>
+    <InvRelation ID="347" type="Property" other="SubFieldSet" text="subtask">
+    </InvRelation>
+    <Synonym name="Teilsatz" namespace="German" />
+    <Relation ID="503" type="subClassOf_" other="ComplexNode" text="subClassOf_" class="subClassOf_" name="subClassOf_.503" created="07.11.2012&#xD;&#xA;    15:59:49" createdBy="Peter" changed="07.11.2012 15:59:49" changedBy="Peter">
+    </Relation>
+    <Label name="UserNumber{ 0" />
+    <Label name="Class{ 1" />
+    <comment><![CDATA[]]></comment>
+  </Class>
+  <RelationType name="subtask" created="19.07.2012 14:38:36" createdBy="EdgMoreira" changed="26.04.2021 15:34:55" changedBy="Edgardo Moreira" namespace="" fromtype="Instance" totype="Instance" LocalInstDialog="1" CheckGeneral="1" CheckAttributes="1" CheckAssociations="1" CheckAudit="1" ReadOnly="1" SPClassView="" SPClassViewName="">
+    <Synonym name="subtask" namespace="German" />
+    <Label name="Class" />
+    <InvRelation ID="354" type="SystemRelation" other="Dialogmodell" text="HiddenRelation" />
+  </RelationType>
+  <Class name="ExternalComponent" created="30.07.2012 02:45:51" createdBy="EdgMoreira" changed="16.10.2017 15:25:51" changedBy="Edgardo Moreira" ID="358" namespace="" OnceOnly="1" BottomUp="1" ReadOnly="1" LocalInstDialog="1" ShowLabel="1" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ContextBrowsing="" doubleclick="" RefinementOfClass="0" CheckGeneral="1" CheckAttributes="1" CheckMethods="" CheckAssociations="1" CheckStates="" CheckLayout="0" CheckAudit="1" LocalClassDialog="1" ShowAname="0" ShowClassLabel="1" ShowCAname="0" Image="" UseImage="0" UseGraphics="1" color="" linepattern="1" lineweight="" CheckSynonyms="0" Refineable="0" CheckGeneralClass="0" CheckAttributesClass="0" CheckMethodsClass="0" CheckAssociationsClass="0" CheckSynonymsClass="0" CheckStatesClass="0" CheckAuditClass="0" CheckRefinementClass="0" CheckSharepoint="0" CheckDSN="0" Hide="0" CheckBottomupSubclasses="0">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Relation ID="366" type="Property" other="ExternalComponent" text="subtask" class="subtask" name="subtask.366" created="30.07.2012 02:45:51" createdBy="EdgMoreira" changed="30.07.2012 02:45:51" changedBy="EdgMoreira">
+    </Relation>
+    <InvRelation ID="366" type="Property" other="ExternalComponent" text="subtask">
+    </InvRelation>
+    <Relation ID="504" type="subClassOf_" other="ComplexNode" text="subClassOf_" class="subClassOf_" name="subClassOf_.504" created="07.11.2012&#xD;&#xA;    16:03:59" createdBy="Peter" changed="07.11.2012 16:03:59" changedBy="Peter">
+    </Relation>
+    <comment><![CDATA[]]></comment>
+    <Synonym name="Baustein" namespace="German" />
+    <Label name="UserNumber{ 0" />
+    <Label name="Class{ 1" />
+    <TabSpec name="citExternalComponent" class="False" />
+  </Class>
+  <AttributeType name="Variant" created="27.08.2012 00:02:05" createdBy="EdgMoreira" changed="07.11.2012 14:18:04" changedBy="Peter" namespace="" ReadOnly="1">
+    <Synonym name="Variante" namespace="German" />
+    <InvRelation ID="905" type="subClassOf_" other="varOrtsteil" text="subClassOf_" />
+  </AttributeType>
+  <AttributeType name="RequiredComposerVersion" created="27.08.2012 00:03:42" createdBy="EdgMoreira" changed="28.01.2015 14:04:58" changedBy="Edgardo Moreira Barahona" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="2014" values="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Mindestversion cit intelliForm Composer" namespace="German" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="NodeType" created="06.11.2012 21:56:55" createdBy="Peter" changed="06.11.2012 21:56:55" changedBy="Peter" namespace="">
+    <Synonym name="NodeType" namespace="German" />
+  </AttributeType>
+  <AttributeType name="ExternalComponent64" created="06.11.2012 22:20:31" createdBy="Peter" changed="13.12.2012 00:57:50" changedBy="Peter" namespace="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="" ReadOnly="1" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="ExternalComponent64" namespace="German" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="AbsolutePath" created="06.11.2012 22:20:31" createdBy="Peter" changed="13.12.2012 00:57:31" changedBy="Peter" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="file:///C:/Users/Peter/Documents/geschaeft/Knowlogy/CIT/Test%20Composer/Bausteine/person.xml" values="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="AbsolutePath" namespace="German" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="RelativePath" created="06.11.2012 22:20:31" createdBy="Peter" changed="13.12.2012 00:57:41" changedBy="Peter" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="../Bausteine/person.xml" values="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="RelativePath" namespace="German" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="VariantSaved" created="06.11.2012 22:20:32" createdBy="Peter" changed="23.11.2012 04:52:52" changedBy="Peter" namespace="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Synonym name="Variante gespeichert" namespace="German" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <Class name="ComplexNode" created="07.11.2012 15:59:18" createdBy="Peter" changed="06.03.2013 16:39:33" changedBy="Jochen Schwarze" ID="500" namespace="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" OnceOnly="1" BottomUp="1" RefinementOfClass="0" CheckGeneral="1" CheckAttributes="1" CheckMethods="" CheckAssociations="1" CheckStates="" CheckLayout="0" CheckAudit="1" LocalInstDialog="1" LocalClassDialog="1" ShowLabel="1" ShowAname="0" ShowClassLabel="1" ShowCAname="0" Image="" UseImage="0" UseGraphics="1" color="" linepattern="1" lineweight="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Attribute name="Title" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="" nohtml="1" />
+    <InvRelation ID="502" type="subClassOf_" other="FieldSet" text="subClassOf_">
+    </InvRelation>
+    <InvRelation ID="503" type="subClassOf_" other="SubFieldSet" text="subClassOf_">
+    </InvRelation>
+    <InvRelation ID="504" type="subClassOf_" other="ExternalComponent" text="subClassOf_">
+    </InvRelation>
+    <Relation ID="508" type="subClassOf_" other="Node" text="subClassOf_" class="subClassOf_" name="subClassOf_.508" created="07.11.2012 16:13:59" createdBy="Peter" changed="07.11.2012 16:13:59" changedBy="Peter">
+    </Relation>
+    <Relation ID="515" type="Property" other="Node" text="Relation" class="Relation" name="Relation.515" created="07.11.2012 16:49:09" createdBy="Peter" changed="07.11.2012 16:49:09" changedBy="Peter">
+    </Relation>
+    <Synonym name="KomplexerKnoten" namespace="German" />
+    <Label name="UserNumber{ 0" />
+    <Label name="Class{ 1" />
+    <Attribute name="Intro" valuetype="http://www.semtalk.com/datatype#Symbol" defaultvalue="" islist="0" namespace="" comment="" min="" max="" values="" nohtml="1" />
+    <Attribute name="Outro" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" />
+    <comment><![CDATA[]]></comment>
+  </Class>
+  <RelationType name="HasResource" created="07.11.2012 17:14:34" createdBy="Peter" changed="07.02.2020 12:21:03" changedBy="Edgardo Moreira" namespace="" fromtype="Instance" totype="Instance" LocalInstDialog="1" CheckGeneral="1" CheckAttributes="1" CheckAssociations="1" CheckAudit="1" composition="" aggregate="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" invname="inv HasResource" ReadOnly="1" ContextBrowsing="" doubleclick="" cyclic="" symmetric="" transitiv="" unique="" HideInClassDiagram="" uniquemodel="" ShowLabel="0" ShowAname="0" LocalClassDialog="0" Image="" UseImage="0" UseGraphics="1" color="" linepattern="1" lineweight="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Attribute name="UserNumber" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" />
+    <Attribute name="Condition" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="" nohtml="1" />
+    <comment><![CDATA[]]></comment>
+  </RelationType>
+  <AttributeType name="ConditionExpression" created="25.11.2012 21:52:50" createdBy="Peter" changed="26.04.2021 15:34:54" changedBy="Edgardo Moreira" namespace="" SPClassView="" SPClassViewName="" ReadOnly="1">
+    <Synonym name="Bedingung" namespace="German" />
+  </AttributeType>
+  <Class name="Swimlane" created="03.12.2012 14:27:19" createdBy="Peter" changed="26.04.2021 15:34:54" changedBy="Edgardo Moreira" ID="645" namespace="" LocalInstDialog="1" ReadOnly="1" OnceOnly="1">
+    <Synonym name="Swimlane" namespace="German" />
+    <Relation ID="646" type="subClassOf_" other="DialogmodellElement" text="subClassOf_" class="subClassOf_" name="subClassOf_.646" created="03.12.2012&#xD;&#xA;    14:27:19" createdBy="Peter" changed="03.12.2012 14:27:19" changedBy="Peter" />
+    <Label name="displays" />
+    <Label name="displays{ Group" />
+  </Class>
+  <AttributeType name="ChoiceMultipleAllowOtherValue" created="06.03.2013 16:22:16" createdBy="Jochen Schwarze" changed="06.03.2013 16:25:11" changedBy="Jochen Schwarze" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="1" values="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Synonym name="Bei Mehrfachauswahl sonstigen Wert zulassen" namespace="German" comment="" />
+    <Synonym name="Allow other value in multi-select mode" namespace="English" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="ChoiceMultipleRememberOtherValues" created="06.03.2013 16:22:36" createdBy="Jochen Schwarze" changed="06.03.2013 16:23:24" changedBy="Jochen Schwarze" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="0" values="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Synonym name="ChoiceMultipleRememberOtherValues" namespace="German" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="Placeholder" created="06.03.2013 16:26:59" createdBy="Jochen Schwarze" changed="06.03.2013 16:28:58" changedBy="Jochen Schwarze" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Platzhaltertext" namespace="German" comment="" />
+    <Synonym name="Placeholder text" namespace="English" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="Plugins" created="06.03.2013 16:33:32" createdBy="Jochen Schwarze" changed="07.02.2020 13:53:59" changedBy="Edgardo Moreira" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Synonym name="Erweiterungen" namespace="German" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="RenderAsHtml" created="06.03.2013 16:40:09" createdBy="Jochen Schwarze" changed="06.03.2013 16:42:51" changedBy="Jochen&#xD;&#xA;  Schwarze" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="0" values="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="1" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Als HTML darstellen" namespace="German" comment="" />
+    <Synonym name="Render as HTML" namespace="English" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="ValidationMode" created="25.07.2014 09:20:07" createdBy="Jochen Schwarze" changed="25.07.2014 09:21:27" changedBy="Jochen Schwarze" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="streng; locker" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Prüfart" namespace="German" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="PageStructure" created="25.07.2014 09:48:09" createdBy="Jochen Schwarze" changed="28.07.2017 18:00:13" changedBy="Schulung" namespace="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="HTML4; HTML5" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="HTML-Seitenstruktur" namespace="German" comment="" />
+    <Synonym name="HTML Page Structure" namespace="English" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="AuxField" created="25.07.2014 10:45:54" createdBy="Jochen Schwarze" changed="12.02.2020 12:08:47" changedBy="Edgardo Moreira" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="1" values="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Hilfsfeld" namespace="German" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="EnablePrefill" created="25.07.2014 10:50:33" createdBy="Jochen Schwarze" changed="25.07.2014 11:07:35" changedBy="Jochen Schwarze" namespace="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="1" values="" ReadOnly="1" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <comment><![CDATA[]]></comment>
+    <Synonym name="Vorbelegung zulassen" namespace="German" />
+  </AttributeType>
+  <AttributeType name="XsltScript" created="28.01.2015 13:59:59" createdBy="Edgardo Moreira Barahona" changed="28.01.2015 14:01:32" changedBy="Edgardo Moreira Barahona" namespace="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <comment><![CDATA[]]></comment>
+    <Synonym name="XSLT-Skript" namespace="German" />
+  </AttributeType>
+  <Class name="SemTalkHidden" created="03.06.2015 10:53:48" createdBy="Edgardo Moreira Barahona" changed="03.06.2015 10:53:48" changedBy="Edgardo Moreira Barahona" ID="683" namespace="" ReadOnly="1" Hide="1">
+    <Synonym name="SemTalkHidden" namespace="German" />
+    <InvRelation ID="687" type="subClassOf_" other="SemTalkLanguage" text="subClassOf_" />
+  </Class>
+  <Instance name="SemTalkNot" class="SemTalkHidden" ID="684" created="03.06.2015 10:53:48" createdBy="Edgardo Moreira Barahona" changed="03.06.2015 10:53:48" changedBy="Edgardo Moreira Barahona" namespace="">
+    <Synonym name="nicht" namespace="German" />
+    <Synonym name="not" namespace="English" />
+    <Synonym name="no" namespace="Spanish" />
+  </Instance>
+  <Instance name="SemTalkIs" class="SemTalkHidden" ID="685" created="03.06.2015 10:53:48" createdBy="Edgardo Moreira Barahona" changed="03.06.2015 10:53:48" changedBy="Edgardo Moreira Barahona" namespace="" />
+  <Class name="SemTalkLanguage" created="03.06.2015 10:53:48" createdBy="Edgardo Moreira Barahona" changed="03.06.2015 10:53:48" changedBy="Edgardo Moreira Barahona" ID="686" namespace="" ReadOnly="1" Hide="1">
+    <Synonym name="SemTalkLanguage" namespace="German" />
+    <Relation ID="687" type="subClassOf_" other="SemTalkHidden" text="subClassOf_" class="subClassOf_" name="subClassOf_.687" created="03.06.2015 10:53:48" createdBy="Edgardo Moreira Barahona" changed="03.06.2015 10:53:48" changedBy="Edgardo Moreira Barahona" />
+  </Class>
+  <Instance name="German" class="SemTalkLanguage" ID="688" created="03.06.2015 10:53:48" createdBy="Edgardo Moreira Barahona" changed="03.06.2015 10:53:48" changedBy="Edgardo Moreira Barahona" namespace="">
+    <Synonym name="Deutsch" namespace="German" />
+    <Synonym name="German" namespace="English" />
+    <Synonym name="Alemán" namespace="Spanish" />
+    <Synonym name="German" namespace="Japanese" />
+    <Synonym name="Немецкий" namespace="Russian" />
+    <Attribute name="ISO" defaultvalue="1031" />
+  </Instance>
+  <Instance name="English" class="SemTalkLanguage" ID="689" created="03.06.2015 10:53:48" createdBy="Edgardo Moreira Barahona" changed="03.06.2015 10:53:48" changedBy="Edgardo Moreira Barahona" namespace="">
+    <Synonym name="Englisch" namespace="German" />
+    <Synonym name="English" namespace="English" />
+    <Synonym name="Inglés" namespace="Spanish" />
+    <Synonym name="English" namespace="Japanese" />
+    <Synonym name="Английский" namespace="Russian" />
+    <Attribute name="ISO" defaultvalue="1033" />
+  </Instance>
+  <Instance name="Spanish" class="SemTalkLanguage" ID="690" created="03.06.2015 10:53:48" createdBy="Edgardo Moreira Barahona" changed="03.06.2015 10:53:48" changedBy="Edgardo Moreira Barahona" namespace="">
+    <Synonym name="Spanisch" namespace="German" />
+    <Synonym name="Spanish" namespace="English" />
+    <Synonym name="Español" namespace="Spanish" />
+    <Synonym name="Spanish" namespace="Japanese" />
+    <Synonym name="Испанский" namespace="Russian" />
+    <Attribute name="ISO" defaultvalue="1034" />
+  </Instance>
+  <Instance name="Japanese" class="SemTalkLanguage" ID="691" created="03.06.2015 10:53:48" createdBy="Edgardo Moreira Barahona" changed="03.06.2015 10:53:48" changedBy="Edgardo Moreira Barahona" namespace="">
+    <Synonym name="Japanisch" namespace="German" />
+    <Synonym name="Japanese" namespace="English" />
+    <Synonym name="Japonés" namespace="Spanish" />
+    <Synonym name="Japanese" namespace="Japanese" />
+    <Synonym name="Японский" namespace="Russian" />
+    <Attribute name="ISO" defaultvalue="1041" />
+  </Instance>
+  <Instance name="Russian" class="SemTalkLanguage" ID="692" created="03.06.2015 10:53:48" createdBy="Edgardo Moreira Barahona" changed="03.06.2015 10:53:48" changedBy="Edgardo Moreira Barahona" namespace="">
+    <Synonym name="Russisch" namespace="German" />
+    <Synonym name="Russian" namespace="English" />
+    <Synonym name="Russian" namespace="Spanish" />
+    <Synonym name="Russian" namespace="Japanese" />
+    <Synonym name="Русский" namespace="Russian" />
+    <Attribute name="ISO" defaultvalue="1049" />
+  </Instance>
+  <AttributeType name="ISO" created="03.06.2015 10:53:48" createdBy="Edgardo Moreira Barahona" changed="26.04.2021 15:34:54" changedBy="Edgardo Moreira" namespace="" ReadOnly="1" Hide="1" SPClassView="" SPClassViewName="">
+    <Synonym name="ISO" namespace="German" />
+  </AttributeType>
+  <MethodType name="has" created="03.06.2015 10:53:48" createdBy="Edgardo Moreira Barahona" changed="03.06.2015 10:53:48" changedBy="Edgardo Moreira Barahona" namespace="" ReadOnly="1">
+    <Synonym name="has" namespace="English" />
+    <Synonym name="hat" namespace="German" />
+  </MethodType>
+  <AttributeType name="RequestBirthName" created="03.06.2015 10:59:22" createdBy="Edgardo Moreira Barahona" changed="03.06.2015 11:03:34" changedBy="Edgardo Moreira Barahona" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="nein" values="ja; nein; freiwillig; erforderlich" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Anfragen: Geburtsname (DG13)" namespace="German" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="live" created="21.03.2019 15:23:34" createdBy="Edgardo Moreira" changed="07.02.2020 14:42:51" changedBy="Edgardo Moreira" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="0" values="" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Synonym name="Live" namespace="German" comment="" />
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <AttributeType name="Autocomplete" created="20.01.2020 14:28:31" createdBy="Edgardo Moreira" changed="03.02.2020 10:29:34" changedBy="Edgardo Moreira" namespace="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="additional-name; address-level1; address-level2; address-level3; address-level4; address-line1; address-line2; address-line3; bday; bday-day; bday-month; bday-year; cc-additional-name; cc-csc; cc-exp; cc-exp-month; cc-exp-year; cc-family-name; cc-given-name; cc-name; cc-number; cc-type; country; country-name; current-password; email; family-name; given-name; honorific-prefix; honorific-suffix; impp; language; name; new-password; nickname; organization; organization-title; photo; postal-code; sex; street-address; tel; tel-area-code; tel-country-code; tel-extension; tel-local; tel-local-prefix; tel-local-suffix; tel-national; transaction-amount; transaction-currency; url; username" SPClassView="" SPClassViewName="" SPInstList="" SPClassList="" SPInstListName="" SPClassListName="" SPInstView="" SPInstViewName="" SPInstListID="" SPClassListID="" SPExport="" SPImport="" bLookup="" SPPrefix="" CTID="" CTScope="" CTSite="" CTGroup="" CTName="" SPModelname="" SPDiagram="" SPObject="" SPSystemClass="" SPClass="" SPRefinement="" SPExpObj="" SPOverrides="" SPReference="" SharepointGoodlist="" SharepointBadlist="" SharepointGoodSite="" DBInstDSN="" DBClassDSN="" DBInstSelect="" DBClassSelect="" ReadOnly="" ContextBrowsing="" doubleclick="" syncvisio="">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <comment><![CDATA[]]></comment>
+  </AttributeType>
+  <Instance name="Bezirk.858" created="07.02.2020 12:20:19" createdBy="Edgardo Moreira" changed="26.10.2020 14:06:31" changedBy="Edgardo Moreira" ID="858" namespace="" class="Fi#Bezirk" ReadOnly="0">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Node page="rbs_bez" id="Sheet.1" />
+    <Relation ID="864" type="Property" other="bezirke.863" text="HasResource" class="HasResource" name="HasResource.864" created="07.02.2020 12:21:03" createdBy="Edgardo Moreira" changed="07.02.2020 12:21:03" changedBy="Edgardo Moreira">
+      <Node page="rbs_bez" id="Sheet.18" fromshape="Sheet.1" othershape="Sheet.14" />
+    </Relation>
+    <Relation ID="867" type="Property" other="beznum.861" text="Relation" class="Relation" name="Relation.867" created="07.02.2020 12:21:32" createdBy="Edgardo Moreira" changed="07.02.2020 12:21:32" changedBy="Edgardo Moreira">
+      <Attribute name="RelationType" defaultvalue="Composition" />
+      <Node page="rbs_bez" id="Sheet.20" fromshape="Sheet.1" othershape="Sheet.4" />
+    </Relation>
+    <Relation ID="878" type="Property" other="otnum.877" text="Relation" class="Relation" name="Relation.878" created="07.02.2020 14:45:22" createdBy="Edgardo Moreira" changed="26.04.2021 15:35:51" changedBy="Edgardo Moreira">
+      <Attribute name="RelationType" defaultvalue="Composition" />
+      <Node page="rbs_bez" id="Sheet.36" fromshape="Sheet.1" othershape="Sheet.31" />
+      <Attribute name="VariantCondition" defaultvalue="PFdoZXJlIHhtbG5zPSJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3NoYXJlcG9pbnQvIiB4bWxuczp4c2k9Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hLWluc3RhbmNlIiB4c2k6c2NoZW1hTG9jYXRpb249Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vc2hhcmVwb2ludC8gQ0FNTF9RdWVyeS54c2QiPg0KICA8RXE+DQogICAgPEZpZWxkUmVmIE5hbWU9InZhck9ydHN0ZWlsIiAvPg0KICAgIDxWYWx1ZT50cnVlPC9WYWx1ZT4NCiAgPC9FcT4NCjwvV2hlcmU+" />
+    </Relation>
+    <Relation ID="885" type="Property" other="selectDistrict.884" text="Relation" class="Relation" name="Relation.885" created="12.02.2020 12:00:37" createdBy="Edgardo Moreira" changed="12.02.2020 12:00:37" changedBy="Edgardo Moreira">
+      <Attribute name="RelationType" defaultvalue="Composition" />
+      <Node page="rbs_bez" id="Sheet.43" fromshape="Sheet.1" othershape="Sheet.38" />
+    </Relation>
+    <comment><![CDATA[]]></comment>
+  </Instance>
+  <Class name="Fi#Bezirk" created="07.02.2020 12:20:43" createdBy="Edgardo Moreira" changed="07.02.2020 14:53:41" changedBy="Edgardo Moreira" ID="859" namespace="Fi">
+    <Synonym name="Bezirk" namespace="German" />
+    <Relation ID="860" type="subClassOf_" other="FieldSet" text="subClassOf_" class="subClassOf_" name="subClassOf_.860" created="07.02.2020 12:20:43" createdBy="Edgardo Moreira" changed="07.02.2020 12:20:43" changedBy="Edgardo Moreira" />
+  </Class>
+  <Instance name="beznum.861" created="07.02.2020 12:20:53" createdBy="Edgardo Moreira" changed="14.04.2021 16:16:42" changedBy="Sandra Großmann" ID="861" namespace="" class="Ch#beznum" ReadOnly="0">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Node page="rbs_bez" id="Sheet.4" />
+    <InvRelation ID="867" type="Property" other="Bezirk.858" text="Relation">
+      <Node page="rbs_bez" id="Sheet.20" toshape="Sheet.4" othershape="Sheet.1" />
+    </InvRelation>
+    <Attribute name="OptionsFileLocation" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="urn:xmlid:bezirke" facet_German="urn:xmlid:bezirke" values="" />
+    <Attribute name="XPathQuerySelect" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="/*/rbs:rbs-bez" facet_German="/*/rbs:rbs-bez" values="" />
+    <Attribute name="XPathQueryText" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="rbs:bezname" facet_German="rbs:bezname" values="" />
+    <Attribute name="XPathQueryValue" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="@beznr" facet_German="@beznr" values="" />
+    <Attribute name="XPathQuerySorts" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="1" defaultvalue="rbs:bezname" facet_German="rbs:bezname" values="" />
+    <Attribute name="live" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="1" facet_German="1" values="" />
+    <Attribute name="OptionsList" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="1" defaultvalue="| ---wählen Sie einen Bezirk aus ---" facet_German="| ---wählen Sie einen Bezirk aus ---" values="" />
+    <Attribute name="UserNumber" defaultvalue="1" facet_German="1" />
+    <Attribute name="Label" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="Bezirk" facet_German="Bezirk" values="" />
+    <Attribute name="Required" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="1" facet_German="1" values="" />
+    <Attribute name="AuxField" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="1" facet_German="1" values="" />
+    <Attribute name="XPathQueryNamespaces" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="1" defaultvalue="rbs | https://fbinter.stadt-berlin.de/rbs" facet_German="rbs | https://fbinter.stadt-berlin.de/rbs" values="" />
+    <comment><![CDATA[]]></comment>
+  </Instance>
+  <Instance name="bezirke.863" created="07.02.2020 12:21:01" createdBy="Edgardo Moreira" changed="14.04.2021 16:17:13" changedBy="Sandra Großmann" ID="863" namespace="" class="Xm#bezirke" ReadOnly="0">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Node page="rbs_bez" id="Sheet.14" />
+    <InvRelation ID="864" type="Property" other="Bezirk.858" text="HasResource">
+      <Node page="rbs_bez" id="Sheet.18" toshape="Sheet.14" othershape="Sheet.1" />
+    </InvRelation>
+    <Attribute name="Location" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="js:{myForm.transaction ? 'vfs:///root/intelliForm-Mandanten/default/Ressourcen/xml/rbs-bez-liste-xml.xml' : '/WEB-INF/data/rbs-bez-liste-xml.xml' }" facet_German="js:{myForm.transaction ? 'vfs:///root/intelliForm-Mandanten/default/Ressourcen/xml/rbs-bez-liste-xml.xml' : '/WEB-INF/data/rbs-bez-liste-xml.xml' }" values="" />
+    <comment><![CDATA[]]></comment>
+  </Instance>
+  <Class name="Xm#bezirke" created="07.02.2020 12:21:15" createdBy="Edgardo Moreira" changed="07.02.2020 12:21:15" changedBy="Edgardo Moreira" ID="865" namespace="Xm">
+    <Synonym name="bezirke" namespace="German" />
+    <Relation ID="866" type="subClassOf_" other="XmlResource" text="subClassOf_" class="subClassOf_" name="subClassOf_.866" created="07.02.2020 12:21:15" createdBy="Edgardo Moreira" changed="07.02.2020 12:21:15" changedBy="Edgardo Moreira" />
+  </Class>
+  <Class name="Ch#beznum" created="07.02.2020 12:21:58" createdBy="Edgardo Moreira" changed="10.02.2020 16:34:18" changedBy="Edgardo Moreira" ID="869" namespace="Ch">
+    <Synonym name="beznum" namespace="German" />
+    <Relation ID="870" type="subClassOf_" other="ChoiceField" text="subClassOf_" class="subClassOf_" name="subClassOf_.870" created="07.02.2020 12:21:58" createdBy="Edgardo Moreira" changed="07.02.2020 12:21:58" changedBy="Edgardo Moreira" />
+  </Class>
+  <Class name="Ch#otname" created="07.02.2020 12:22:18" createdBy="Edgardo Moreira" changed="07.02.2020 12:22:18" changedBy="Edgardo Moreira" ID="871" namespace="Ch">
+    <Synonym name="otname" namespace="German" />
+    <Relation ID="872" type="subClassOf_" other="ChoiceField" text="subClassOf_" class="subClassOf_" name="subClassOf_.872" created="07.02.2020 12:22:18" createdBy="Edgardo Moreira" changed="07.02.2020 12:22:18" changedBy="Edgardo Moreira" />
+  </Class>
+  <Class name="Ch#otnum" created="07.02.2020 14:45:01" createdBy="Edgardo Moreira" changed="10.02.2020 16:34:26" changedBy="Edgardo Moreira" ID="875" namespace="Ch">
+    <Synonym name="otnum" namespace="German" />
+    <Relation ID="876" type="subClassOf_" other="ChoiceField" text="subClassOf_" class="subClassOf_" name="subClassOf_.876" created="07.02.2020 14:45:01" createdBy="Edgardo Moreira" changed="07.02.2020 14:45:01" changedBy="Edgardo Moreira" />
+  </Class>
+  <Instance name="otnum.877" created="07.02.2020 14:45:16" createdBy="Edgardo Moreira" changed="14.04.2021 16:16:54" changedBy="Sandra Großmann" ID="877" namespace="" class="Ch#otnum" ReadOnly="0">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Node page="rbs_bez" id="Sheet.31" />
+    <Attribute name="OptionsFileLocation" defaultvalue="urn:xmlid:bezirke" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" facet_German="urn:xmlid:bezirke" />
+    <Attribute name="XPathQuerySelect" defaultvalue="//rbs:rbs-bez[@beznr=$selectedBezirk]/rbs:rbs-ot" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" facet_German="//rbs:rbs-bez[@beznr=$selectedBezirk]/rbs:rbs-ot" />
+    <Attribute name="XPathQueryText" defaultvalue="rbs:otname" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" facet_German="rbs:otname" namespace="" comment="" min="" max="" values="" />
+    <Attribute name="XPathQueryValue" defaultvalue="@otnr" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" facet_German="@otnr" namespace="" comment="" min="" max="" values="" />
+    <Attribute name="XPathQuerySorts" defaultvalue="rbs:otname" valuetype="http://www.semtalk.com/datatype#Symbol" islist="1" facet_German="rbs:otname" namespace="" comment="" min="" max="" values="" />
+    <Attribute name="live" defaultvalue="1" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" facet_German="1" />
+    <Attribute name="OptionsList" defaultvalue="| ---wählen Sie einen Ortsteil aus ---" valuetype="http://www.semtalk.com/datatype#Symbol" islist="1" facet_German="| ---wählen Sie einen Ortsteil aus ---" />
+    <InvRelation ID="878" type="Property" other="Bezirk.858" text="Relation">
+      <Node page="rbs_bez" id="Sheet.36" toshape="Sheet.31" othershape="Sheet.1" />
+    </InvRelation>
+    <Attribute name="XPathQueryParameters" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="1" defaultvalue="selectedBezirk | myForm.beznum" facet_German="selectedBezirk | myForm.beznum" values="" />
+    <Attribute name="UserNumber" defaultvalue="2" facet_German="2" />
+    <Attribute name="Label" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="Ortsteil" facet_German="Ortsteil" values="" />
+    <Attribute name="AuxField" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="1" facet_German="1" values="" />
+    <Attribute name="XPathQueryNamespaces" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="1" defaultvalue="rbs | https://fbinter.stadt-berlin.de/rbs" facet_German="rbs | https://fbinter.stadt-berlin.de/rbs" values="" />
+    <comment><![CDATA[]]></comment>
+  </Instance>
+  <Instance name="selectDistrict.884" created="12.02.2020 12:00:18" createdBy="Edgardo Moreira" changed="12.02.2020 12:09:35" changedBy="Edgardo Moreira" ID="884" namespace="" class="Co#selectDistrict" ReadOnly="0">
+    <Definition name="German">
+      <comment><![CDATA[]]></comment>
+    </Definition>
+    <Node page="rbs_bez" id="Sheet.38" />
+    <InvRelation ID="885" type="Property" other="Bezirk.858" text="Relation">
+      <Node page="rbs_bez" id="Sheet.43" toshape="Sheet.38" othershape="Sheet.1" />
+    </InvRelation>
+    <Attribute name="UserNumber" defaultvalue="3" facet_German="3" />
+    <Attribute name="ValueExpression" namespace="" comment="" min="" max="myForm[&quot;AUFWAHLISTENFELD/@label&quot;]; myForm[&quot;auswahlvalue/@label&quot;]" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="selectDistrict()" facet_German="selectDistrict()" values="myForm[&quot;AUFWAHLISTENFELD/@label&quot;]; myForm[&quot;auswahlvalue/@label&quot;]" />
+    <comment><![CDATA[]]></comment>
+  </Instance>
+  <Class name="Co#selectDistrict" created="12.02.2020 12:00:48" createdBy="Edgardo Moreira" changed="12.02.2020 12:00:48" changedBy="Edgardo Moreira" ID="886" namespace="Co">
+    <Synonym name="selectDistrict" namespace="German" />
+    <Relation ID="887" type="subClassOf_" other="ComputedField" text="subClassOf_" class="subClassOf_" name="subClassOf_.887" created="12.02.2020 12:00:48" createdBy="Edgardo Moreira" changed="12.02.2020 12:00:48" changedBy="Edgardo Moreira" />
+  </Class>
+  <Class name="Co#resetbez" created="26.10.2020 14:07:10" createdBy="Edgardo Moreira" changed="26.10.2020 14:07:10" changedBy="Edgardo Moreira" ID="894" namespace="Co">
+    <Synonym name="resetbez" namespace="German" />
+    <Relation ID="895" type="subClassOf_" other="ComputedField" text="subClassOf_" class="subClassOf_" name="subClassOf_.895" created="26.10.2020 14:07:10" createdBy="Edgardo Moreira" changed="26.10.2020 14:07:10" changedBy="Edgardo Moreira" />
+  </Class>
+  <schema targetNamespace="http://www.semtalk.com/datatype" xs="http://www.w3.org/2000/10/XMLSchema">
+    <simpleType name="Symbol">
+      <restriction base="xs:string" />
+      <Synonym name="Text" namespace="1031" />
+      <Synonym name="Text" namespace="1033" />
+    </simpleType>
+    <simpleType name="File">
+      <restriction base="xs:string" />
+      <Synonym name="Datei" namespace="1031" />
+    </simpleType>
+    <simpleType name="Date">
+      <restriction base="xs:date" />
+      <Synonym name="Datum" namespace="1031" />
+    </simpleType>
+    <simpleType name="Duration">
+      <restriction base="xs:integer" />
+      <Synonym name="Dauer" namespace="1031" />
+    </simpleType>
+    <simpleType name="Float">
+      <restriction base="xs:float" />
+      <Synonym name="Zahl" namespace="1031" />
+    </simpleType>
+    <simpleType name="Integer">
+      <restriction base="xs:integer" />
+      <Synonym name="Ganze Zahl" namespace="1031" />
+    </simpleType>
+    <simpleType name="Boolean">
+      <restriction base="xs:boolean" />
+      <Synonym name="Ja/Nein" namespace="1031" />
+    </simpleType>
+  </schema>
+  <AttributeType name="varOrtsteil" created="26.04.2021 15:35:33" createdBy="Edgardo Moreira" changed="26.04.2021 15:36:03" changedBy="Edgardo Moreira" namespace="" valuetype="http://www.semtalk.com/datatype#Boolean" islist="0" defaultvalue="1">
+    <Synonym name="varOrtsteil" namespace="German" />
+    <Relation ID="905" type="subClassOf_" other="Variant" text="subClassOf_" class="subClassOf_" name="subClassOf_.905" created="26.04.2021 15:35:33" createdBy="Edgardo Moreira" changed="26.04.2021 15:35:33" changedBy="Edgardo Moreira" />
+  </AttributeType>
+</ObjectBase>

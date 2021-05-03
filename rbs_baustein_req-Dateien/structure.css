@@ -1,0 +1,114 @@
+/*
+------------------------------------
+Structure CSS for cit intelliForm Server
+Copyright 2007 cit GmbH (www.cit.de)
+Filename: structure.css
+Version: 2007-08-20
+RCSID: $Id: structure.css 17558 2009-04-24 14:56:02Z jschwarze $
+------------------------------------
+*/
+
+h1, h2, h3, h4, h5, h6, p, form, input, select, textarea {
+	margin: 0;
+}
+
+
+#frame {
+    text-align: center;
+    padding: 0;
+    margin:0;
+}
+
+#north {
+    width: 76em;
+    text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+    margin-top: 10px;
+}
+
+#main {
+    text-align: left;
+    width: 76em;
+	margin-left: auto;
+	margin-right: auto;
+    clear: both;
+}
+
+#south {
+    width: 76em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	clear: both;
+}
+
+#east {
+	width: 16em;
+	text-align: left;
+	margin-left: 1em;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+#center {
+	width: 55em;
+	text-align: left;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#east, #center {
+    float: left;
+}
+
+.clear {
+	clear: both;
+	font-size: 1px;
+	height: 0;
+	margin: 0;
+	line-height: 0;
+}
+
+#wizard-buttons {
+    position: relative;
+    height: auto;
+    padding: 10px 0 10px 0;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+
+#wizard-buttons-left {
+    display: inline;
+    position: relative;
+}
+
+#wizard-buttons-right {
+    display: inline;
+    position: relative;
+    float: right;
+    width: 40%;
+    margin-right: 9px;
+}
+
+#wizard-buttons-right input {
+    float: right;
+}
+
+/* easy clearing */
+.clearing:after {
+     content: '[DO NOT LEAVE IT IS NOT REAL]';
+     display: block;
+     height: 0;
+     clear: both;
+     visibility: hidden;
+}
+.clearing {
+     display: inline-block;
+}
+/*\*/
+.clearing {
+     display: block;
+}
+/* end easy clearing */
