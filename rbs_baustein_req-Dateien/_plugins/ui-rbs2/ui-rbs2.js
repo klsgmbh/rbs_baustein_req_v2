@@ -281,16 +281,16 @@ function initRBS(){
             var coords = '';
             coords = resp.info5;
             val = coords.substring(coords.indexOf("%")+1, coords.indexOf("$"));
-            k1000.val(val);
+            // k1000.val(val);
             coords = coords.substring(coords.indexOf("$",1)+1);
             val = coords.substring(0, coords.indexOf("$"));
-            k5000.val(val);
+            // k5000.val(val);
             coords = coords.substring(coords.indexOf("$",1)+1);
             val = coords.substring(0, coords.indexOf("$"));
-            xstat.val(val);
+            // xstat.val(val);
             coords = coords.substring(coords.indexOf("$")+1);
             val = coords.substring(0, coords.indexOf("$"));
-            ystat.val(val);
+            // ystat.val(val);
             coords = coords.substring(coords.indexOf("$")+1);
             val = coords.substring(0, coords.indexOf("$"));
             etrs89x.val(val);
@@ -358,16 +358,16 @@ function initRBS(){
             var coords = '';
             coords = resp.info5;
             val = coords.substring(coords.indexOf("%")+1, coords.indexOf("$"));
-            k1000.val(val);
+            // k1000.val(val);
             coords = coords.substring(coords.indexOf("$",1)+1);
             val = coords.substring(0, coords.indexOf("$"));
-            k5000.val(val);
+            // k5000.val(val);
             coords = coords.substring(coords.indexOf("$",1)+1);
             val = coords.substring(0, coords.indexOf("$"));
-            xstat.val(val);
+            // xstat.val(val);
             coords = coords.substring(coords.indexOf("$")+1);
             val = coords.substring(0, coords.indexOf("$"));
-            ystat.val(val);
+            // ystat.val(val);
             coords = coords.substring(coords.indexOf("$")+1);
             val = coords.substring(0, coords.indexOf("$"));
             etrs89x.val(val);
@@ -400,10 +400,10 @@ function checkCity(){
             optionhnr = '';
             optionhnrto = '';
             optionplz = '';
-            k1000.val('');
-            k5000.val('');
-            xstat.val('');
-            ystat.val('');
+            // k1000.val('');
+            // k5000.val('');
+            // xstat.val('');
+            // ystat.val('');
             etrs89x.val('');
             etrs89y.val('');
             bsnrbs.AutoSuggest('id-input-F00000053h', optionstr);
@@ -467,17 +467,17 @@ function getDistrictNr(req){
 
 function getCoords(myres){
     if (myres !='') {
-        k1000.val(myres.getAttribute('k1000'));
-        k5000.val(myres.getAttribute('k5000'));
-        xstat.val(myres.getAttribute('xstat'));
-        ystat.val(myres.getAttribute('ystat'));
+        // k1000.val(myres.getAttribute('k1000'));
+        // k5000.val(myres.getAttribute('k5000'));
+        // xstat.val(myres.getAttribute('xstat'));
+        // ystat.val(myres.getAttribute('ystat'));
         etrs89x.val(myres.getAttribute('etrs89_x'));
         etrs89y.val(myres.getAttribute('etrs89_y'));
     }else{
-        k1000.val('');
-        k5000.val('');
-        xstat.val('');
-        ystat.val('');
+        // k1000.val('');
+        // k5000.val('');
+        // xstat.val('');
+        // ystat.val('');
         etrs89x.val('');
         etrs89y.val('');
     }
@@ -637,6 +637,8 @@ $(document).on("focusin", ".inputcontainer", function (e) {
 $(document).on("change", "#id-input-F00000035h", function () {
     //console.log($(this).val());
     //if (responding != true){return;}
+    etrs89x.val("");
+    etrs89y.val("");
     if (checkCity() == true) {
         strs.val("");
         strnr.val("");
@@ -646,6 +648,8 @@ $(document).on("change", "#id-input-F00000035h", function () {
 $(document).on("change", "#id-input-landh", function () {
     //console.log($(this).val());
     if (responding != true){return;}
+    etrs89x.val("");
+    etrs89y.val("");
     if (checkCity() == true) {
         strs.val("");
         strnr.val("");
@@ -666,8 +670,17 @@ $(document).on("focusout", "#id-input-hnrh", function () {
     }
 });
 
+$(document).on("change", "#id-input-hnrh", function () {
+    //console.log($(this).val());
+    //if (responding != true){return;}
+    etrs89x.val("");
+    etrs89y.val("");
+});
+
 $(document).on("focusout", "#id-input-F00000054h", function () {
     //console.log($(this).val());
+    etrs89x.val("");
+    etrs89y.val("");
     if (responding != true){return;}
     $('button#default-button.submit-forward').attr("disabled", false);
     if (checkCity() == true){checkAddress();}
@@ -676,6 +689,8 @@ $(document).on("focusout", "#id-input-F00000054h", function () {
 
 $(document).on("focusout", "#id-input-F00000053h", function (e) {
     //console.log($(this).val());
+    etrs89x.val("");
+    etrs89y.val("");
     if (responding != true){return;}
     $('button#default-button.submit-forward').attr("disabled", false);
     if (checkCity() == true){
@@ -687,6 +702,8 @@ $(document).on("focusout", "#id-input-F00000053h", function (e) {
 
 $(document).on("change", "#id-input-F00000053h", function (e) {
     //console.log($(this).val());
+    etrs89x.val("");
+    etrs89y.val("");
     plz.val("");
     if (responding != true){return;}
     plz.val("");

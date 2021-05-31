@@ -38,7 +38,7 @@ static {
       <script charset="utf-8" src="_plugins/theme-html5/script.js?-8236014590501371310" type="text/javascript"/>
   <!--plugin:ui-rbs2-->
         
-      <script src="_plugins/ui-rbs2/ui-rbs2.js?-3184992455051913426" type="text/javascript"/>
+      <script src="_plugins/ui-rbs2/ui-rbs2.js?186218096142443527" type="text/javascript"/>
         
       <script src="_plugins/ui-rbs2/bsnrbs.AutoSuggest_2.1.3.js?5851351268818775181" type="text/javascript"/>
 		
@@ -50,6 +50,7 @@ static {
          <cit:conditional test="!assistants.request.valid">Fehler beim Ausfüllen - </cit:conditional>rbs_baustein_req - rbs</title>
       <cit:script href="/WEB-INF/etc/commons.js">/**/</cit:script>
       <cit:script href="/WEB-INF/etc/script.js" fileEncoding="utf-8">/**/</cit:script>
+      <cit:script href="/WEB-INF/etc/custom.js" fileEncoding="windows-1252">/**/</cit:script>
       <cit:template select="/.." xhtml="true"/>
       <cit:control>
          <cit:link rel="helpbase" href="help.jsp"/>

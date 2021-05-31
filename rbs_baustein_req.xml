@@ -1,4 +1,4 @@
-<ObjectBase MaxID="1294" ShowDiagrams="True" ShowGenericDiagrams="True" EditDiagramType="True" ShowObjects="True" EditObjects="True" ShowRelations="True" EditRelations="True" TimeSaved="26.04.2021 15:28:02" GUILanguage="German" PWD="" ShowAttributes="True" EditAttributes="True" ShowDatatypes="True" EditDatatypes="True" ShowMethods="True" ShowStates="True" Version="4.3.0.4385 (5000)" notstr="NOT " isstr="" Template="cit_intelliForm_dialog.vst" BPMNMode="1" currentnsp="German" SLUses="uses hum.resource" SLUsesPhys="uses phys.resource" SLProc="" SLResource="" SLPhysResource="PhysResource" SLPerson="Person" SLActivity="" SLSystem="" SLRoot="" SLControl="" SLInfoType="" SLSeqType="Sequence Flow" SLInvUses="" STTriggers="triggers" STTriggeredBy="triggeredBy" STContains="contains" SLBelongsTo="" SLEntryPoint="EntryPoint" SLIntEntryPoint="InternalEntryPoint" SLExitPoint="ExitPoint" SLIntExitPoint="InternalExitPoint" SLBuffer="Buffer" SLStores="store to" SLReads="read from" SLOrgUnit="OrgUnit" SLPosition="Position" SLInformation="Information" forder="0" vsd="E:\KLSAG\BDA\Bausteine\rbs_baustein_req_v2\rbs_baustein_req.vsdx" CheckSaveXML="True" SLDecision="Decision" SLEvent="Event" menuspec="C:\ProgramData\SemTalk\menu_citIntelliform.xml" BreakStr="" ValueTypes="" RefreshExtObOnStart="False" OpenStencils="" ShowTransactions="0" ShowRefinements="True" UnderlineAttachments="0" ShowPaperClip="1" UpdateDir="" XMLFiles="" SharepointSite="" SharepointDataRecordSet="" SharepointListname="/Docs/Documents" SharepointListid="" SharepointDocListName="" SharepointMetaname="Topic" DispForm="DispForm.aspx?ID=" USEBPMN="1" xsd="0" xsddepth="0" HTMLDir="" isSwimlanePosVariable="True" SwimlanePosLeftMargin="6" SwimlanePosTopMargin="19" SwimlaneHeight="168" SwimlaneWidth="43" isSwimlaneHeightVariable="True" DispFormCaption="Sharepoint" VisioVersion="16,0" SharepointGoodlist="Docs;vdw" SharepointBadlist="HTML;XML" externDef="" bottomuprelations="" SyncAll="" externalfile="" SPMapping="C:\Program Files (x86)\Semtation GmbH\SemTalk4\sharepointmapping.xml" bReadMetaData="" bWriteMetaData="" SPAttr="" UnderlineRefinements="" ShowDiagramContent="True" ignoreorder="">
+<ObjectBase MaxID="1295" ShowDiagrams="True" ShowGenericDiagrams="True" EditDiagramType="True" ShowObjects="True" EditObjects="True" ShowRelations="True" EditRelations="True" TimeSaved="20.05.2021 10:58:11" GUILanguage="German" PWD="" ShowAttributes="True" EditAttributes="True" ShowDatatypes="True" EditDatatypes="True" ShowMethods="True" ShowStates="True" Version="4.3.0.4385 (5000)" notstr="NOT " isstr="" Template="cit_intelliForm_dialog.vst" BPMNMode="1" currentnsp="German" SLUses="uses hum.resource" SLUsesPhys="uses phys.resource" SLProc="" SLResource="" SLPhysResource="PhysResource" SLPerson="Person" SLActivity="" SLSystem="" SLRoot="" SLControl="" SLInfoType="" SLSeqType="Sequence Flow" SLInvUses="" STTriggers="triggers" STTriggeredBy="triggeredBy" STContains="contains" SLBelongsTo="" SLEntryPoint="EntryPoint" SLIntEntryPoint="InternalEntryPoint" SLExitPoint="ExitPoint" SLIntExitPoint="InternalExitPoint" SLBuffer="Buffer" SLStores="store to" SLReads="read from" SLOrgUnit="OrgUnit" SLPosition="Position" SLInformation="Information" forder="0" vsd="E:\KLSAG\BDA\Bausteine\rbs_baustein_req_v2\rbs_baustein_req.vsdx" CheckSaveXML="True" SLDecision="Decision" SLEvent="Event" menuspec="C:\ProgramData\SemTalk\menu_citIntelliform.xml" BreakStr="" ValueTypes="" RefreshExtObOnStart="False" OpenStencils="" ShowTransactions="0" ShowRefinements="True" UnderlineAttachments="0" ShowPaperClip="1" UpdateDir="" XMLFiles="" SharepointSite="" SharepointDataRecordSet="" SharepointListname="/Docs/Documents" SharepointListid="" SharepointDocListName="" SharepointMetaname="Topic" DispForm="DispForm.aspx?ID=" USEBPMN="1" xsd="0" xsddepth="0" HTMLDir="" isSwimlanePosVariable="True" SwimlanePosLeftMargin="6" SwimlanePosTopMargin="19" SwimlaneHeight="168" SwimlaneWidth="43" isSwimlaneHeightVariable="True" DispFormCaption="Sharepoint" VisioVersion="16,0" SharepointGoodlist="Docs;vdw" SharepointBadlist="HTML;XML" externDef="" bottomuprelations="" SyncAll="" externalfile="" SPMapping="C:\Program Files (x86)\Semtation GmbH\SemTalk4\sharepointmapping.xml" bReadMetaData="" bWriteMetaData="" SPAttr="" UnderlineRefinements="" ShowDiagramContent="True" ignoreorder="">
   <SystemRelation name="definitionOf" created="07.01.2009 15:15:06" createdBy=" Jochen Schwarze" changed="07.01.2009 15:15:06" changedBy=" Jochen&#xD;&#xA;  Schwarze" namespace="" expand="0" />
   <SystemRelation name="subClassOf_" created="07.01.2009 15:15:06" createdBy=" Jochen Schwarze" changed="07.11.2012 16:17:36" changedBy="Peter" namespace="" SPClassView="" SPClassViewName="" />
   <SystemRelation name="hasDomain" created="07.01.2009 15:15:06" createdBy=" Jochen Schwarze" changed="07.01.2009 15:15:06" changedBy=" Jochen&#xD;&#xA;  Schwarze" namespace="" label1="has Domain" label2="is Domain of" expand="1" />
@@ -816,7 +816,7 @@
     <comment><![CDATA[]]></comment>
     <Synonym name="Anfragen: Dokumenttyp (DG1)" namespace="German" />
   </AttributeType>
-  <Diagram name="rbs_baustein_req" class="Dialogmodell" created="15.03.2011 11:52:31" createdBy="Jochen Schwarze" changed="26.04.2021 15:28:03" changedBy="Edgardo Moreira" id="4" type="Instance" comment="" stencil="cit_intelliform_dialog.vss" relation="" prefix="" root="DialogmodellElement" UMLShape="0" auto="1" vid="1" orientation="1">
+  <Diagram name="rbs_baustein_req" class="Dialogmodell" created="15.03.2011 11:52:31" createdBy="Jochen Schwarze" changed="19.05.2021 10:58:11" changedBy="Edgardo Moreira" id="4" type="Instance" comment="" stencil="cit_intelliform_dialog.vss" relation="" prefix="" root="DialogmodellElement" UMLShape="0" auto="1" vid="1" orientation="1">
     <Attribute name="Version" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="16.11.2017" facet_German="03.06.2015" values="" />
     <Attribute name="PageStructure" namespace="" comment="" min="" max="HTML4; HTML5" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="HTML5" facet_German="HTML5" values="HTML4; HTML5" />
     <Attribute name="Plugins" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="ui-rbs2" facet_German="ui-rbs2 testing-xml-resources" values="" />
@@ -913,7 +913,7 @@
     <Label name="Class{ 1" />
     <comment><![CDATA[]]></comment>
   </Class>
-  <RelationType name="subtask" created="19.07.2012 14:38:36" createdBy="EdgMoreira" changed="26.04.2021 12:03:22" changedBy="Edgardo Moreira" namespace="" fromtype="Instance" totype="Instance" LocalInstDialog="1" CheckGeneral="1" CheckAttributes="1" CheckAssociations="1" CheckAudit="1" ReadOnly="1" SPClassView="" SPClassViewName="">
+  <RelationType name="subtask" created="19.07.2012 14:38:36" createdBy="EdgMoreira" changed="19.05.2021 10:11:01" changedBy="Edgardo Moreira" namespace="" fromtype="Instance" totype="Instance" LocalInstDialog="1" CheckGeneral="1" CheckAttributes="1" CheckAssociations="1" CheckAudit="1" ReadOnly="1" SPClassView="" SPClassViewName="">
     <Synonym name="subtask" namespace="German" />
     <Label name="Class" />
     <InvRelation ID="354" type="SystemRelation" other="Dialogmodell" text="HiddenRelation" />
@@ -995,10 +995,10 @@
     <Attribute name="Condition" namespace="" comment="" min="" max="" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="" values="" nohtml="1" />
     <comment><![CDATA[]]></comment>
   </RelationType>
-  <AttributeType name="ConditionExpression" created="25.11.2012 21:52:50" createdBy="Peter" changed="26.04.2021 12:03:22" changedBy="Edgardo Moreira" namespace="" SPClassView="" SPClassViewName="" ReadOnly="1">
+  <AttributeType name="ConditionExpression" created="25.11.2012 21:52:50" createdBy="Peter" changed="19.05.2021 10:11:00" changedBy="Edgardo Moreira" namespace="" SPClassView="" SPClassViewName="" ReadOnly="1">
     <Synonym name="Bedingung" namespace="German" />
   </AttributeType>
-  <Class name="Swimlane" created="03.12.2012 14:27:19" createdBy="Peter" changed="26.04.2021 12:03:22" changedBy="Edgardo Moreira" ID="645" namespace="" LocalInstDialog="1" ReadOnly="1" OnceOnly="1">
+  <Class name="Swimlane" created="03.12.2012 14:27:19" createdBy="Peter" changed="19.05.2021 10:11:00" changedBy="Edgardo Moreira" ID="645" namespace="" LocalInstDialog="1" ReadOnly="1" OnceOnly="1">
     <Synonym name="Swimlane" namespace="German" />
     <Relation ID="646" type="subClassOf_" other="DialogmodellElement" text="subClassOf_" class="subClassOf_" name="subClassOf_.646" created="03.12.2012&#xD;&#xA;    14:27:19" createdBy="Peter" changed="03.12.2012 14:27:19" changedBy="Peter" />
     <Label name="displays" />
@@ -1117,7 +1117,7 @@
     <Synonym name="Русский" namespace="Russian" />
     <Attribute name="ISO" defaultvalue="1049" />
   </Instance>
-  <AttributeType name="ISO" created="03.06.2015 10:53:48" createdBy="Edgardo Moreira Barahona" changed="26.04.2021 12:03:22" changedBy="Edgardo Moreira" namespace="" ReadOnly="1" Hide="1" SPClassView="" SPClassViewName="">
+  <AttributeType name="ISO" created="03.06.2015 10:53:48" createdBy="Edgardo Moreira Barahona" changed="19.05.2021 10:11:00" changedBy="Edgardo Moreira" namespace="" ReadOnly="1" Hide="1" SPClassView="" SPClassViewName="">
     <Synonym name="ISO" namespace="German" />
   </AttributeType>
   <MethodType name="has" created="03.06.2015 10:53:48" createdBy="Edgardo Moreira Barahona" changed="03.06.2015 10:53:48" changedBy="Edgardo Moreira Barahona" namespace="" ReadOnly="1">
@@ -2035,7 +2035,7 @@
     <Synonym name="bzrnameh" namespace="German" />
     <Relation ID="1241" type="subClassOf_" other="TextField" text="subClassOf_" class="subClassOf_" name="subClassOf_.1241" created="14.03.2021 05:41:12" createdBy="Edgardo Moreira" changed="14.03.2021 05:41:12" changedBy="Edgardo Moreira" />
   </Class>
-  <Instance name="Berechnetes Feld.1243" created="14.03.2021 05:49:09" createdBy="Edgardo Moreira" changed="13.04.2021 01:21:14" changedBy="Edgardo Moreira" ID="1243" namespace="" class="Co#bzrname" ReadOnly="0">
+  <Instance name="Berechnetes Feld.1243" created="14.03.2021 05:49:09" createdBy="Edgardo Moreira" changed="19.05.2021 10:57:47" changedBy="Edgardo Moreira" ID="1243" namespace="" class="Co#bzrname" ReadOnly="0">
     <Definition name="German">
       <comment><![CDATA[]]></comment>
     </Definition>
@@ -2043,7 +2043,7 @@
     <InvRelation ID="1244" type="Property" other="rbs.851" text="Relation">
       <Node page="rbs_baustein_req" id="Sheet.409" toshape="Sheet.411" othershape="Sheet.6" />
     </InvRelation>
-    <Attribute name="ValueExpression" namespace="" comment="" min="" max="myForm[&quot;AUFWAHLISTENFELD/@label&quot;]; myForm[&quot;auswahlvalue/@label&quot;]" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="myForm.bzrname" facet_German="myForm.bzrname" values="myForm[&quot;AUFWAHLISTENFELD/@label&quot;]; myForm[&quot;auswahlvalue/@label&quot;]" />
+    <Attribute name="ValueExpression" namespace="" comment="" min="" max="myForm[&quot;AUFWAHLISTENFELD/@label&quot;]; myForm[&quot;auswahlvalue/@label&quot;]" valuetype="http://www.semtalk.com/datatype#Symbol" islist="0" defaultvalue="myForm.bzrnameh" facet_German="myForm.bzrnameh" values="myForm[&quot;AUFWAHLISTENFELD/@label&quot;]; myForm[&quot;auswahlvalue/@label&quot;]" />
     <Synonym name="Berechnetes Feld.1243" namespace="German" />
     <Attribute name="UserNumber" defaultvalue="32" facet_German="32" />
     <comment><![CDATA[]]></comment>

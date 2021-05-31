@@ -16,7 +16,7 @@
       <div id="if">
          <div id="_print" style="display:none"><a href="#" onclick="window.print(); return false;">Seite drucken</a></div><script type="text/javascript">document.getElementById('_print').style.display='';</script><div id="_main">
             <h1>Erläuterungen</h1>
-            <p class="footer">Stand: 2021-04-22</p>
+            <p class="footer">Stand: 2021-05-20</p>
          </div>
       </div>
    </body>

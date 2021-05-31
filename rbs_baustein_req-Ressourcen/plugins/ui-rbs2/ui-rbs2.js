@@ -637,6 +637,12 @@ $(document).on("focusin", ".inputcontainer", function (e) {
 $(document).on("change", "#id-input-F00000035h", function () {
     //console.log($(this).val());
     //if (responding != true){return;}
+    etrs89x.val("");
+    etrs89y.val("");
+    bezn.val("");
+    otname.val("");
+    beznrh.val("");
+    otnrh.val("");
     if (checkCity() == true) {
         strs.val("");
         strnr.val("");
@@ -646,10 +652,17 @@ $(document).on("change", "#id-input-F00000035h", function () {
 $(document).on("change", "#id-input-landh", function () {
     //console.log($(this).val());
     if (responding != true){return;}
+    etrs89x.val("");
+    etrs89y.val("");
+    bezn.val("");
+    otname.val("");
+    beznrh.val("");
+    otnrh.val("");
     if (checkCity() == true) {
         strs.val("");
         strnr.val("");
     };
+
 });
 
 $(document).on("focusout", "#id-input-hnrh", function () {
@@ -666,8 +679,21 @@ $(document).on("focusout", "#id-input-hnrh", function () {
     }
 });
 
+$(document).on("change", "#id-input-hnrh", function () {
+    //console.log($(this).val());
+    //if (responding != true){return;}
+    etrs89x.val("");
+    etrs89y.val("");
+    bezn.val("");
+    otname.val("");
+    beznrh.val("");
+    otnrh.val("");
+});
+
 $(document).on("focusout", "#id-input-F00000054h", function () {
     //console.log($(this).val());
+    etrs89x.val("");
+    etrs89y.val("");
     if (responding != true){return;}
     $('button#default-button.submit-forward').attr("disabled", false);
     if (checkCity() == true){checkAddress();}
@@ -676,6 +702,8 @@ $(document).on("focusout", "#id-input-F00000054h", function () {
 
 $(document).on("focusout", "#id-input-F00000053h", function (e) {
     //console.log($(this).val());
+    etrs89x.val("");
+    etrs89y.val("");
     if (responding != true){return;}
     $('button#default-button.submit-forward').attr("disabled", false);
     if (checkCity() == true){
@@ -687,11 +715,16 @@ $(document).on("focusout", "#id-input-F00000053h", function (e) {
 
 $(document).on("change", "#id-input-F00000053h", function (e) {
     //console.log($(this).val());
+    etrs89x.val("");
+    etrs89y.val("");
     plz.val("");
-    if (responding != true){return;}
+    //if (responding != true){return;}
     plz.val("");
     strnr.val("");
+    bezn.val("");
+    otname.val("");
     beznrh.val("");
+    otnrh.val("");
 });
 
 
