@@ -50,18 +50,22 @@ function checkReadOnly(){
 // ---- und liefert die Bezirksnummer.
 function validateAddress(){
     var res = false
-    if (myForm.F00000035h.toLowerCase() !== "berlin"){
-        return false;
-    }else if (myForm.F00000035h.toLowerCase() == "berlin") {
-        if (myForm.bzrnr != '') {
-            var adr = callbzrinfo();
-            myForm.bzrnameh = adr.bzrname;
-            myForm.otnameh = adr.otname;
-            res = true;
-        }
-    }else{
-        res = false
-    }    
+    var tcity = "";
+    tcity = myForm.f00000035;
+    if (tcity != undefined){
+        if (tcity.toLowerCase() !== "berlin"){
+            return false;
+        }else if (tcity.toLowerCase() == "berlin") {
+            if (myForm.bzrnr != '') {
+                var adr = callbzrinfo();
+                myForm.bzrnameh = adr.bzrname;
+                myForm.otnameh = adr.otname;
+                res = true;
+            }
+        }else{
+            res = false
+        }    
+    }
 	return res;
 }
 
