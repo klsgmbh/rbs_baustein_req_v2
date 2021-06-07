@@ -74,7 +74,7 @@ Dieser Adresssbaustein kann gem. Bausteinfachkonzept für folgende Szenarien int
    (Integration und Konfiguration: siehe Doku zum Baustein "rbs_bez")
 
 
-#rbs_bez
+# rbs_bez
 
 Elemente:
 
