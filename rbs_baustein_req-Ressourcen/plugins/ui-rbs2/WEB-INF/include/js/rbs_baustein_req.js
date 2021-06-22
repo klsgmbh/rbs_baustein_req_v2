@@ -67,8 +67,6 @@ function validateAddress(){
                 res = false
             }    
         }
-    }else{
-        res = false;
     }
 	return res;
 }
