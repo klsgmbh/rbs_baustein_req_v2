@@ -52,19 +52,23 @@ function validateAddress(){
     var res = false
     var tcity = "";
     tcity = myForm.f00000035;
-    if (tcity != undefined){
-        if (tcity.toLowerCase() !== "berlin"){
-            return false;
-        }else if (tcity.toLowerCase() == "berlin") {
-            if (myForm.bzrnr != '') {
-                var adr = callbzrinfo();
-                myForm.bzrnameh = adr.bzrname;
-                myForm.otnameh = adr.otname;
-                res = true;
-            }
-        }else{
-            res = false
-        }    
+    if (myForm.transaction){
+        if (tcity != undefined){
+            if (tcity.toLowerCase() !== "berlin"){
+                return false;
+            }else if (tcity.toLowerCase() == "berlin") {
+                if (myForm.bzrnr != '') {
+                    var adr = callbzrinfo();
+                    myForm.bzrnameh = adr.bzrname;
+                    myForm.otnameh = adr.otname;
+                    res = true;
+                }
+            }else{
+                res = false
+            }    
+        }
+    }else{
+        res = false;
     }
 	return res;
 }
